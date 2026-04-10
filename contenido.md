@@ -209,12 +209,13 @@ La regulación es uno de los principales factores que explican esta transición.
 Además, en 2026 se acelera también la regulación del ecosistema externo que interpreta ese dato, como ocurre con el nuevo régimen europeo aplicable a los proveedores de ratings ESG. Esto refuerza la idea de que el mercado no solo exige más información, sino también mayor integridad y comparabilidad en los instrumentos que utiliza para evaluarla.
 En este entorno, la función de Relaciones con Inversores asume un papel especialmente relevante. Debe ser capaz de traducir la sostenibilidad al lenguaje del mercado, explicar la materialidad de los temas relevantes, anticipar preguntas de inversores y analistas, y asegurar que la narrativa corporativa sea consistente con el reporting, la estrategia y la asignación de capital.
 La conversación ya no gira únicamente en torno a compromisos o posicionamientos. Gira en torno a la capacidad de la compañía para demostrar que comprende sus riesgos y oportunidades, que dispone de una arquitectura de gestión coherente y que es capaz de trasladar todo ello a una historia de inversión creíble.
-Ideas de fondo que sostienen el bloque
-La sostenibilidad no desaparece; cambia de fase.La sostenibilidad deja de ser un ejercicio de posicionamiento reputacional, para convertirse en una variable económica y un test de credibilidad corporativa.
-El mercado exige menos relato vacío y más evidencia.
-La regulación no sólo obliga; también reordena la conversación con el mercado.
-La credibilidad se construye en la intersección entre narrativa, datos, estrategia y capital.
-La función de RI se convierte en un punto de convergencia entre sostenibilidad, finanzas, regulación y mercado.
+Ideas clave que sostienen el bloque
+La sostenibilidad no desaparece; cambia de fase: mercado y regulación premian coherencia estratégica, dato trazable y ejecución verificable frente a discursos genéricos.
+De reputación pasa a variable económica y riesgo: el mensaje solo resiste si conecta con márgenes, inversión y cadena de valor.
+Más evidencia y menos relato vacío: debe cuadrar lo que se dice al mercado, lo reportado y lo que sostiene la estrategia y el presupuesto.
+La regulación reordena el diálogo con el mercado y fija qué es material, cómo documentarlo y cómo contrastarlo con la dirección.
+Credibilidad cuando narrativa, datos y capital encajan; si chocan, el mercado descuenta el relato.
+RI articula sostenibilidad, finanzas y regulación; alinea roadshows, hechos relevantes y reporting sin contradicciones de fondo.
 Contexto conceptual adicional
 Este bloque debe ayudar a desmontar dos errores frecuentes. El primero es pensar que la sostenibilidad ha perdido relevancia porque el discurso se ha vuelto más crítico o más político. El segundo es pensar que la regulación europea retrocede de manera estructural. Ninguna de las dos lecturas es correcta. Lo que se está produciendo es un ajuste del sistema: mayor exigencia de utilidad, más presión por comparabilidad, más diferenciación geográfica y más escrutinio de la consistencia entre relato y realidad.
 Por eso, en 2026 la sostenibilidad no se premia por su mera presencia en el discurso corporativo, sino por su capacidad para sostener una narrativa de mercado coherente, material y defendible.
@@ -278,7 +279,7 @@ qué inversiones implican;
 qué trade-offs generan;
 y por qué el mercado debería considerarlos relevantes en su lectura de la compañía.
 Este punto es especialmente importante en el contexto “after Trump”, porque obliga a elevar la calidad del discurso. Ya no basta con afirmar que la compañía tiene compromiso o ambición; hay que demostrar que ese compromiso responde a una lógica empresarial inteligible para audiencias que ya no comparten necesariamente el mismo marco cultural o regulatorio.
-Ideas de fondo que sostienen el bloque
+Ideas clave que sostienen el bloque
 La divergencia entre Europa y Estados Unidos es real, pero no debe interpretarse de manera simplista.
 La respuesta correcta no es construir dos relatos incompatibles, sino una única arquitectura estratégica capaz de hablar en varios registros.
 En Europa pesa más el marco de reporting, comparabilidad y trazabilidad; en Estados Unidos pesa más la materialidad económica y la cautela frente a la sobrepolitización.
@@ -365,7 +366,7 @@ falta de relación entre sostenibilidad y variables financieras;
 desconexión entre reporting, estrategia y discurso a mercado;
 o incapacidad para responder con claridad a preguntas sobre materialidad, costes, inversión o retorno.
 Aquí la función de Relaciones con Inversores se vuelve especialmente crítica. RI debe ser capaz de traducir la sostenibilidad a lenguaje financiero sin empobrecerla, pero también sin inflarla. Tiene que saber qué temas son realmente materiales para el mercado, cómo se conectan con la estrategia, qué preguntas activarán en analistas e inversores y qué límites tiene la compañía en su capacidad de ejecución. Esto exige una combinación poco trivial de comprensión de negocio, lectura regulatoria, sensibilidad de mercado y disciplina narrativa.
-Ideas de fondo que sostienen el bloque
+Ideas clave que sostienen el bloque
 La sostenibilidad solo entra de verdad en valoración cuando puede traducirse a variables económicas o estratégicas.
 No todo tema ESG es material para la tesis de inversión; hay que priorizar.
 La sostenibilidad puede afectar a ingresos, márgenes, CapEx, riesgo, coste de capital y resiliencia.
@@ -508,7 +509,7 @@ conexión con operaciones, productos, cadena de valor y CapEx;
 gobernanza, responsabilidades, incentivos y capacidades internas;
 métricas de seguimiento, progreso y coherencia con el reporting.
 Esta lógica es válida tanto para corporates como para entidades financieras. La diferencia es que en las entidades financieras hay que añadir el peso de las emisiones financiadas y del alineamiento de cartera, pero el criterio de credibilidad es el mismo: qué mides, qué reduces, a qué ritmo, con qué metodología, con qué recursos y con qué capacidad real de ejecución. La narrativa climática creíble no es la que promete más; es la que explica mejor cómo convierte la ambición en transformación operativa y financiera.
-Ideas de fondo que sostienen el bloque
+Ideas clave que sostienen el bloque
 El Acuerdo de París es el anclaje estratégico de toda la conversación sobre descarbonización.
 No puede hablarse con rigor de Net Zero sin explicar primero los alcances 1, 2 y 3 y, especialmente, el papel del alcance 3.
 Net Zero no es compensar; es reducir primero y neutralizar solo el residual.
@@ -587,41 +588,131 @@ Es decir: qué emisiones cubres, qué reduces primero, a qué ritmo, con qué pa
 ### A. Contenido para la aplicación
 Bloque 5. La “Trilogía” Regulatoria: Taxonomía, SFDR y CSRD
 Objetivo del bloque
-Explicar de forma diferenciada qué regula cada una de estas tres piezas del marco europeo de sostenibilidad, cuál es su función específica y cómo se conectan entre sí en la práctica.
+Analizar de forma diferenciada la Taxonomía, la SFDR y la CSRD, precisando su función normativa específica, sus principales implicaciones operativas y las sinergias que generan entre reporting corporativo, clasificación de actividades económicas y transparencia en el ámbito financiero.
 Desarrollo del contenido
-1. CSRD: la capa corporativa de reporting y la pieza más estructurante
-La CSRD es la norma que reordena el reporting corporativo de sostenibilidad en Europa. Su función es exigir a las empresas información estructurada sobre riesgos y oportunidades de sostenibilidad, así como sobre sus impactos sobre las personas y el medioambiente, siguiendo los ESRS. En la práctica, es la pieza más contundente del sistema porque genera la base de datos corporativa sobre la que después se apoyan otros marcos, incluidos los inversores, las entidades financieras y parte del ecosistema de mercado.
-El contexto regulatorio de la CSRD ha cambiado de forma importante. Por un lado, el “stop-the-clock” aplazó la primera aplicación para las compañías de segunda y tercera ola que iban a reportar por primera vez sobre ejercicios 2025 y 2026. Por otro lado, el paquete Omnibus introdujo una simplificación de fondo del marco. Aquí conviene hacer una precisión importante: la Comisión propuso inicialmente limitar el perímetro a compañías con más de 1.000 empleados y mantener otros criterios económicos; sin embargo, el texto simplificado refrendado por el Consejo en febrero de 2026 estrecha el alcance a compañías con más de 1.000 empleados y más de 450 millones de euros de facturación neta anual. Además, prevé una exención transitoria para algunas compañías de primera ola que queden fuera del nuevo perímetro.
-Esto no significa que la CSRD pierda importancia. Significa que se concentra más en los emisores más grandes y con mayor capacidad de impacto, al tiempo que se reduce el efecto arrastre sobre empresas más pequeñas de la cadena de valor. En paralelo, la Comisión ha impulsado una revisión de los ESRS, aprobó en julio de 2025 un “quick fix” para aliviar la carga de las compañías de primera ola y mantiene la lógica de reporting como eje de transparencia corporativa.
-2. Taxonomía: la capa de clasificación de actividades sostenibles
-La Taxonomía de la UE no es un estándar general de reporting ni un rating corporativo. Es un sistema de clasificación que define cuándo una actividad económica puede considerarse ambientalmente sostenible. Su función es crear un lenguaje común entre empresas, inversores y reguladores para identificar actividades alineadas con objetivos ambientales concretos.
-La Taxonomía se articula en torno a seis objetivos ambientales:
-mitigación del cambio climático;
-adaptación al cambio climático;
-uso sostenible y protección de los recursos hídricos y marinos;
-transición hacia una economía circular;
-prevención y control de la contaminación;
-protección y restauración de la biodiversidad y los ecosistemas.
-Para que una actividad se considere alineada con la Taxonomía debe cumplir cuatro condiciones: contribuir sustancialmente a uno o más de esos objetivos, no causar un perjuicio significativo a los demás (DNSH), cumplir con las garantías mínimas y ajustarse a los criterios técnicos de selección establecidos por la Comisión. Las garantías mínimas conectan la Taxonomía con estándares de conducta responsable y derechos humanos, remitiendo, entre otros, a las Directrices de la OCDE, los Principios Rectores de la ONU y a la lógica social del DNSH del SFDR.
-En la práctica, conviene distinguir entre elegibilidad y alineamiento. La elegibilidad indica que la actividad está contemplada dentro del perímetro de la Taxonomía; el alineamiento exige además cumplir los cuatro requisitos anteriores. Esta distinción es clave porque evita sobrerrepresentar la “sostenibilidad” de una compañía por el simple hecho de operar en sectores cubiertos por la Taxonomía.
-3. SFDR: la capa de transparencia de productos financieros
-La SFDR es la norma que regula cómo los participantes del mercado financiero deben informar sobre la integración de riesgos de sostenibilidad y sobre las características u objetivos de sostenibilidad de sus productos financieros. Su lógica no es corporativa, sino de transparencia hacia el inversor. Por eso no debe confundirse con la CSRD ni con la Taxonomía: no dice qué debe reportar una empresa sobre sí misma, sino cómo debe informarse al mercado sobre productos e inversiones desde la óptica de sostenibilidad.
-Bajo el régimen actualmente vigente, el mercado sigue funcionando con la lógica conocida de los productos artículo 6, 8 y 9, aunque en la práctica esa clasificación se haya utilizado como si fuera un sistema de etiquetas. Precisamente ese uso de facto como labelling system es una de las razones por las que la Comisión propuso en noviembre de 2025 una revisión profunda del reglamento. Esa revisión, comúnmente llamada “SFDR 2.0”, no es todavía el texto vigente definitivo: a fecha actual sigue siendo una propuesta en tramitación.
-La propuesta de revisión introduce tres cambios clave. Primero, simplifica disclosures, eliminando, entre otros elementos, la obligación de explicar a nivel de entidad cómo se consideran los principales impactos adversos de las decisiones de inversión sobre factores de sostenibilidad y acortando las plantillas dirigidas a retail. Segundo, sustituye la lógica de uso informal de los artículos 8 y 9 por un sistema de tres categorías voluntarias: sustainable, transition y ESG basics. Tercero, reserva el uso de claims ESG en nombres y documentación comercial a productos categorizados y exige que una parte elevada de la cartera —70%— apoye la estrategia de sostenibilidad declarada, además de excluir inversiones en industrias y actividades dañinas.
+1. CSRD: base del reporting corporativo de sostenibilidad
+**¿Qué regula la CSRD y cuál es su finalidad?**
+· La **CSRD** reordena el reporting corporativo de sostenibilidad en Europa.
+· Exige información estructurada bajo **ESRS** sobre riesgos y oportunidades de sostenibilidad, e impactos sobre personas y medioambiente.
+· Es la pieza más estructurante porque genera la base de dato corporativo utilizada por inversores, entidades financieras y mercado.
+
+**¿A qué sujetos aplica y cuáles son los umbrales de referencia (2026)?**
+· Compañías dentro del perímetro CSRD (lógica corporativa, no de producto).
+· Referencia de alcance en texto simplificado refrendado por el Consejo (febrero 2026):
+· Más de **1.000 empleados**.
+· Más de **450 millones de euros** de facturación neta anual.
+· Se contempla exención transitoria para determinadas compañías de primera ola que quedan fuera del nuevo perímetro.
+
+**¿Qué cambios regulatorios explican el marco actual?**
+· El **“stop-the-clock”** aplaza la primera aplicación para parte de compañías de segunda y tercera ola (ejercicios 2025 y 2026).
+· El paquete **Omnibus** simplifica el marco y reduce perímetro frente al diseño inicial.
+· La Comisión aprueba en julio de 2025 un **quick fix** para aliviar cargas de primera ola.
+
+**¿Qué mensaje operativo deja para Relaciones con Inversores?**
+· La CSRD no pierde relevancia: se concentra en emisores de mayor tamaño/impacto y mantiene el reporting como eje de transparencia corporativa.
+2. Taxonomía UE: clasificación de actividades ambientalmente sostenibles
+**¿Qué regula la Taxonomía UE y cuál es su función?**
+· La **Taxonomía de la UE** no es un rating corporativo ni un estándar general de reporting.
+· Es un sistema de clasificación que define cuándo una actividad económica puede considerarse ambientalmente sostenible.
+· Su función es crear un lenguaje común entre empresas, inversores y reguladores.
+
+**¿Cuáles son los seis objetivos ambientales de referencia?**
+· Mitigación del cambio climático.
+· Adaptación al cambio climático.
+· Uso sostenible y protección de recursos hídricos y marinos.
+· Transición hacia economía circular.
+· Prevención y control de la contaminación.
+· Protección y restauración de biodiversidad y ecosistemas.
+
+**¿Qué condiciones exige el alineamiento?**
+· Contribución sustancial a uno o más objetivos.
+· **DNSH**: no causar perjuicio significativo a los demás objetivos.
+· Cumplimiento de garantías mínimas.
+· Ajuste a criterios técnicos de selección de la Comisión.
+
+**¿Qué diferencia hay entre elegibilidad y alineamiento?**
+· **Elegibilidad**: la actividad está en perímetro de Taxonomía.
+· **Alineamiento**: además de elegible, cumple las cuatro condiciones.
+· Esta diferencia evita sobrerrepresentar sostenibilidad y reduce riesgo de greenwashing narrativo.
+
+**¿Por qué importan las garantías mínimas?**
+· Conectan con estándares de conducta responsable y derechos humanos (OCDE, Principios Rectores ONU y lógica social del DNSH en SFDR).
+3. SFDR: transparencia de sostenibilidad en productos financieros
+**¿Qué regula la SFDR y cuál es su finalidad?**
+· La **SFDR** regula cómo los participantes del mercado financiero informan sobre:
+· Integración de riesgos de sostenibilidad.
+· Características u objetivos de sostenibilidad de productos financieros.
+· Su lógica es de transparencia al inversor (no reporting corporativo general).
+
+**¿Cuál es la diferencia entre régimen vigente y revisión?**
+· El régimen vigente sigue operando con artículos **6, 8 y 9**.
+· **Artículo 6**: productos que integran riesgos de sostenibilidad en la decisión de inversión, sin objetivo/estrategia sostenible específica.
+· **Artículo 8**: productos que promueven características ambientales y/o sociales, siempre que las participadas sigan buenas prácticas de gobernanza.
+· **Artículo 9**: productos con objetivo de inversión sostenible explícito (incluye, por ejemplo, productos con reducción de emisiones como objetivo cuando aplica).
+· La Comisión propone en noviembre de 2025 una revisión profunda (uso de mercado: “SFDR 2.0”).
+· A fecha actual, esa revisión sigue en tramitación y no sustituye todavía al marco vigente.
+
+**¿Qué cambios clave plantea la propuesta?**
+· **Simplificación de disclosures**: plantillas más manejables y menor carga informativa en ciertos frentes (incluido retail).
+· **Nuevo marco de categorías voluntarias** (en lugar del uso informal de 8/9):
+· **sustainable**: productos con objetivo de sostenibilidad claro y exigente.
+· **transition**: productos orientados a activos/empresas en transición verificable.
+· **ESG basics**: productos que integran ESG, pero sin alcanzar el umbral de las dos categorías anteriores.
+· **Regla de coherencia comercial**: uso de claims ESG reservado a productos categorizados y exigencia de que una parte elevada de la cartera (**70%**) respalde la estrategia declarada, con exclusión de actividades dañinas.
+
+**¿Qué mensaje operativo deja para Relaciones con Inversores?**
+· La SFDR no dice qué reporta una empresa sobre sí misma; define cómo se presenta sostenibilidad al mercado desde el producto financiero.
 4. Sinergias entre las tres
-Aunque se regulan por separado, CSRD, Taxonomía y SFDR forman un sistema. La CSRD genera la capa base de información corporativa sobre impactos, riesgos, oportunidades, métricas y objetivos. La Taxonomía traduce una parte de esa actividad empresarial a una lógica de clasificación ambiental, distinguiendo entre elegibilidad y alineamiento. Y la SFDR utiliza esa información —junto con otros elementos de análisis del gestor o participante financiero— para construir el disclosure de productos financieros y facilitar la comparación para el inversor.
-Dicho de forma simple:
-la CSRD produce el dato corporativo;
-la Taxonomía clasifica parte de la actividad económica;
-la SFDR consume y traslada esa información al mercado financiero.
+**¿Por qué CSRD, Taxonomía y SFDR deben leerse como sistema y no como normas aisladas?**
+· Aunque se regulan por separado, forman una cadena funcional.
+· La **CSRD** genera la capa base de información corporativa sobre impactos, riesgos, oportunidades, métricas y objetivos.
+· La **Taxonomía** traduce parte de esa actividad empresarial a clasificación ambiental, distinguiendo entre elegibilidad y alineamiento.
+· La **SFDR** utiliza esa información —junto con análisis propio del gestor o participante financiero— para construir disclosure de productos y facilitar comparabilidad para el inversor.
+
+**¿Cómo se explica de forma simple la lógica de encadenamiento?**
+· La **CSRD** produce el dato corporativo.
+· La **Taxonomía** clasifica parte de la actividad económica.
+· La **SFDR** consume y traslada esa información al mercado financiero.
+
 Contexto regulatorio
- El bloque debe leerse en un contexto de reordenación regulatoria. La CSRD ha sido aplazada parcialmente por el “stop-the-clock” y simplificada por Omnibus; la Taxonomía sigue vigente, pero la Comisión continúa revisando criterios técnicos y aspectos de disclosure; y la SFDR está inmersa en una revisión profunda cuya propuesta formal se publicó en noviembre de 2025 y sigue en procedimiento legislativo.
+· **CSRD**: sigue siendo la base del reporting corporativo, pero su calendario y perímetro han cambiado. El **“stop-the-clock”** aplaza parte de la aplicación para compañías de segunda y tercera ola, y el paquete **Omnibus** simplifica el alcance, concentrándolo en emisores de mayor tamaño y capacidad de impacto.
+· **CSRD (detalle operativo)**: conviven en mercado referencias de umbral distintas; por eso conviene trabajar con la versión más reciente del proceso legislativo y no con la foto inicial. Además, los ajustes sobre ESRS buscan reducir carga en primera ola sin eliminar la lógica de transparencia corporativa.
+· **Taxonomía**: permanece plenamente vigente como sistema de clasificación de actividades, con foco en **elegibilidad vs alineamiento**, cumplimiento de **DNSH**, garantías mínimas y criterios técnicos. La Comisión continúa revisando criterios y aspectos de disclosure para mantener comparabilidad y aplicabilidad sectorial.
+· **Taxonomía (implicación práctica)**: no hay un “parón” equivalente al de CSRD; el reto está en calidad metodológica, consistencia de KPIs y trazabilidad de cómo una actividad pasa de elegible a alineada.
+· **SFDR**: se mantiene el régimen vigente de artículos **6/8/9**, pero con una revisión profunda en curso desde la propuesta publicada en noviembre de 2025 (comúnmente llamada “SFDR 2.0”), aún en tramitación.
+· **SFDR (dirección de cambio)**: la revisión apunta a simplificar disclosures y ordenar el uso de categorías/claims ESG para mejorar comparabilidad y reducir riesgo de greenwashing en la comercialización de productos.
+
 Implicación para Relaciones con Inversores
- Relaciones con Inversores debe entender que estas tres piezas no responden a la misma pregunta. La CSRD habla de la compañía; la Taxonomía habla de la sostenibilidad ambiental de determinadas actividades económicas; y la SFDR habla de cómo se informa al inversor sobre productos financieros. Confundirlas genera errores de narrativa, de reporting y de interlocución con el mercado.
+· RI debe estructurar el relato regulatorio en **tres planos no equivalentes** y evitar su mezcla en una sola narrativa ESG.
+· **CSRD (plano corporativo)**: define qué debe reportar la compañía sobre impactos, riesgos, oportunidades, métricas y objetivos; para RI, esto fija la base de evidencia pública que sustenta guidance cualitativo y credibilidad del equity story.
+· **Taxonomía (plano de clasificación económica)**: no evalúa “sostenibilidad global” de la empresa, sino el grado de elegibilidad/alineamiento de actividades; RI debe explicar metodología, perímetro, criterios DNSH y garantías mínimas para evitar lecturas simplistas o sobreventa de resultados.
+· **SFDR (plano de producto financiero)**: condiciona cómo gestoras y distribuidores presentan sostenibilidad al inversor final; RI debe anticipar qué información corporativa será consumida por el mercado para clasificar/comparar productos y cómo impacta en la interlocución con buy-side.
+· Riesgo crítico de ejecución: si se confunden estos planos, aparecen **inconsistencias** entre reporting, mensajes comerciales y Q&A con analistas, elevando riesgo de greenwashing reputacional y de descuento por falta de trazabilidad.
+· Estándar mínimo de rigor para RI: mensajes **verificables**, definiciones estables, trazabilidad entre KPIs y narrativa, y separación explícita entre dato reportado (CSRD), dato clasificado (Taxonomía) y dato utilizado por producto/inversor (SFDR).
+· Traducción práctica al mercado: en roadshows y resultados, RI debe responder de forma diferenciada a tres preguntas: **qué reporta la compañía**, **qué parte de su actividad está alineada** y **cómo esa información la utiliza el ecosistema financiero**.
 Mensaje de cierre
- La clave de la “trilogía” no está en memorizar tres normas, sino en entender su función: CSRD como capa base de dato corporativo, Taxonomía como capa de clasificación económica y SFDR como capa de transparencia hacia el inversor.
+ · **CSRD**
+ · Consolida la base de dato corporativo comparable para mercado e inversores.
+ · Eleva la exigencia de trazabilidad entre narrativa, métricas y estrategia.
+ · Marca el estándar mínimo de consistencia que RI debe poder defender públicamente.
+ · **Taxonomía**
+ · Aporta lenguaje técnico común para clasificar actividades (elegibilidad vs alineamiento).
+ · Exige rigor metodológico en DNSH, garantías mínimas y criterios técnicos.
+ · Evita interpretar “presencia en sectores verdes” como alineamiento automático.
+ · **SFDR**
+ · Ordena cómo se comunica sostenibilidad al inversor desde el producto financiero.
+ · Condiciona la demanda de información corporativa útil para clasificación y comparabilidad.
+ · Refuerza la disciplina sobre claims ESG y reduce margen para mensajes ambiguos.
 
 ### B. Contenido de apoyo
+Ideas clave que sostienen el bloque
+CSRD — establece la base de información corporativa verificable (riesgos, impactos, métricas y objetivos) que utilizan mercado e inversores.
+CSRD — la credibilidad del equity story depende de la coherencia entre narrativa estratégica, datos reportados y capacidad de ejecución.
+Taxonomía — clasifica actividades económicas con criterios técnicos y obliga a distinguir elegibilidad de alineamiento real.
+Taxonomía — el alineamiento exige contribución sustancial, DNSH, garantías mínimas y cumplimiento de criterios técnicos; no basta con operar en sectores “verdes”.
+SFDR — ordena cómo se comunica sostenibilidad en productos financieros y mejora la comparabilidad para el inversor final.
+SFDR — convierte información corporativa y de clasificación en disclosure de producto, elevando la exigencia sobre claims ESG y consistencia comercial.
+
 Desarrollo completo del bloque
 La llamada “trilogía” regulatoria europea —CSRD, Taxonomía y SFDR— suele citarse de forma conjunta, pero pedagógicamente es un error explicarlas como si fueran tres piezas equivalentes o intercambiables. No lo son. Cada una responde a una pregunta distinta, opera sobre sujetos distintos y tiene una función específica dentro del ecosistema de sostenibilidad y finanzas sostenibles. Precisamente por eso este bloque debe ordenarse de forma secuencial: primero la CSRD, porque es la capa más estructurante; después la Taxonomía, porque clasifica; y finalmente la SFDR, porque actúa del lado del producto financiero y del inversor.
 CSRD: la norma más contundente porque produce la base informativa
@@ -732,17 +823,52 @@ Bloque 6. Debida Diligencia: la Directiva CSDDD y su impacto en la gestión de r
 Objetivo del bloque
  Explicar qué es la CSDDD, cuál es su lógica de debida diligencia en sostenibilidad y cómo transforma la forma en que las compañías gestionan riesgos e impactos en su cadena de actividades.
 Desarrollo del contenido
- La Corporate Sustainability Due Diligence Directive (CSDDD) no es una norma de reporting, sino una norma de conducta y gestión. Su lógica es exigir a las compañías en alcance que integren la debida diligencia en sus políticas y sistemas de gestión, identifiquen y evalúen impactos adversos sobre derechos humanos y medioambiente, prevengan o mitiguen impactos potenciales, pongan fin o minimicen impactos reales, supervisen la eficacia de las medidas, comuniquen y, cuando proceda, remedien. La idea central no es simplemente informar sobre riesgos, sino demostrar que la compañía dispone de un proceso razonable para gestionarlos. La directiva original es la Directiva (UE) 2024/1760.
-El contexto regulatorio ha cambiado de forma importante. El stop-the-clock de 2025 aplazó un año tanto la transposición como la primera aplicación de la directiva. Posteriormente, la simplificación aprobada por Parlamento y Consejo y publicada en el Diario Oficial el 26 de febrero de 2026 estrechó el alcance de la norma y modificó varias de sus obligaciones. En el marco simplificado, la CSDDD queda restringida a compañías con más de 5.000 empleados y más de 1.500 millones de euros de facturación neta anual, y las compañías deberán cumplir con las nuevas medidas a partir de julio de 2029.
-La simplificación no elimina la lógica de diligencia, pero sí la hace más acotada y priorizada. Las compañías pueden concentrarse en las áreas de su cadena de actividades donde los impactos adversos reales o potenciales sean más probables y, cuando varios impactos sean igualmente probables o igualmente graves, pueden priorizar la evaluación de aquellos que involucren a socios comerciales directos. Además, deben basarse en información razonablemente disponible, lo que busca reducir el efecto arrastre sobre partners más pequeños.
-Desde el punto de vista de gestión, la CSDDD obliga a pasar de un enfoque documental a un enfoque operativo. La cadena de actividades deja de ser solo un mapa de proveedores o socios y pasa a convertirse en un espacio de riesgo que debe ser entendido, priorizado y monitorizado. Esto implica revisar políticas de compras, procesos de homologación y seguimiento de terceros, cláusulas contractuales, controles internos, mecanismos de escalado, canales de queja o notificación y marcos de remediación.
-La directiva es especialmente relevante porque obliga a distinguir entre riesgos para la compañía e impactos adversos causados, contribuidos o directamente vinculados a la compañía en su cadena de actividades. Esa diferencia cambia la lógica de gestión: ya no basta con analizar aquello que puede dañar al negocio; también hay que identificar aquello que el negocio puede dañar en terceros o en el entorno.
+1. Qué es la CSDDD y qué exige realmente
+· La **CSDDD** no es una norma de reporting; es una norma de **conducta y gestión**.
+· Exige integrar la debida diligencia en políticas y sistemas.
+· Obliga a identificar, prevenir, mitigar, supervisar, comunicar y, cuando proceda, remediar impactos adversos.
+· La lógica central no es “reportar más”, sino demostrar un proceso razonable y gobernado.
+2. Cambios de calendario y perímetro tras la simplificación
+· **Cambio regulatorio clave**: el **stop-the-clock** de 2025 aplazó un año la transposición y primera aplicación.
+· La simplificación de 2026 redujo de forma significativa el alcance de entidades obligadas.
+· Marco actual: más de **5.000 empleados** y más de **1.500 millones de euros** de facturación neta anual.
+· Nueva fecha de transposición: **26 de julio de 2028**.
+· Aplicación obligatoria de cumplimiento: **julio de 2029**.
+· Incluye una **cláusula de revisión** para posible ampliación futura del alcance.
+3. De cumplimiento documental a gestión operativa de cadena
+· **Cambio regulatorio derivado del stop-the-clock + simplificación**: la diligencia debida se mantiene, pero con alcance más priorizado y focalizado.
+· Se introduce un **enfoque basado en riesgo**: se solicita información cuando exista expectativa razonable de impacto adverso, en lugar de pedirla de forma sistemática.
+· En casos de igual probabilidad o gravedad, puede priorizarse la revisión de socios comerciales directos.
+· La cadena de actividades pasa de control documental a gestión operativa: compras, homologación de terceros, controles, escalado, quejas/notificación y remediación.
+· Se elimina la obligación específica de adoptar bajo CSDDD un plan de transición climática alineado con París.
+4. Diferencia clave: riesgo empresarial vs impacto adverso
+· La CSDDD distingue entre **riesgo para la empresa** e **impacto adverso sobre terceros/entorno**.
+· No basta con proteger el negocio; hay que gestionar efectos del negocio en la cadena de actividades.
+· Esta diferencia cambia la gobernanza, la gestión de riesgo y la credibilidad corporativa ante el mercado.
+· **Cambio regulatorio en enforcement**: la responsabilidad por incumplimientos queda en **legislación nacional** (no en un régimen único de responsabilidad civil a nivel UE).
+· Se fija un tope máximo de penalización administrativa del **3% de la facturación neta mundial**.
 Contexto regulatorio
- La CSDDD debe leerse en un contexto de reordenación regulatoria. La directiva original es la Directiva (UE) 2024/1760. El stop-the-clock de 2025 aplazó su calendario. Después, la simplificación publicada en febrero de 2026 redujo el perímetro, eliminó la obligación específica de adoptar un plan de transición climática bajo esta directiva y estableció un tope máximo del 3% de la facturación neta mundial para sanciones administrativas.
+ · **Naturaleza de la norma**: la CSDDD es una directiva de **conducta y gestión**, no una norma de reporting.
+ · **Directiva base**: la referencia original es la **Directiva (UE) 2024/1760**.
+ · **Punto crítico de calendario**: el **stop-the-clock (abril 2025)** aplazó un año la transposición y la primera aplicación.
+ · **Cambio posterior (Omnibus)**: la simplificación estrecha alcance y ajusta obligaciones sustantivas.
+ · **Perímetro simplificado**: compañías con más de **5.000 empleados** y más de **1.500 millones de euros** de facturación neta anual.
+ · **Fechas clave**: transposición en **julio de 2028** y aplicación de nuevas medidas en **julio de 2029**.
+ · **Enfoque de diligencia**: priorización de impactos en socios comerciales directos y lógica basada en expectativa razonable de impacto adverso.
+ · **Ajustes sustantivos**: eliminación del requisito específico de plan de transición climática dentro de esta directiva.
+ · **Régimen sancionador**: tope máximo del **3% de la facturación neta mundial** para sanciones administrativas.
+ · **Lectura operativa**: obliga a pasar de control documental a gestión efectiva de cadena (compras, terceros, controles, escalado, quejas/notificación y remediación).
 Implicación para Relaciones con Inversores
- Relaciones con Inversores debe entender que la CSDDD no es una obligación de disclosure en sentido estricto, sino una señal sobre la calidad del sistema de gestión de la compañía. El mercado puede leer positivamente que una empresa conozca su cadena de actividades, priorice riesgos, tenga controles, mecanismos de remediación y capacidad de respuesta. En cambio, una cadena opaca, mal gobernada o tratada solo desde procurement puede traducirse en controversias, litigios, interrupciones operativas y deterioro reputacional.
+ · **Lectura clave para RI**: la CSDDD no es una obligación de disclosure en sentido estricto; es una señal de **calidad del sistema de gestión**.
+ · El mercado valora positivamente que la compañía conozca su cadena de actividades, priorice riesgos y demuestre capacidad de respuesta.
+ · Elementos que aumentan credibilidad: **controles internos**, mecanismos de remediación, gobernanza clara y trazabilidad de decisiones.
+ · Riesgo de mercado si falla la gestión: cadena opaca o mal gobernada puede derivar en controversias, litigios e interrupciones operativas.
+ · Impacto reputacional: tratar la diligencia debida solo desde procurement debilita la narrativa de control y disciplina ante inversores.
+ · Mensaje práctico: RI debe conectar diligencia debida con **gobernanza, riesgo y resiliencia operativa**, no solo con cumplimiento formal.
 Mensaje de cierre
- La CSDDD no obliga simplemente a “mirar proveedores”; obliga a construir una lógica de gestión de impactos adversos en la cadena de actividades. Y eso convierte la debida diligencia en una cuestión de gobernanza, control, riesgo y credibilidad corporativa.
+ · **No es revisión de proveedores, es gestión integral.** La CSDDD exige identificar, priorizar, prevenir, mitigar, supervisar y, cuando proceda, remediar impactos adversos en toda la cadena de actividades.
+ · **No es un asunto solo legal.** La diligencia debida requiere coordinación real entre compras, operaciones, riesgos, compliance y gobernanza para que el proceso sea ejecutable y verificable.
+ · **No pierde relevancia con la simplificación.** Aunque se acoten perímetro y calendario, el mercado sigue evaluando la credibilidad de la compañía por su capacidad de controlar riesgos e impactos en la cadena.
 
 ### B. Contenido de apoyo
 Desarrollo completo del bloque
@@ -762,14 +888,12 @@ Este punto conviene explicarlo bien porque es donde más confusión hay. La simp
 Desde una perspectiva empresarial, esto cambia varias funciones a la vez. Cambia procurement, porque ya no basta con homologar por precio y calidad. Cambia compliance y legal, porque las cláusulas contractuales deben conectarse con mecanismos de control y escalado. Cambia riesgos, porque hay que integrar impactos adversos sobre terceros junto a riesgos para la compañía. Cambia sostenibilidad, porque la cadena de actividades se convierte en un espacio de materialidad operativa y no solo de reporting. Y cambia gobernanza, porque la compañía necesita una arquitectura interna que conecte políticas, controles, responsabilidades, seguimiento, reclamaciones y remediación.
 Hay además una distinción conceptual decisiva: la CSDDD obliga a mirar no solo riesgos para la empresa, sino también impactos de la empresa sobre terceros o sobre el entorno. Una interrupción de suministro es un riesgo para la empresa. Pero trabajo forzoso, vulneraciones graves de derechos laborales, daños ambientales severos o afectaciones a comunidades en la cadena de actividades son impactos adversos que la empresa debe identificar y gestionar aunque no se traduzcan de forma inmediata en una pérdida financiera directa. En la práctica, esto acerca la gestión de la cadena de actividades a una lógica de responsabilidad e impacto, no solo de continuidad operativa.
 Para el mercado, esto también importa. La CSDDD puede no ser una norma de reporting en sentido estricto, pero sí cambia la lectura de la compañía. Una empresa que conoce su cadena de actividades, prioriza riesgos, tiene mecanismos de queja o notificación, monitoriza la eficacia de sus medidas y puede remediar, transmite una imagen de mayor control, disciplina y preparación. Una empresa con una cadena opaca, sin segmentación de riesgos ni arquitectura de escalado, expone más fácilmente al mercado a controversias, litigios, interrupciones, sanciones reputacionales y erosión del equity story.
-Ideas de fondo que sostienen el bloque
+Ideas clave que sostienen el bloque
 La CSDDD no es una norma de reporting; es una norma de diligencia y gestión.
 La debida diligencia se estructura como un proceso continuo de seis pasos, no como una revisión puntual.
 El marco simplificado actual concentra la diligencia en compañías más grandes y permite una evaluación más priorizada de la cadena de actividades.
 La cadena de actividades deja de ser solo un mapa de proveedores y pasa a ser un espacio de riesgo e impacto que debe gobernarse.
 La CSDDD obliga a mirar no solo riesgos para la empresa, sino impactos adversos causados, contribuidos o directamente vinculados a la actividad empresarial.
-Contexto conceptual adicional
-Este bloque debe ayudar a desmontar tres errores frecuentes. El primero es pensar que la CSDDD equivale a “pedir más datos a proveedores”. Eso es solo una parte menor del problema. El segundo es tratar la diligencia debida como una obligación jurídica separada del negocio. En realidad, reordena compras, compliance, riesgos, sostenibilidad y gobernanza. El tercero es creer que, tras la simplificación, la norma deja de importar. No es así: cambia el perímetro y la intensidad de ciertas exigencias, pero sigue obligando a las compañías en alcance a construir una lógica robusta de gestión de impactos adversos en su cadena de actividades.
 
 ### C. Contenido para el ponente
 Bloque 6. Debida Diligencia: la Directiva CSDDD y su impacto en la gestión de riesgos de la cadena de valor
@@ -818,80 +942,57 @@ Y eso convierte la debida diligencia en una cuestión de gobernanza, control, ri
 Bloque 7. Reporting 2026: implementación de los ESRS, verificación de la doble materialidad e interoperabilidad
 Objetivo del bloque
  Explicar cómo evoluciona el reporting corporativo de sostenibilidad desde el EINF de la Ley 11/2018 hasta el marco CSRD/ESRS, qué implica en 2026 la implantación práctica de los ESRS, por qué la doble materialidad se convierte en el eje del sistema y cómo se articula la verificación y la interoperabilidad del nuevo reporting. [1][2][3]
-1. Del EINF al nuevo modelo europeo de reporting
-En España, el punto de partida histórico del reporting no financiero sigue siendo la Ley 11/2018, que introdujo el Estado de Información No Financiera (EINF) dentro del informe de gestión o, alternativamente, mediante informe separado con el mismo contenido y sometido a los mismos criterios de aprobación, depósito y publicación. La ley exige además que la información incluida en el EINF sea verificada por un prestador independiente de servicios de verificación. En su régimen consolidado, el EINF alcanza, entre otros supuestos, a sociedades con más de 250 trabajadores que sean entidades de interés público —salvo pymes— o que durante dos ejercicios consecutivos superen al menos una de estas magnitudes: 20 millones de euros de activo o 40 millones de euros de cifra de negocios. [1]
-La CSRD cambia la naturaleza del sistema. Ya no se trata solo de elaborar un estado de información no financiera apoyado en marcos diversos, sino de preparar una declaración de sostenibilidad integrada en el informe de gestión y elaborada conforme a los European Sustainability Reporting Standards (ESRS). El primer conjunto de ESRS fue adoptado por la Comisión mediante el Reglamento Delegado (UE) 2023/2772, y la propia Comisión explicó al adoptarlos que se habían desarrollado teniendo en cuenta el trabajo del ISSB y del GRI para asegurar un alto grado de interoperabilidad y evitar doble reporting innecesario. [2][4]
+Desarrollo del contenido
+1. Del EINF y la transición española al modelo CSRD/ESRS
+· En España el punto de partida es la **Ley 11/2018**: creó el **EINF** (estado de información no financiera), integrable en el **informe de gestión** o en un informe separado equivalente, siempre con **revisión por un verificador independiente**.
+· **Quién quedaba alcanzado** (ejemplo habitual): grandes **entidades de interés público** con **más de 250 trabajadores**, o bien —si en **dos ejercicios seguidos** superan los umbrales— **más de 20 M€ de activo** o **más de 40 M€ de volumen de negocio**.
+· **Qué cambia la CSRD**: de un relato no financiero relativamente flexible a una **declaración de sostenibilidad** integrada en el informe de gestión y elaborada con los **estándares europeos ESRS** (base legal: **Reglamento Delegado (UE) 2023/2772**). Los **ESRS** se diseñaron mirando también a **ISSB** y **GRI** para que el dato sea **comparable** y se evite **reportar dos veces** lo mismo sin necesidad.
+· **España aún en transición**: existe un **proyecto de ley** (expediente **121/000038**, 2024) que acompaña el salto nacional; mientras tanto el **EINF** sigue siendo la referencia cotidiana para muchas compañías. No hay que presentarlo como un cambio ya cerrado.
 2. Márgenes de aplicación de la CSRD: quién reportaba, quién reporta y cómo ha cambiado el perímetro
-Aquí conviene distinguir entre la arquitectura original de la CSRD y la situación reordenada en 2026.
-En su diseño original, la aplicación era escalonada:
-desde los ejercicios iniciados el 1 de enero de 2024, las grandes entidades de interés público con más de 500 empleados;
-desde los ejercicios iniciados el 1 de enero de 2025, las demás grandes empresas y las demás matrices de grandes grupos;
-desde los ejercicios iniciados el 1 de enero de 2026, las SMEs cotizadas —excluidas micro— y determinadas small and non-complex institutions, captives y captive reinsurers cuando encajaran en el perímetro;
-y, más adelante, determinadas empresas de terceros países con actividad significativa en la UE. [5]
-Para estas últimas, la lógica original se activaba cuando generaban en la Unión más de 150 millones de euros de cifra de negocios y contaban con una filial sujeta a los artículos 19a o 29a de la Accounting Directive o, en su defecto, con una sucursal en la UE con más de 40 millones de euros de cifra de negocios. Además, las SMEs cotizadas podían acogerse a un opt-out hasta ejercicios iniciados antes del 1 de enero de 2028. [5]
-Ese era el mapa inicial. Pero ya no es la foto completa de 2026. El stop-the-clock aplazó dos años la aplicación para las compañías que debían empezar a reportar en segunda y tercera ola, y la simplificación Omnibus estrechó el perímetro futuro del régimen a compañías con más de 1.000 empleados y más de 450 millones de euros de facturación neta anual. Además, el acuerdo político previó una exención transitoria para determinadas compañías de primera ola que queden fuera del nuevo perímetro en 2025 y 2026. [6][7]
-La consecuencia práctica es muy importante: cuando hoy se explican los márgenes de aplicación de la CSRD, ya no basta con repetir el calendario original. Hay que explicar siempre tres planos simultáneos:
-el diseño original del régimen;
-el efecto del aplazamiento por stop-the-clock;
-y el nuevo perímetro simplificado acordado bajo Omnibus. [5][6][7]
+· El régimen de **aplicación** de la **CSRD** se explica mejor si se desglosa en **tres decisiones acumuladas en el tiempo**: el **calendario** original, los **aplazamientos** (p. ej. **stop-the-clock**) y el **nuevo perímetro** fijado con el paquete **Omnibus**. Lo que sigue en esta caja detalla cada capa; juntas permiten ver quién debía reportar, quién reporta ahora y cómo queda el universo obligado de cara al futuro.
+· **Calendario inicial** (resumen): entró por fases —primero grandes cotizadas muy relevantes (**más de 500 empleados** en la primera ola), luego otras **grandes empresas y grupos**, después **pymes cotizadas** (no micro) y otras entidades concretas, y más adelante **filiales de grupos no europeos** con negocio relevante en la **UE**.
+· **Empresas no europeas** (regla pensada al inicio): debían superar **150 M€ de negocio en la UE** y tener **presencia vinculante** (por ejemplo filial sujeta a normas contables europeas o sucursal grande, con el umbral de **40 M€** que recoge la norma). Las **pymes cotizadas** tenían además un **aplazamiento opcional** hasta **2028**.
+· **Qué ocurrió después**: el **“stop-the-clock”** dio **dos años más** a quienes debían entrar en la segunda y tercera ola. El **Omnibus** redujo el **futuro universo obligado** a empresas con **más de 1.000 empleados** y **más de 450 M€ de facturación neta**, y prevé **excepciones puntuales** para algunas empresas de la primera ola en **2025 y 2026**.
 3. Qué son los ESRS y cómo se estructuran
-La arquitectura técnica del reporting bajo CSRD descansa en un primer set de 12 ESRS: dos estándares transversales y diez estándares temáticos.
-Los estándares transversales son:
-ESRS 1 General Requirements
-ESRS 2 General Disclosures
-Los estándares temáticos son:
-E1 Cambio climático
-E2 Contaminación
-E3 Recursos hídricos y marinos
-E4 Biodiversidad y ecosistemas
-E5 Uso de recursos y economía circular
-S1 Personal propio
-S2 Trabajadores en la cadena de valor
-S3 Comunidades afectadas
-S4 Consumidores y usuarios finales
-G1 Conducta empresarial. [3][8]
-Esta estructura no es meramente formal. ESRS 1 fija los principios generales de preparación del reporting y la lógica de materialidad; ESRS 2 recoge disclosures generales transversales sobre gobernanza, estrategia, gestión de impactos, riesgos y oportunidades, y métricas y objetivos; y los estándares E, S y G desarrollan los contenidos materiales por materia. En la práctica, esto significa que la empresa no “rellena” simplemente una lista de datapoints, sino que determina qué materias son materiales y qué disclosures concretos debe reportar para cada una. [3][9]
+· Los **ESRS** son los **estándares europeos** que dicen **cómo** debe construirse la **declaración de sostenibilidad**. El primer paquete tiene **12 normas**: **2 horizontales** y **10 temáticas**.
+· **ESRS 1** fija **reglas generales** y la lógica de **qué es material**. **ESRS 2** pide información transversal: **gobernanza**, **estrategia**, **impactos**, **riesgos y oportunidades** y **métricas**.
+· Las **E1 a E5** cubren **medioambiente** (clima, contaminación, agua, biodiversidad, economía circular). Las **S1 a S4** cubren **personas y sociedad** (plantilla, cadena de valor, comunidades, consumidores). **G1** cubre **ética y gobierno del comportamiento**.
+· **Cómo se usa en la práctica**: la empresa **no cumple un checklist fijo**; **qué temas son materiales** y **qué debe contar** en cada uno **sale del análisis de doble materialidad** (identificación de **IROs**, pruebas y juicio documentado), no de una selección arbitraria de “temas de moda”.
 4. El papel de EFRAG
-Aquí el papel de EFRAG es central. EFRAG actúa como asesor técnico de la Comisión Europea en materia de estándares de sostenibilidad. Su Sustainability Reporting Board es responsable de las posiciones de EFRAG en reporting de sostenibilidad, incluyendo el asesoramiento técnico sobre borradores y modificaciones de ESRS. Además, EFRAG no solo participa en la elaboración técnica de los estándares, sino que también apoya su aterrizaje práctico a través de guías y herramientas de implementación. [10]
-En particular, EFRAG priorizó tres documentos de apoyo especialmente relevantes para la implantación de ESRS:
-IG 1 Materiality Assessment Implementation Guidance
-IG 2 Value Chain Implementation Guidance
-IG 3 Detailed ESRS Datapoints Implementation Guidance. [11]
-Esa infraestructura técnica importa porque permite entender que el sistema no descansa solo en el reglamento delegado, sino también en un cuerpo interpretativo orientado a facilitar una implantación más consistente y proporcional. [10][11]
-5. La transición española: Ley 11/2018, proyecto de ley y desplazamiento hacia CSRD
-En España, además, la transición normativa interna debe contarse con precisión. El Gobierno aprobó en octubre de 2024 el proyecto de Ley de información empresarial sobre sostenibilidad, y el expediente sigue identificado oficialmente en el Congreso como Proyecto de Ley 121/000038, presentado el 31/10/2024 y calificado el 12/11/2024. [12][13]
-Esto significa que la Ley 11/2018 y el EINF siguen siendo la referencia histórica y práctica del reporting no financiero español, mientras el sistema se desplaza hacia la nueva declaración de sostenibilidad europea. No conviene, por tanto, presentar el tránsito español como si ya estuviera completamente cerrado y estabilizado. [1][12][13]
-6. La doble materialidad: eje del sistema, no apéndice metodológico
-La doble materialidad es la pieza central del reporting bajo ESRS. El criterio oficial es claro: un asunto entra en el reporting si es material desde la perspectiva de impacto, desde la perspectiva financiera o desde ambas. No se trata de una intersección, sino de una lógica de unión. Esto es decisivo porque determina qué materias y qué información concreta deben entrar en la declaración de sostenibilidad. [5][9]
-La consecuencia práctica es que la doble materialidad no puede tratarse como un ejercicio accesorio o estético. Tiene que funcionar como un proceso robusto de determinación de la información a reportar. Metodológicamente, esto exige, como mínimo:
-análisis de contexto;
-contraste con grupos de interés;
-identificación y valoración de IROs;
-aplicación de criterios y umbrales;
-y documentación de las decisiones adoptadas. [A][B]
-Además, la lógica del proceso debe preservar la trazabilidad suficiente para sostener la matriz final y, posteriormente, el propio reporte. Una aproximación sólida se articula, por tanto, en tres grandes fases:
-contexto, evidencia y delimitación del análisis;
-identificación y valoración de IROs;
-agregación de resultados y construcción de la matriz, con documentación de criterios, umbrales y decisiones. [A][B]
-Esa metodología gana calidad cuando combina fuentes diversas de evidencia —información interna, análisis regulatorio y sectorial, modelos de riesgo, consulta a stakeholders y métricas cuantitativas cuando existan— y cuando mantiene una lectura multinivel por negocio y a nivel grupo. [A][B]
-7. Verificación: de la existencia del informe a la calidad del proceso
-La verificación es otro gran salto cualitativo. Bajo la Ley 11/2018 ya existía verificación independiente del EINF, pero la CSRD la reordena dentro de un marco europeo de assurance mucho más exigente. La Comisión aclara que la opinión inicial debe emitirse bajo limited assurance, y que está facultada para adoptar estándares europeos de limited assurance antes del 1 de octubre de 2026 y, en su caso, de reasonable assurance antes del 1 de octubre de 2028. [5]
-Lo relevante aquí es entender qué entra realmente en el perímetro de revisión. La FAQ oficial de la Comisión deja claro que el aseguramiento no se limita a comprobar la existencia del informe, sino que alcanza:
-la conformidad de la declaración de sostenibilidad con los ESRS;
-el proceso seguido para identificar la información reportada, es decir, la doble materialidad;
-el cumplimiento de las obligaciones de digital tagging;
-y los disclosures del artículo 8 de Taxonomía cuando procedan. [5]
-Por eso, la doble materialidad debe diseñarse ya desde el inicio como un proceso verificable. Desde una perspectiva práctica, esto significa que la materialidad tiene que ser audit ready. No basta con tener una matriz final o un listado de asuntos materiales. Hace falta poder explicar el perímetro, las fuentes utilizadas, la consulta a stakeholders, la lógica de valoración, los umbrales aplicados y la razón por la que un asunto entra o sale del perímetro del reporting. [5][A][B]
-8. Interoperabilidad: global y europea
-La interoperabilidad debe explicarse en dos planos.
-El primero es el plano global. La Comisión señaló expresamente al adoptar los ESRS que éstos tomaban en consideración el trabajo del ISSB y del GRI para asegurar un elevado grado de interoperabilidad con marcos globales y evitar duplicidades innecesarias. Eso no significa que todos los marcos sean idénticos, sino que el sistema europeo se construyó para conectar razonablemente con ellos. [2]
-El segundo es el plano intraeuropeo. La declaración de sostenibilidad no vive sola: se conecta con la Taxonomía, con usos del dato por parte del mercado financiero y con reglas específicas de formato y digitalización. La FAQ oficial aclara que la sustainability statement deberá ir en el formato del ESEF (XHTML) y ser marcada digitalmente cuando exista la taxonomía digital correspondiente; mientras esa taxonomía digital no se adopte, no existe obligación efectiva de markup y, por esa misma razón, tampoco de preparar el management report en XHTML. La misma guía aclara que los disclosures del artículo 8 de Taxonomía deben incluirse en la sustainability statement cuando proceda. [5]
+· **EFRAG** (European Financial Reporting Advisory Group) es el organismo independiente que asesora a la **Comisión Europea** en materia de información corporativa. En sostenibilidad, prepara **borradores técnicos**, expone el **razonamiento** detrás de cada propuesta y gestiona **consultas públicas**; la Comisión adopta los **ESRS** como **acto legal** (reglamento delegado), pero el “motor” técnico del contenido ESRS es, en la práctica, este proceso.
+· El trabajo sustantivo lo coordina el **Sustainability Reporting Board (SRB)**: no legisla, pero concentra el **desarrollo normativo-técnico** y el diálogo con **preparadores**, **auditores**, **inversores** y **academia**. Sirve para entender **por qué un disclosure existe** y cómo se espera que se interprete.
+· Lo que más usan las empresas no es solo el PDF del reglamento, sino el **paquete de implantación**: **guías de implementación** (Implementation Guidance), **aclaraciones**, **material sectorial** y tablas que relacionan requisitos con datos. Eso reduce ambigüedad entre “**cumplir la letra**” y “**hacerlo de forma defendible ante verificadores**”.
+· **IG 1** orienta el proceso de **evaluación de materialidad** y la **documentación del juicio** (qué pruebas, qué umbrales, qué trazabilidad). **IG 2** desglosa **cadena de valor**: dónde empieza y termina el **perímetro**, cómo obtener **datos razonables** y cómo priorizar sin inventar cifras imposibles. **IG 3** mapea, estándar por estándar, qué **datapoints** e **indicadores** entran y cómo leerlos frente al texto **ESRS**.
+5. Proceso de doble materialidad: definición, dimensiones y criterios (ESRS 1)
+· Bajo **ESRS 1**, la **doble materialidad** es el proceso que decide qué información entra en la **declaración**; no basta una **matriz** o una priorización cosmética. Hay que reportar **impactos materiales** sobre personas y medioambiente y, por otro lado, **riesgos y oportunidades materiales** en sostenibilidad: juntos configuran la **doble materialidad**.
+· Dos miradas: **inside-out** (impacto de la empresa hacia fuera) y **outside-in** (cómo la sostenibilidad afecta a la empresa). Es **unión**, no **intersección**: un asunto entra si es **material por impacto**, **por finanzas** o por **ambas**; basta **una de las lógicas**.
+· **Materialidad de impacto**: efectos en **personas** y **medio ambiente** (operaciones y **cadena**). La evaluación sigue **criterios ESRS 1** según el tipo de impacto (p. ej. **gravedad**, **escala**, **alcance**, **probabilidad**; en **DD.HH.** potenciales negativos la gravedad prima sobre la probabilidad). El diálogo con **afectados** es evidencia central. **Materialidad financiera**: influencia en **valoración**, **resultados**, **liquidez**, **financiación** o **coste de capital**; se pondera **probabilidad** y **magnitud**. No todo impacto es financiero ni al revés, pero **ambas dimensiones** interactúan.
+· **Tema vs información**: el **tema** es material si se vincula a **IROs** materiales; la **información** lo es si omitirla o distorsionarla podría influir en **decisiones**. Secuencia típica: delimitar **universo** → identificar **IROs** y **evidencia** → evaluar **ambas materialidades** → **umbrales** y **disclosures** (**entity-specific** si hace falta) → documentar en **ESRS 2 IRO-1** e **IRO-2**. **Revisar** el análisis cuando cambien hechos relevantes.
+6. Verificación e interoperabilidad: assurance y encaje del dato
+· **Por qué van juntos:** la **CSRD** no solo pide “más páginas”, sino información **revisable** por terceros y **coherente** con otros pilares del sistema (**Taxonomía**, **mercado financiero**, **formato electrónico**). De ahí que el **assurance** (qué comprueba el verificador) y la **interoperabilidad** (cómo conectan **ESRS** con **ISSB**, **GRI** y el resto del marco UE) formen un mismo relato.
+· **Antecedente y refuerzo:** la **Ley 11/2018** ya exigía **revisión independiente** del **EINF**; la **CSRD** sitúa el **assurance** en un **marco europeo** donde cuenta **qué** se examina, no solo que el documento exista. **Progresión** habitual: **limited assurance** con **estándares europeos** **antes del 1 oct 2026**; posible **reasonable assurance** **antes del 1 oct 2028**.
+· **Qué debe revisar el verificador:** **conformidad** con **ESRS**, solidez del **proceso de doble materialidad**, **etiquetado digital** y, si aplica, lo exigido en el **art. 8 de Taxonomía**. Para ello la materialidad debe ser **audit-ready**: pruebas que permitan **reconstruir** **alcance**, **fuentes**, **consultas** y **criterios** de qué entra y qué queda fuera.
+· **Interoperabilidad global:** los **ESRS** miran a **ISSB** y **GRI** para **reducir duplicidades**, pero eso **no** es **equivalencia automática**; hace falta **mapeo** entre marcos y juicio sobre qué consolidar.
+· **Encaje en la UE:** la **declaración** enlaza con la **Taxonomía**, con la **información a mercados financieros** y con el **informe anual** en **formato electrónico**. Con **ESEF (XHTML)** se **etiqueta** cuando exista **taxonomía digital** aplicable; sin ella, no hay obligación efectiva de **marcado** masivo ni de **convertir** todo el **informe de gestión**. Los datos del **art. 8 Taxonomía** deben **incorporarse a la declaración** cuando toque, no presentarse como **anexo separado** del bloque **ESRS**.
 Contexto regulatorio
- La referencia histórica española sigue siendo la Ley 11/2018 y el EINF; el nuevo marco europeo lo forman la CSRD y los ESRS adoptados en 2023; el calendario fue alterado por el stop-the-clock y el quick fix; el perímetro fue simplificado por Omnibus; y el soporte técnico del sistema lo proporciona EFRAG mediante asesoramiento, guías y herramientas de implementación. [1][2][6][7][10][11]
+ · **Ámbito español:** la **Ley 11/2018** crea el **EINF** (estado de información no financiera), integrable en el **informe de gestión** o en informe separado equivalente, con **revisión por un verificador independiente**. Sigue siendo, para muchas entidades, el **marco cotidiano** hasta que la transposición y el proyecto normativo nacional (p. ej. **Ley de Información Empresarial sobre Sostenibilidad**, en tramitación) cierren el salto pleno al **CSRD/ESRS**.
+ · **CSRD y contenido ESRS:** la **CSRD** impone una **declaración de sostenibilidad** integrada en el **informe de gestión** y elaborada conforme a los **ESRS**. El primer set fue adoptado por la Comisión mediante el **Reglamento Delegado (UE) 2023/2772** (julio de 2023): **ESRS 1** (requisitos generales), **ESRS 2** (información general transversal) y **diez estándares temáticos** (**E1–E5**, **S1–S4**, **G1**).
+ · **Calendario y reordenaciones:** el **calendario** de aplicación escalonada de la **CSRD** fue **modificado** por el **“stop-the-clock”** (aplazamiento de segundas y terceras olas) y por actuaciones de **simplificación** / **quick fix**; en la exposición hay que **separar** el **diseño original**, los **aplazamientos** y el **nuevo perímetro** político acordado (paquete **Omnibus**), sin mezclar fechas y umbrales de distintas versiones del régimen.
+ · **Perímetro y umbral (lectura 2026):** el acuerdo de **simplificación** **estrechó** el **universo futuro** de referencia (criterios de **empleados** y **facturación neta** elevados frente al diseño inicial amplio) e incorporó **excepciones transitorias** para determinadas empresas de **primera ola** en años concretos; conviene **citar** siempre **qué foto normativa** se usa (original, post–stop-the-clock u Omnibus).
+ · **EFRAG y material de implantación:** **EFRAG** asesora a la Comisión en **borradores** y **revisiones** de **ESRS**; su **Sustainability Reporting Board** concentra el trabajo técnico. Además del texto legal, publica **guías de implementación** (**IG 1**: materialidad; **IG 2**: cadena de valor; **IG 3**: datos e indicadores), **FAQs** y apoyo **sectorial** para una aplicación **homogénea** y **defendible**.
+ · **Encaje sistémico en la UE:** la declaración se conecta con la **Taxonomía** (p. ej. **art. 8**, alineación y reporting), con la **información** a **mercados financieros** y con el **formato electrónico** del **informe anual** (**ESEF** / **XHTML**, **marcado digital** cuando exista **taxonomía digital** aplicable). A escala global, los **ESRS** se diseñaron mirando **ISSB** y **GRI** para **reducir duplicidades**, sin **equivalencia automática** entre marcos. [1][2][6][7][10][11]
 Implicación para Relaciones con Inversores
- Relaciones con Inversores debe entender que el reporting ya no es un ejercicio de “más disclosure”, sino de mejor arquitectura del dato y del relato. Esto exige saber qué parte del discurso corporativo está realmente soportada por la doble materialidad, qué información cae dentro o fuera del perímetro material, cómo se conecta con estrategia, riesgos, métricas y asignación de capital, y qué elementos van a ser objeto de revisión por verificadores, auditores, inversores y mercado. Una declaración de sostenibilidad débil ya no es solo un problema de cumplimiento; es una señal de baja madurez de gestión. [5]
+ · **De “más páginas” a arquitectura del dato:** el **reporting CSRD/ESRS** no se mide por volumen de texto, sino por **coherencia** entre **declaración**, **métricas**, **gobernanza** y **cadena de valor**. **RI** debe poder explicar **qué** del **equity story** está realmente **cubierto** por información **sujeta a estándar** y **revisable**.
+ · **Doble materialidad como filtro de mensaje:** conviene saber **qué** parte del discurso corporativo está **anclada** en **IROs materiales** y en el **perímetro** acordado en el **proceso de materialidad**; qué queda **fuera** o es **voluntario**; y cómo se **traduce** eso a **mensajes** para **analistas** sin **sobreprometer** ni **mezclar** **ambición narrativa** con **obligación de información**.
+ · **Puente con finanzas y estrategia:** **RI** debe **vincular** lo **material** en **ESRS** con **decisiones** de **CapEx**, **precio del capital**, **exposición a riesgos** (físicos, de transición, regulatorios) y **horizonte temporal** de la **tesis de inversión**. El mercado pregunta por **consistencia** entre **informe**, **guidance** y **cuentas**.
+ · **Assurance y mercado:** una parte relevante del relato será **contrastada** por **verificadores** y **auditores**; **RI** debe anticipar **preguntas** sobre **trazabilidad** del **proceso de materialidad**, **datapoints** clave y **alineación** con **Taxonomía** / **formato electrónico** cuando aplique. Lo que no esté **documentado** o sea **débil** en **sustancia** se **traduce** en **riesgo reputacional** y de **valoración**.
+ · **Señal de madurez:** una **declaración** **pobre** o **genérica** ya no se lee solo como **fallo de cumplimiento**, sino como **indicio** de **gobernanza** y **control interno** **limitados**. **RI** tiene interés en que la **narrativa** al **mercado** refleje **rigor** **equivalente** al del **informe** **regulado**. [5]
 Mensaje de cierre
- El salto del EINF al sistema CSRD/ESRS no consiste simplemente en reportar más. Consiste en reportar con otra lógica: basada en doble materialidad, organizada a través de 12 estándares, integrada en el informe de gestión, preparada para verificación, digitalizable y conectada con el resto del marco europeo de sostenibilidad. [1][2][3]
+ · **Tesis central:** el paso del **EINF** al marco **CSRD/ESRS** no es **reportar más**, sino **reportar con otra arquitectura**: **declaración** bajo **estándares**, **doble materialidad** y **trazabilidad** que un verificador pueda seguir.
+ · **Doble materialidad** como regla de inclusión: entra lo **material** por **impacto** y/o por **finanzas**, con **proceso** documentado —no una matriz ornamental.
+ · **Doce ESRS** que **ordenan** el contenido (**ESRS 1 y 2** + temáticos **E–S–G**), conectando **gobernanza**, **estrategia**, **riesgos** y **métricas** con lo declarado **material**.
+ · **Integración** en el **informe de gestión**, preparación para **assurance** (**audit-ready**), **etiquetado digital** cuando proceda y **alineación** con **Taxonomía** y **mercado financiero**.
+ · **Interoperabilidad** (**ISSB**, **GRI**) y **coherencia en la UE**: **un solo esfuerzo** de datos, **menos duplicidad** innecesaria entre instrumentos.
 
 ### B. Contenido de apoyo
 Desarrollo completo del bloque
@@ -918,16 +1019,14 @@ La verificación es el siguiente salto. Bajo la Ley 11/2018 ya existía verifica
 Por eso, una doble materialidad robusta debe ser audit ready. La empresa tiene que poder explicar el perímetro del análisis, las fuentes empleadas, los colectivos consultados, los criterios y umbrales aplicados, la razón por la que un tema se traduce en IROs materiales o no materiales y la lógica de agregación hasta la matriz final. Sin eso, la verificación se convierte en una exposición de debilidad metodológica. Con eso, en cambio, el análisis de materialidad puede convertirse en una herramienta real de gestión y no solo de reporting. [5][A][B]
 La interoperabilidad cierra el sistema. En el plano global, la Comisión dijo expresamente que los ESRS se diseñaron teniendo en cuenta ISSB y GRI. En el plano europeo, la sustainability statement se conecta con la Taxonomía, con el uso del dato por parte del mercado financiero y con las reglas de formato electrónico y marcado digital. La FAQ oficial aclara que la sustainability statement deberá ir en XHTML y ser marcada digitalmente una vez se adopte la taxonomía digital correspondiente; mientras esa taxonomía digital no exista, no hay obligación efectiva de markup ni de preparar el management report en XHTML. También deja claro que los disclosures del artículo 8 de Taxonomía deben incluirse en la sustainability statement cuando proceda. Esto demuestra que la interoperabilidad no es un eslogan: es una exigencia de coherencia técnica entre distintos componentes del sistema. [2][5]
 En definitiva, el reporting 2026 ya no puede tratarse como una mera evolución incremental del EINF. Es otro modelo. Un modelo basado en estándares europeos, articulado por doble materialidad, sostenido técnicamente por EFRAG, preparado para limited assurance, conectado con Taxonomía y con digitalización, y cada vez más determinante para la calidad de la narrativa corporativa. El informe deja de ser solo un entregable; se convierte en una prueba de método, de gobernanza y de credibilidad. [1][2][10]
-Ideas de fondo que sostienen el bloque
+Ideas clave que sostienen el bloque
 El EINF de la Ley 11/2018 es el antecedente español inmediato del nuevo reporting y ya exigía verificación independiente. [1]
 La CSRD y los ESRS convierten el reporting de sostenibilidad en una declaración de sostenibilidad más estructurada, comparable y verificable. [2][4]
 El primer set de ESRS se articula en 12 estándares: 2 transversales y 10 temáticos. [3][8]
 EFRAG es el pilar técnico del sistema: desarrolla borradores, apoya revisiones e impulsa guías de implementación. [10][11]
 La doble materialidad es el eje del sistema y determina qué información debe reportarse. [5][9]
 Los márgenes de aplicación de la CSRD deben explicarse hoy distinguiendo entre calendario original, stop-the-clock y nuevo perímetro simplificado. [5][6][7]
-La verificación ya no se centra solo en el documento final, sino también en el proceso de materialidad, el tagging y la coherencia con Taxonomía. [5]
-Contexto conceptual adicional
-Este bloque debe desmontar varios errores frecuentes. El primero es pensar que ESRS equivale simplemente a “más datapoints”; en realidad, cambia la lógica de determinación de la información. El segundo es asumir que la transición española ya puede contarse como si la Ley 11/2018 hubiera desaparecido; no es así. El tercero es reducir la verificación a una revisión formal del informe y no del proceso. El cuarto es tratar la interoperabilidad como una promesa abstracta y no como una conexión real entre ESRS, Taxonomía, assurance, XHTML y digital tagging. Y el quinto es explicar el perímetro de la CSRD sin distinguir entre el marco original y la situación reordenada en 2026. [1][5][6][7]
+La garantía de la información no se limita al informe impreso: también debe cubrir el proceso de materialidad, el marcado digital (tagging) y la coherencia con la Taxonomía. [5]
 
 ### C. Contenido para el ponente
 Bloque 7. Reporting 2026: implementación de los ESRS, verificación de la doble materialidad e interoperabilidad
@@ -1005,62 +1104,55 @@ Referencias
 Bloque 8. Financiación: ratios bancarios (GAR/BTAR), el ISF (Infrastructure Supporting Factor) y alineamiento de CapEx
 Objetivo del bloque
  Explicar cómo se conectan tres piezas distintas pero complementarias del diálogo entre sostenibilidad y financiación: los ratios bancarios GAR y BTAR, el Infrastructure Supporting Factor (ISF) y el alineamiento de CapEx bajo Taxonomía. El objetivo es distinguir bien qué mide cada instrumento, qué no mide, y por qué son relevantes para bancos, corporates y mercado. [1][2][3]
+Desarrollo del contenido
 1. GAR y BTAR: dos ratios, dos lógicas, una misma conversación sobre financiación verde
-El primer error que conviene evitar es tratar GAR y BTAR como si fueran lo mismo. No lo son.
-El GAR (Green Asset Ratio) es el KPI más conocido y su lógica está directamente conectada con el artículo 8 de la Taxonomía para entidades de crédito. Sirve para mostrar qué parte de los activos bancarios cubiertos está asociada a actividades alineadas con la Taxonomía. En otras palabras, intenta medir el peso de la financiación bancaria que ya está respaldando actividades consideradas ambientalmente sostenibles bajo el marco europeo. [3][4]
-El BTAR (Banking Book Taxonomy Alignment Ratio), en cambio, nació como una métrica prudencial complementaria dentro de la arquitectura de Pilar 3 / EBA, precisamente para ampliar la lectura allí donde el GAR se queda corto. Su función no es sustituir al GAR, sino ofrecer información adicional sobre el grado de alineamiento del banking book, especialmente respecto de exposiciones que no entran plenamente en el perímetro más estricto del GAR, como determinadas exposiciones a contrapartes no cubiertas por las obligaciones de reporting corporativo. [2][5]
-La lectura correcta, por tanto, es esta:
-el GAR es la métrica más estricta, más anclada en el dato reportado bajo Taxonomía y más útil para mostrar alineamiento consolidado en la parte cubierta del balance;
-el BTAR amplía la visión hacia un perímetro más amplio del banking book y, por ello, suele tener una carga metodológica mayor y un uso más intensivo de estimaciones o best efforts. [2][5]
+· **GAR** (**Green Asset Ratio**) y **BTAR** **no** son equivalentes: el **GAR** conecta con el **art. 8 de la Taxonomía** (entidades de crédito) y mide la parte de **activos cubiertos** asociada a actividades **alineadas** con la Taxonomía.
+· El **BTAR** (**Banking Book Taxonomy Alignment Ratio**) es una métrica **prudencial** (**Pilar 3**, **EBA**) que **complementa** al GAR: amplía la lectura del **banking book** donde el GAR **no** llega (p. ej. **contrapartes** sin **reporting** corporativo pleno); **no** lo sustituye.
+· **Lectura útil:** **GAR** = más **estricto**, anclado al **dato Taxonomía** sobre el **perímetro cubierto**; **BTAR** = **perímetro más amplio**, con más **estimaciones** y **best efforts**.
 2. Qué mide realmente el GAR y por qué conviene explicarlo con prudencia
-El GAR no es una medida general de “cuánto de verde es un banco”, ni una etiqueta reputacional del balance. Es un ratio regulado que utiliza una lógica de numerador y denominador basada en el marco de la Taxonomía y en las reglas del Disclosures Delegated Act. [4][6]
-Además, es una métrica deliberadamente conservadora. La Comisión aclaró desde el inicio que determinadas exposiciones quedaban fuera o recibían un tratamiento restrictivo. Entre los ejemplos más relevantes:
-las exposiciones soberanas se excluyen tanto del numerador como del denominador;
-los derivados se excluyen del numerador;
-y el tratamiento de exposiciones frente a entidades fuera del perímetro de reporting corporativo —como muchas SMEs o contrapartes no UE/no CSRD— ha sido uno de los grandes límites prácticos de la ratio y uno de los motivos principales de las posteriores revisiones y debates de simplificación. [4][7]
-Esto importa mucho porque el GAR puede ser técnicamente correcto y, aun así, infrarrepresentar la realidad económica de una cartera si gran parte de la actividad financiada queda fuera de su numerador por limitaciones de alcance o disponibilidad de datos. Por eso, un GAR bajo no siempre significa baja ambición de financiación sostenible; a veces significa, simplemente, un perímetro regulatorio estrecho o un problema de disponibilidad y calidad del dato. [4][7]
+· El **GAR** **no** es un “índice de banca verde”: es un **ratio regulado** (numerador/denominador) bajo **Taxonomía** y **Disclosures Delegated Act**.
+· **Reglas conservadoras:** **soberanos** fuera de numerador y denominador; **derivados** fuera del numerador; **SMEs** y **contrapartes no CSRD** / **no UE** con tratamiento **restrictivo** → limitan el **numerador**.
+· Un **GAR bajo** puede reflejar **perímetro** o **calidad de datos**, no solo “poca ambición” en financiación sostenible.
 3. BTAR: por qué aparece y qué añade
-El BTAR surge precisamente para complementar esa lectura. La EBA explicó al diseñar las plantillas prudenciales de divulgación ESG que, junto con el GAR, era útil contar con una métrica adicional sobre el alineamiento del banking book. En esa lógica, el BTAR aporta una visión más amplia del alineamiento de exposiciones del balance bancario y se apoya, cuando hace falta, en información recopilada bilateralmente o estimada sobre contrapartes que no disponen de reporting obligatorio bajo Taxonomía. [2][5]
-Eso hace que el BTAR sea útil, pero también más sensible metodológicamente. No debe presentarse como un ratio “mejor” que el GAR, sino como un ratio más amplio y más dependiente de estimaciones, pensado para cubrir una limitación estructural del GAR. [2][5]
-También conviene introducir aquí un matiz regulatorio actual. En 2025 la EBA lanzó una consulta sobre la revisión de los ITS de divulgación ESG y propuso una suspensión temporal de determinadas plantillas GAR/Taxonomy dentro del Pilar 3 hasta finales de 2026 para evitar duplicidades con el régimen de Taxonomía y reordenar la arquitectura de divulgación. Esto significa que, en 2026, la conversación sobre GAR y BTAR no debe presentarse como una foto completamente estable, sino como un terreno regulatorio en ajuste. [8]
+· **BTAR** cubre un **banking book** más **amplio** y puede usar **información bilateral** o **estimada** cuando no hay **KPIs** de Taxonomía del cliente.
+· **No** es un ratio “**mejor**” que el **GAR**: es **más amplio** y **más sensible** metodológicamente; compensa **límites estructurales** del GAR.
+· **2025–2026:** consulta **EBA** sobre **ITS** de divulgación **ESG** y posible **suspensión temporal** de ciertas plantillas **GAR/Taxonomy** en **Pilar 3** hasta **fines de 2026** → marco **en evolución**.
 4. Qué es el ISF y qué no es
-El Infrastructure Supporting Factor (ISF) pertenece a una lógica completamente distinta. No es una ratio de alineamiento ni una medida de Taxonomía. Es un mecanismo prudencial de alivio de capital previsto en el artículo 501a del CRR para determinadas exposiciones a proyectos o entidades de infraestructura que cumplan criterios específicos. [1][9]
-La EBA lo describe como un ajuste a los requerimientos de fondos propios para exposiciones a entidades que operan o financian estructuras físicas, instalaciones, sistemas y redes que prestan o apoyan servicios públicos esenciales, siempre que cumplan una serie de condiciones destinadas a reducir su perfil de riesgo y mejorar la previsibilidad de los flujos de caja. En términos económicos, el ISF se traduce en una reducción del 25% de los requerimientos de fondos propios aplicables a determinadas exposiciones elegibles. [1][9][10]
-Esto es importante porque el ISF suele citarse en conversaciones de financiación sostenible como si fuera un mecanismo “verde”. Pero jurídicamente no lo es. El ISF no certifica alineamiento climático ni sustitute a la Taxonomía. Es un instrumento prudencial pensado para favorecer la financiación de proyectos de infraestructura de alta calidad, no una etiqueta de sostenibilidad en sí misma. Puede apoyar inversiones alineadas con la transición, pero no equivale a decir que toda exposición beneficiada por ISF sea automáticamente sostenible. [1][9][10]
+· **ISF** (**Infrastructure Supporting Factor**): **no** es ratio de **alineamiento** ni **sustituto** de la Taxonomía; es **alivio de capital** (**art. 501a CRR**) para **exposiciones elegibles** a **infraestructura** esencial.
+· **Efecto:** hasta **–25%** de **fondos propios** sobre exposiciones que cumplan requisitos de **riesgo** y **previsibilidad** de flujos.
+· **No** es etiqueta “**verde**”: **no** certifica **clima**; puede coexistir con la **transición** sin que toda **exposición ISF** sea “sostenible” automáticamente.
 5. Qué sabemos del ISF en la práctica
-La EBA analizó la aplicación del ISF en 2022 y concluyó que su impacto agregado sobre el capital regulatorio de los bancos había sido, por entonces, relativamente contenido: el alivio medio sobre ratios CET1 se situaba en torno a 0,06 puntos porcentuales en la muestra observada. También subrayó que los datos seguían siendo limitados y que era pronto para extraer conclusiones firmes sobre su efecto definitivo en volumen de financiación o perfil de riesgo. [9][10]
-Esta conclusión es útil para el bloque porque permite ser realistas: el ISF existe, importa y puede ser relevante para ciertas operaciones, pero no debe venderse como un game changer por sí solo. Su relevancia es mayor como señal prudencial y de política financiera que como palanca masiva ya demostrada de transformación del balance bancario. [9][10]
+· **EBA (2022):** impacto medio en **CET1** ~**0,06 pp**; muestra y datos aún **acotados**.
+· **Conclusión:** el ISF **importa** como **instrumento prudencial**, pero no conviene presentarlo como **palanca masiva** ya demostrada sobre el **balance** agregado.
 6. Alineamiento de CapEx: la pieza más estratégica para corporates y para financiadores
-El alineamiento de CapEx introduce una tercera lógica, distinta de GAR/BTAR e ISF. Aquí ya no estamos midiendo una ratio bancaria, sino la proporción del gasto de capital de una empresa que está asociado a actividades alineadas con la Taxonomía o a la transición hacia ese alineamiento. [4][11]
-Bajo el régimen del artículo 8 de la Taxonomía, las entidades no financieras deben divulgar KPIs de turnover, CapEx y OpEx. Y, desde una perspectiva estratégica, el CapEx suele ser la pieza más relevante para la conversación sobre transición. El motivo es simple: el turnover habla más del modelo actual; el CapEx permite leer hacia dónde se está moviendo la compañía. [11][12]
-Por eso, una empresa puede tener hoy un porcentaje de ingresos alineados todavía bajo y, sin embargo, presentar un CapEx alineado o elegible significativamente superior porque está invirtiendo para transformar su modelo. En clave de financiación, esta diferencia es decisiva. Para bancos, inversores y aseguradores, el CapEx alineado funciona como un indicador más forward-looking que los ingresos actuales, y puede ayudar a justificar una lectura más favorable de la trayectoria de transición. [11][12][13]
+· **CapEx alignment** = lógica **no financiera**: parte del **CapEx** ligada a actividades **alineadas** o a **transición** hacia ese alineamiento (**art. 8 Taxonomía**: **turnover**, **CapEx**, **OpEx**).
+· El **CapEx** anticipa **hacia dónde** invierte la compañía; el **turnover** describe más el **presente**.
+· **Bancos**, **inversores** y **aseguradores** lo leen como señal **forward-looking** de **transición**.
 7. Por qué el CapEx alineado importa para financiación
-El alineamiento de CapEx es especialmente importante porque conecta sostenibilidad con uso de fondos, inversión y transición creíble.
-Desde la óptica del financiador, el CapEx alineado o elegible ayuda a responder preguntas muy concretas:
-si la empresa está dedicando recursos reales a transformar su base de activos;
-si su plan de transición está respaldado por inversión y no solo por objetivos;
-si hay masa crítica de proyectos financiables bajo lógicas green o transition finance;
-y si el perfil futuro de alineamiento puede mejorar aunque la foto actual de ingresos aún no lo refleje. [11][12]
-La propia Platform on Sustainable Finance subrayó en 2026 que el Taxonomy CapEx alignment es crítico para el plan de transición climática y puede conectarse con los efectos financieros esperados y con los recursos asignados a la transición. En términos prácticos, esto significa que el CapEx alineado no es solo una métrica de reporting: es también una herramienta para explicar la financiación de la transición y la credibilidad del roadmap de inversión. [12]
+· Vincula **recursos reales** con **transición creíble:** ¿hay **inversión** detrás de **objetivos**?, ¿**pipeline** **green/transition finance**?, ¿mejora **futura** aunque el **turnover** alineado aún sea bajo?
+· **Platform on Sustainable Finance (2026):** el **Taxonomy CapEx alignment** como pieza **central** del **plan climático** y de la **credibilidad** del **roadmap** de inversión.
 8. Cómo se conectan GAR/BTAR, ISF y CapEx
-Las tres piezas se entienden mejor si se leen en secuencia.
-El CapEx alineado pertenece sobre todo a la lógica de la empresa financiada: muestra si la compañía está invirtiendo para transformar su actividad.
-El GAR/BTAR pertenece sobre todo a la lógica del balance bancario: muestra qué parte de la financiación concedida está respaldando actividades alineadas o qué parte del banking book puede leerse en clave de alineamiento.
-El ISF pertenece a la lógica prudencial: no mide alineamiento, pero puede mejorar el tratamiento de capital de ciertas exposiciones a infraestructura y, por esa vía, influir en la capacidad o el incentivo bancario para financiar determinados proyectos. [1][2][9][12]
-Por tanto, aunque los tres conceptos aparecen en conversaciones de financiación sostenible, no responden a la misma pregunta:
-GAR/BTAR: cuánto del balance bancario puede leerse en clave Taxonomía/alineamiento;
-ISF: qué tratamiento prudencial recibe determinada financiación de infraestructura;
-CapEx alignment: cuánto de la inversión de la empresa está ya orientado a actividades alineadas o a su transición. [1][2][11][12]
+· **CapEx alignment** → **empresa financiada** (¿invierte para **transformarse**?).
+· **GAR/BTAR** → **balance bancario** (¿cuánto del **banking book** en clave **Taxonomía** / **alineamiento**?).
+· **ISF** → **prudencial** (¿**tratamiento de capital** en **infra elegible**? **No** mide **alineamiento**).
+· **Tres preguntas distintas:** no mezclar **alineamiento**, **alivio de capital** y **trayectoria de inversión** del **corporate**.
 Contexto regulatorio
- GAR y el marco de disclosure de entidades financieras se anclan en el artículo 8 de la Taxonomía y en su Disclosures Delegated Act, complementados por la arquitectura prudencial de la EBA y del Pilar 3. El ISF se ancla en el artículo 501a del CRR. Y el CapEx alignment se apoya en los KPIs de turnover, CapEx y OpEx exigidos a entidades no financieras bajo la Taxonomía. En 2025 y 2026, además, el marco de Taxonomía ha seguido un proceso de simplificación y revisión de usabilidad, lo que obliga a hablar de estas métricas con precisión y sin tratarlas como piezas completamente estáticas. [1][4][6][11]
+ · **GAR** y **divulgación** de **entidades financieras:** el marco se apoya en el **art. 8 de la Taxonomía** y en el **Disclosures Delegated Act** (actos delegados de **implementación**), que fijan **KPIs**, **perímetros** y **reglas de numerador/denominador**. La **EBA** articula la parte **prudencial** (**ITS**, plantillas **Pilar 3**, evolución de **GAR/BTAR**); conviene no confundir **disclosure de Taxonomía** con el conjunto de **información prudencial** **ESG**.
+ · **BTAR y Pilar 3:** el **BTAR** se inscribe en la **arquitectura de divulgación** supervisoria (**Pilar 3**) como métrica **complementaria** del **GAR**; en **2025–2026** la **EBA** ha consultado sobre **revisión de ITS** y **posible suspensión temporal** de ciertas plantillas **GAR/Taxonomy** para **reducir duplicidades** con el régimen de **Taxonomía** → el calendario de **reporting** no debe presentarse como **cerrado**.
+ · **ISF (infraestructura):** **no** es **ratio** de **alineamiento** ni **KPI** de **Taxonomía**; su base legal es el **art. 501a del CRR**: **alivio de capital** (hasta **–25%** **fondos propios** en **exposiciones elegibles**) para favorecer **financiación** de **infraestructura** con perfil de **riesgo** acotado.
+ · **CapEx / turnover / OpEx (no financieras):** bajo el **art. 8 de la Taxonomía**, los **undertakings no financieros** publican **KPIs** de **turnover**, **CapEx** y **OpEx**; el **CapEx alignment** es la pieza más **forward-looking** para conectar **inversión**, **transición** y **credibilidad** ante **financiadores**.
+ · **Evolución 2025–2026:** el conjunto **Taxonomía** + **disclosure** financiera sigue un proceso de **simplificación** y **mejora de usabilidad**; las **métricas** y **plantillas** deben explicarse como **sujetas a ajuste**, no como **fotos inmutables**. [1][4][6][11]
 Implicación para Relaciones con Inversores
- Relaciones con Inversores debe ser capaz de evitar tres confusiones frecuentes:
-confundir GAR con una medida general de “banca verde”;
-presentar el ISF como si fuera una etiqueta de sostenibilidad;
-y no aprovechar el CapEx alineado como indicador adelantado de transición.
-En diálogo con bancos, analistas e inversores, estas tres piezas sirven para explicar no solo la foto actual de alineamiento, sino también la capacidad futura de financiación, la calidad del pipeline de inversión y la credibilidad del tránsito del modelo de negocio. [2][9][12]
+ · **GAR / “banca verde”:** el **GAR** **no** resume la **sostenibilidad** del banco; mide una **proporción regulada** bajo **art. 8** y **reglas de perímetro** (exclusiones, **datos**). **RI** debe evitar **headlines** que confundan **ratio** con **reputación** o con **ambición** no reflejada en el **numerador**.
+ · **ISF ≠ sostenibilidad:** el **ISF** es **alivio prudencial** (**art. 501a CRR**) sobre **exposiciones** elegibles a **infraestructura**; **no** es **sello verde** ni **sustituto** de **Taxonomía**. Presentarlo como **etiqueta ESG** **desalinea** el mensaje ante **analistas** y **reguladores**.
+ · **CapEx alignment como señal adelantada:** el **CapEx** **alineado** o **elegible** anticipa **inversión** en la **transición**; **RI** debe usarlo para conectar **roadmap**, **pipeline** y **financiación** sin depender solo del **turnover** actual.
+ · **En diálogo con bancos y mercado:** combinar **GAR/BTAR** (lectura del **balance** del **financiador**), **ISF** (donde aplique **tratamiento** **prudencial**) y **KPIs** de **CapEx** del **corporate** permite explicar **foto** de **alineamiento**, **capacidad futura** de **credito**/**inversión**, **calidad** del **pipeline** y **credibilidad** del **cambio de modelo** —sin **mezclar** **planos** ni **prometer** más de lo que **soportan** los **datos**. [2][9][12]
 Mensaje de cierre
- La conversación sobre financiación sostenible gana calidad cuando se distinguen bien sus instrumentos: el GAR y el BTAR miden alineamiento del balance bancario con distintas profundidades y limitaciones; el ISF altera el tratamiento prudencial de ciertas exposiciones a infraestructura; y el alineamiento de CapEx permite leer si la transición de la empresa está siendo realmente financiada. [1][2][11][12]
+ · **Tesis:** la **financiación sostenible** gana **claridad** cuando se **separan** **instrumentos** y **planos regulatorios** —**alineamiento** del **banking book**, **tratamiento prudencial** y **trayectoria de inversión** del **corporate**— sin **mezclarlos** en un solo titular.
+ · **GAR / BTAR:** dos lecturas del **balance bancario** con **profundidades** distintas; el **GAR** más **estricto** (**Taxonomía**), el **BTAR** más **amplio** y **estimado**; ninguno resume por sí solo la “**banca verde**”.
+ · **ISF:** **alivio de capital** (**CRR** **501a**) en **infra elegible**; **no** es **etiqueta** de **sostenibilidad** ni **sustituto** de **KPIs** de **Taxonomía**.
+ · **CapEx alignment:** señal **forward-looking** de si la **transición** está **financiada** con **CapEx** **alineado** o **elegible**, más allá del **turnover** actual.
+ · **Takeaway para el mercado:** conectar **ratios** del **financiador**, **incentivos** **prudenciales** y **KPIs** del **financiado** = conversación con **más rigor** y **menos** **greenwashing** **semántico**. [1][2][11][12]
 
 ### B. Contenido de apoyo
 Desarrollo completo del bloque
@@ -1077,14 +1169,12 @@ Por eso, en términos de mercado, el CapEx alineado o elegible es una señal esp
 La Platform on Sustainable Finance reforzó esta idea en 2026 al señalar que el Taxonomy CapEx alignment es crítico para los planes de transición climática y puede vincularse a los efectos financieros esperados y a los recursos asignados a la transición. Este punto tiene una derivada práctica inmediata: para explicar financiación sostenible no basta con exhibir políticas o targets; hay que ser capaz de mostrar qué parte del CapEx está ya empujando la transformación. [12]
 Además, el CapEx alineado tiene un papel natural en la conversación entre corporates y bancos. Para el banco, ayuda a entender si existe un pipeline financiable bajo lógica green o transition finance. Para la empresa, ayuda a demostrar que la transición está siendo respaldada por asignación de capital real. Y para el mercado, ayuda a leer si la historia de sostenibilidad tiene soporte operativo o si sigue siendo puramente declarativa. [11][12][13]
 Por tanto, la relación entre estas tres piezas puede resumirse así. El GAR/BTAR informa sobre el grado de alineamiento del balance del financiador. El ISF afecta al tratamiento prudencial de determinadas exposiciones de infraestructura. Y el CapEx alignment informa sobre la trayectoria de inversión del financiado. Cuando las tres piezas se leen juntas, la conversación sobre financiación sostenible gana profundidad porque deja de quedarse en el plano narrativo y entra en el terreno de la arquitectura financiera real. [1][2][9][12]
-Ideas de fondo que sostienen el bloque
+Ideas clave que sostienen el bloque
 El GAR y el BTAR no son equivalentes: el primero es más estricto y más directamente anclado al régimen de Taxonomía; el segundo amplía la lectura del banking book y suele apoyarse en mayor medida en estimaciones. [2][3][5]
 Un GAR bajo no siempre equivale a baja ambición sostenible; puede reflejar límites regulatorios de perímetro, exclusiones o disponibilidad de datos. [4][7]
 El ISF no es una etiqueta verde, sino un instrumento prudencial de alivio de capital para ciertas exposiciones de infraestructura. [1][9][10]
 El CapEx alignment es especialmente relevante porque introduce una señal de transición futura y no solo una foto actual de ingresos alineados. [11][12][13]
 La conversación de financiación sostenible mejora cuando se distingue entre alineamiento del balance bancario, tratamiento prudencial y trayectoria de inversión del corporate. [1][2][9][12]
-Contexto conceptual adicional
-Este bloque debe desmontar cuatro errores frecuentes. El primero es usar el GAR como si fuera una medida completa de “banca verde”. El segundo es tratar el BTAR como si fuera simplemente otro nombre para el GAR. El tercero es presentar el ISF como si fuera un instrumento de Taxonomía o un sello de sostenibilidad. Y el cuarto es no utilizar el CapEx alignment como señal adelantada de transición, desperdiciando una de las métricas más útiles para conectar reporting, estrategia y financiación. [2][4][9][12]
 
 ### C. Contenido para el ponente
 Bloque 8. Financiación: ratios bancarios (GAR/BTAR), el ISF (Infrastructure Supporting Factor) y alineamiento de CapEx
@@ -1163,67 +1253,47 @@ Referencias
 Bloque 9. Mercado: nuevo Reglamento de Ratings ESG, evolución de índices (DJSI, MSCI y otros) y prevención del greenwashing
 Objetivo del bloque
  Explicar cómo está cambiando la infraestructura de mercado que interpreta la sostenibilidad: el nuevo Reglamento europeo de ratings ESG, la normativa europea de índices y benchmarks ESG/climáticos, la evolución reciente de referencias de mercado como DJSI, MSCI y el ecosistema Morningstar / Sustainalytics, y las claves regulatorias y supervisoras para prevenir el greenwashing. [1][2][3][4]
+Desarrollo del contenido
 1. Ratings ESG, índices ESG y greenwashing: tres planos distintos
-Este bloque debe empezar dejando clara una distinción básica. Los ratings ESG, los índices o benchmarks ESG y el greenwashing forman parte de una misma conversación de mercado, pero no son la misma cosa.
-Los ratings ESG son opiniones, puntuaciones o evaluaciones sobre el perfil de sostenibilidad de una entidad, un instrumento o un emisor. Los índices ESG son metodologías de selección, exclusión, ponderación o construcción de benchmark que organizan una cesta de activos con determinados criterios ESG o climáticos. Y el greenwashing no es una herramienta de mercado, sino una práctica de comunicación o presentación que no refleja de forma clara y justa la realidad subyacente de sostenibilidad. Distinguir bien estas tres capas es esencial para no construir una narrativa confusa. [1][2][5]
-2. Nuevo Reglamento de Ratings ESG: qué regula y por qué importa
-La pieza más nueva y más contundente del bloque es el Reglamento (UE) 2024/3005 sobre la transparencia e integridad de las actividades de rating ESG. Este reglamento entró en vigor el 1 de enero de 2025 y será aplicable a partir del 2 de julio de 2026. Su objetivo es reforzar la fiabilidad, integridad y comparabilidad de los ratings ESG en la Unión y reducir conflictos de interés en un mercado que hasta ahora estaba poco armonizado. [1][6][7]
-La lógica del reglamento es clara: los proveedores de ratings ESG que operen en la Unión deberán estar autorizados y supervisados por ESMA, deberán cumplir exigencias de transparencia metodológica y deberán reforzar su arquitectura de gobernanza e independencia. Lo importante aquí es que la norma no impone una metodología única, pero sí exige que el mercado pueda entender qué mide el rating, cómo lo mide y qué limitaciones tiene. [1][6][8]
-3. Qué exige el Reglamento de Ratings ESG
-Las exigencias más relevantes del nuevo régimen pueden resumirse en cinco bloques:
-Autorización y supervisión por ESMA para los proveedores que operen en la Unión.
-Transparencia sobre objetivos, alcance, fuentes de información, modelos, metodologías y supuestos clave.
-Gobernanza y gestión de conflictos de interés, incluyendo restricciones a combinar ratings ESG con determinados servicios dentro de la misma entidad.
-Reglas sobre la estructura del rating, reforzando la claridad sobre qué dimensiones cubre la calificación y cómo se agregan.
-Regímenes para proveedores de terceros países mediante equivalencia, endorsement o recognition. [1][6][8]
-Desde el punto de vista del mercado, esto importa porque ataca problemas estructurales que venían señalándose desde hace años: baja correlación entre ratings, opacidad metodológica, conflictos por servicios combinados y falta de claridad sobre si una calificación mide riesgo ESG, impacto, doble materialidad o combinaciones poco transparentes de esas variables. [1][6][8]
-4. La nueva normativa europea de índices y benchmarks ESG
-Aquí conviene introducir expresamente la normativa europea de índices ESG, porque forma parte del mismo proceso de ordenación del mercado, aunque responda a una lógica distinta del Reglamento de Ratings ESG.
-La base jurídica está en el Benchmark Regulation (BMR) y en sus desarrollos delegados sobre ESG y clima. El marco europeo exige a los administradores de benchmarks explicar en la benchmark statement cómo se reflejan los factores ESG en cada benchmark y también explicar en la metodología cómo se incorporan esos factores. Esa capa de disclosure se concretó, entre otros, mediante los Reglamentos Delegados (UE) 2020/1816 y (UE) 2020/1817. [2][9][10]
-Además, la regulación europea creó dos categorías climáticas reguladas con estándares mínimos específicos:
-los EU Climate Transition Benchmarks (CTB);
-y los EU Paris-aligned Benchmarks (PAB).
-Estas categorías fueron introducidas por el Reglamento (UE) 2019/2089 y desarrolladas, en cuanto a estándares mínimos, por el Reglamento Delegado (UE) 2020/1818. [3][11][12]
-Esto significa que Europa ya no deja el terreno de los índices ESG y climáticos completamente al naming comercial o a la metodología privada del proveedor: exige disclosure metodológico sobre ESG en benchmarks y, además, ha creado etiquetas climáticas reguladas con requisitos mínimos específicos. [2][3][11]
-5. Qué implican realmente CTB y PAB
-Los EU Climate Transition Benchmarks y los EU Paris-aligned Benchmarks no son simplemente índices “más verdes”. Son benchmarks con requisitos metodológicos mínimos definidos reglamentariamente.
-El CTB está diseñado para representar una cartera que siga una trayectoria de descarbonización coherente con la transición climática. El PAB exige una ambición aún mayor, más alineada con los objetivos del Acuerdo de París. Ambos comparten una idea central: no basta con usar un nombre climático; hay que cumplir requisitos reglamentarios de composición, descarbonización y exclusiones mínimas. [3][11][12]
-Desde la perspectiva del curso, esto demuestra que Europa no solo está regulando los ratings ESG, sino también la infraestructura de benchmarks e índices climáticos, precisamente para reducir arbitrariedad metodológica y riesgo de greenwashing en herramientas de mercado ampliamente utilizadas por inversores institucionales y productos indexados. [2][3][11]
-6. DJSI: de sustainability indices a best-in-class indices
-La evolución de DJSI es especialmente interesante porque permite mostrar cómo el propio mercado está ajustando el lenguaje y las metodologías en respuesta a una mayor presión regulatoria y supervisora.
-S&P Dow Jones Indices anunció en diciembre de 2024 que la familia Dow Jones Sustainability Indices (DJSI) pasaría a llamarse Dow Jones Best-in-Class Indices, con efectos desde el 10 de febrero de 2025. El cambio no eliminó la lógica ESG del producto: los S&P Global CSA Scores siguieron siendo un factor central en la selección de componentes. Pero sí cambió el lenguaje del producto. [13][14]
-Este movimiento es importante porque muestra una tendencia de mercado hacia nombres más descriptivos y metodológicamente precisos. Llamar a un índice “sustainability” transmite una promesa semántica fuerte; llamarlo “best-in-class” describe mejor una lógica relativa de selección dentro de un universo dado. [13][14][15]
-7. MSCI: no existe “el índice ESG” en singular
-El caso de MSCI es muy útil para reforzar otra idea clave: no existe “el índice ESG” en singular. Dentro de un mismo proveedor conviven familias metodológicas muy distintas.
-MSCI dispone de varias familias de índices ESG, entre ellas MSCI ESG Leaders, MSCI SRI y otras familias de índices climáticos o low-carbon. La documentación metodológica de MSCI deja claro que estas familias no persiguen exactamente lo mismo: algunas aplican una lógica de best-in-class selection basada en ratings ESG y exclusiones; otras utilizan tilts o ajustes de ponderación; y otras incorporan criterios más específicos de sostenibilidad o clima. [16][17][18]
-Esto es importante para la formación porque muestra que incluso dentro de un mismo proveedor “índice ESG” puede significar cosas muy distintas: un índice de líderes ESG, un índice SRI con filtros más restrictivos, un benchmark bajo en carbono o una solución climática más específica. Mezclar esas familias como si fueran equivalentes es metodológicamente pobre y comercialmente peligroso. [16][17][18]
-8. Morningstar / Sustainalytics: distinguir bien rating provider e index provider
-Aquí conviene introducir el ecosistema Morningstar / Sustainalytics con precisión conceptual. Morningstar Sustainalytics es, ante todo, un proveedor de ratings y analytics ESG, no una gran familia de benchmarks bursátiles comparable a MSCI o S&P Dow Jones. Sus ESG Risk Ratings miden la exposición de una compañía a riesgos ESG materiales por industria y la forma en que esos riesgos están gestionados, utilizando una escala absoluta de severidad. [19][20]
-Por su parte, Morningstar Indexes ofrece familias como Morningstar Sustainability Indexes y Morningstar EU Climate Indexes, y la propia documentación de Morningstar explica que estas soluciones se apoyan en datos y ratings de Sustainalytics. Este punto es importante porque ayuda a no mezclar rating provider con index provider, aunque ambos estén conectados comercial y metodológicamente dentro del mismo ecosistema. [20][21][22]
-Desde una perspectiva de mercado, esto refuerza una idea de fondo: el ecosistema ESG no está compuesto por una sola clase de herramienta. Un actor puede producir ratings; otro puede construir índices; otro puede administrar benchmarks climáticos regulados; y un mismo grupo puede participar en varios de esos planos. Precisamente por eso, la calidad del diálogo con inversores depende cada vez más de la capacidad de distinguir qué está midiendo cada herramienta y qué inferencias son legítimas a partir de ella. [19][21][22]
-9. Greenwashing: definición y por qué importa en este bloque
-La definición operativa más útil sigue siendo la de las ESAs y de ESMA. Greenwashing es una práctica en la que las afirmaciones, declaraciones, acciones o comunicaciones relacionadas con sostenibilidad no reflejan de forma clara y justa el perfil de sostenibilidad subyacente de una entidad, producto o servicio, y pueden inducir a error a consumidores, inversores u otros participantes del mercado. [5][23]
-Esta definición es especialmente útil para este bloque porque conecta directamente con ratings e índices. Un rating ESG puede contribuir a greenwashing si su metodología o su uso comercial inducen a una lectura más favorable de la que realmente soporta. Un índice ESG puede contribuir a greenwashing si su nombre, construcción o documentación sugieren una ambición de sostenibilidad que la metodología no justifica. Y un emisor puede contribuir a greenwashing si presenta su presencia en determinados índices o su mejora en ratings como prueba concluyente de una sostenibilidad que no está adecuadamente soportada por datos, estrategia o transición real. [1][5][15]
-10. Prevención del greenwashing: qué está haciendo Europa
-Europa está atacando el greenwashing por varias vías simultáneas.
-Una es la regulación de ratings ESG, con autorización por ESMA, gobernanza y transparencia metodológica. Otra es la regulación de benchmarks e índices ESG/climáticos, con disclosure obligatorio y etiquetas climáticas reguladas como CTB y PAB. Y una tercera es la supervisión del uso de nombres y claims en el mercado financiero, como muestran las ESMA Guidelines on funds’ names using ESG or sustainability-related terms, cuyo objetivo declarado es especificar cuándo el uso de términos ESG o de sostenibilidad en nombres de fondos puede resultar engañoso. [1][2][3][24]
-Además, ESMA y las demás ESAs han insistido en que la información de sostenibilidad debe ser fair, clear and not misleading. Esto no es una fórmula retórica: es una pauta supervisora que afecta a cómo se presentan ratings, índices, productos, fondos, estrategias y comparaciones de mercado. [5][23][24]
-11. Qué implica esto para emisores y para Relaciones con Inversores
-Para los emisores, la consecuencia práctica es clara: no basta con citar que una compañía está incluida en un índice ESG, que ha mejorado en un rating o que figura bien posicionada frente a peers. Lo importante es poder explicar:
-qué mide exactamente ese rating o índice;
-cómo se construye;
-qué limitaciones metodológicas tiene;
-y qué puede inferirse legítimamente de ese resultado y qué no. [1][13][16][19]
-Para Relaciones con Inversores, este bloque es especialmente importante porque ratings, índices y claims de mercado influyen en la percepción externa de la compañía, pero no deben usarse de forma ingenua. Un buen equipo de RI debe ser capaz de evitar dos errores opuestos:
-sobrerreaccionar a ratings e índices como si fueran el juicio definitivo del mercado;
-o utilizarlos de forma acrítica como prueba concluyente de liderazgo sostenible.
-La posición correcta está en medio: entenderlos, contextualizarlos y utilizarlos con precisión. [1][5][15]
+Antes de interpretar resultados o comunicar al mercado, conviene distinguir tres capas que no son intercambiables: un rating resume una opinión metodológica; un índice construye una cesta o regla de selección; el greenwashing describe un problema de comunicación, no una herramienta analítica.
+· **Ratings ESG:** opiniones o evaluaciones sobre el perfil de sostenibilidad de un emisor, entidad o instrumento. Cada proveedor puede medir riesgo material, impacto, controversias, doble materialidad u otras combinaciones: no existe una “nota única” homogénea entre todos.
+· **Índices / benchmarks ESG:** metodologías de selección, exclusión, ponderación o cesta con criterios ESG o climáticos; el nombre comercial del índice no equivale por sí solo a un nivel de alineación con Taxonomía, París o estándares climáticos regulados.
+· **Greenwashing:** no es una herramienta de mercado; es comunicación (claims, nombres, mensajes) que no refleja con claridad y justeza la realidad de sostenibilidad subyacente y puede inducir a error. En la práctica, el riesgo aparece cuando se mezclan en una sola narrativa rating, índice y mensaje comercial sin explicar qué mide cada cosa y qué inferencias son legítimas. [1][2][5]
+2. Regulación europea: reglamento de ratings, exigencias y benchmarks
+· **Nuevo reglamento (UE) 2024/3005:** transparencia e integridad de ratings ESG; vigencia 1 ene 2025; aplicable desde 2 jul 2026. Objetivo: fiabilidad, comparabilidad y menos conflictos de interés. Lógica: proveedores en la UE → autorización y supervisión **ESMA** + transparencia metodológica + gobernanza e independencia. No impone una metodología única; exige entender qué mide el rating, cómo y sus límites. [1][6][7][8]
+· **Qué exige el reglamento:** autorización y supervisión **ESMA**; transparencia sobre objetivos, alcance, fuentes, modelos y metodología; conflictos de interés y restricciones al combinar rating ESG con otros servicios; estructura del rating comprensible; terceros países (equivalencia, endorsement, recognition). Responde a baja correlación entre ratings, opacidad y dudas sobre riesgo, impacto o mezclas poco claras. [1][6][8]
+· **BMR e índices:** **BMR** + desarrollos ESG/clima: el administrador explica en benchmark statement y metodología cómo entran los factores ESG. Delegados **(UE) 2020/1816** y **2020/1817**. Categorías climáticas con mínimos: **EU CTB** y **EU PAB** (Reg. **2019/2089**; mínimos **2020/1818**). No todo queda en el naming; hay transparencia y etiquetas climáticas con requisitos mínimos. [2][3][9][10][11][12]
+3. Qué implican realmente CTB y PAB
+**EU CTB** (Climate Transition Benchmark) y **EU PAB** (Paris-aligned Benchmark) son categorías **legales** de benchmarks climáticos: solo pueden usarse esas denominaciones si se cumplen los **mínimos** del Reglamento **(UE) 2019/2089** y del delegado **(UE) 2020/1818** (no bastan nombres comerciales “verdes”).
+· **CTB:** descarbonización coherente con la **transición**; puede incluir sectores intensivos si la **trayectoria** cumple los umbrales.
+· **PAB:** **más exigente** que el CTB: alineación con **París** con restricciones más altas (p. ej. emisiones y fósiles, según el marco delegado).
+· **Lectura clave:** un índice ESG o “low carbon” **no** equivale automáticamente a CTB/PAB; son **dos niveles** de exigencia, no sinónimos. [2][3][11][12]
+4. Índices y ratings ESG: práctica de mercado
+El mercado ofrece numerosas familias de índices y proveedores de ratings ESG. Nombres como **DJSI**, **MSCI** o **Morningstar / Sustainalytics** sirven solo como **referencias** de actores globales con distintas líneas de producto; aquí interesa la **idea genérica**, no el detalle de cada proveedor.
+· **Rating ESG:** resume una opinión metodológica sobre la empresa o el instrumento (p. ej. riesgos materiales, impacto, controversias u otras combinaciones que defina el proveedor). Cada rating tiene su propio objetivo y escala; no existe una “nota única” homogénea entre todos.
+· **Índice / benchmark ESG:** aplica reglas de selección, exclusión o ponderación sobre un universo para construir una cesta o regla de inversión (best-in-class, tilts, criterios climáticos, etc.). Una misma familia puede tener líneas metodológicas distintas; el nombre comercial no sustituye a la documentación metodológica.
+· **Confusión habitual:** una misma entidad puede ofrecer ratings y, por otro canal, índices o datos que alimentan benchmarks; no es lo mismo citar una herramienta de evaluación que la pertenencia a un índice. Conviene distinguir qué herramienta se menciona y qué mide cada una. [13][16][19][21]
+5. Greenwashing: definición y prevención en Europa
+· **Definición (ESAs / ESMA):** el **greenwashing** es la práctica en la que comunicaciones sobre sostenibilidad **no reflejan con claridad y justeza** el perfil real y pueden **inducir a error**. **No** se limita al fraude: incluye **exageraciones**, **ambigüedad**, **omisiones**, **nombres** sobreprometedores y **sobreinterpretación** de ratings o índices. [1][5][23]
+· **Ratings, índices y respuesta europea:** ratings e índices **no** son greenwashing **solo** por existir, pero **sí** confunden si se presentan como **prueba global** de sostenibilidad cuando miden algo **acotado** (riesgo, impacto, selección relativa, etc.): el estándar es explicar **qué** mide cada herramienta. Europa combina **ESMA** (ratings), **BMR** y **CTB/PAB** (benchmarks), **guías** sobre **naming** y **claims**, y el estándar **fair, clear and not misleading**. [1][2][3][5][15][24]
+6. Qué implica esto para emisores y para Relaciones con Inversores
+· **Emisor:** no basta con citar índice, rating o posición vs peers; hay que explicar qué mide, cómo se construye, límites y qué se puede inferir con rigor. [1][13][16][19]
+· **RI:** evitar sobrerreaccionar a ratings/índices como veredicto único y usarlos como prueba acrítica de liderazgo sostenible.
+· Equilibrio: entender, contextualizar y usar con precisión. [1][5][15]
 Contexto regulatorio
- El bloque debe leerse como parte de una reordenación de la infraestructura de mercado de sostenibilidad. El Reglamento (UE) 2024/3005 sobre ratings ESG entró en vigor el 1 de enero de 2025 y será aplicable desde el 2 de julio de 2026. En paralelo, el marco europeo de benchmarks ya exige disclosure ESG y ha creado categorías climáticas reguladas como EU CTB y EU PAB. Todo ello se complementa con una agenda supervisora europea de prevención del greenwashing y de control sobre el uso de nombres y claims de sostenibilidad. [1][2][3][24]
+· **Panorama:** el bloque se inserta en una **reordenación de la infraestructura** de información de sostenibilidad: además del reporting corporativo y de los productos financieros, Europa regula de forma explícita **ratings ESG**, **benchmarks / índices** y la **coherencia de los claims** con la realidad subyacente. [1][2][3][24]
+· **Reglamento (UE) 2024/3005 (ratings ESG):** entró en vigor el **1 de enero de 2025** y será **aplicable a partir del 2 de julio de 2026**. Exige a los proveedores que operen en la UE **autorización y supervisión por ESMA**, gobernanza, gestión de **conflictos de interés** y **transparencia metodológica**; **no** impone una única metodología de rating, pero sí que el mercado entienda **qué** se califica y **con qué límites**. [1][6][8]
+· **BMR y clima (benchmarks):** el **Benchmark Regulation** ya obliga a explicar cómo se incorporan factores **ESG** en la metodología y en el **benchmark statement** (delegados **2020/1816** y **2020/1817**). Sobre eso se superponen las categorías climáticas con **mínimos reglamentarios**: **EU CTB** y **EU PAB** (Reglamento **2019/2089**, estándares mínimos en **2020/1818**), para que “climático” no sea solo un nombre comercial. [2][3][9][11][12]
+· **Supervisión y mercado:** la agenda europea refuerza la prevención del **greenwashing** y el control de **nombres y claims** de sostenibilidad (coherencia con documentación y con estándares **fair, clear and not misleading**). [5][24]
 Implicación para Relaciones con Inversores
- RI debe ser capaz de distinguir entre dato corporativo, opinión de terceros y herramienta de mercado. Un rating ESG no equivale a una verdad objetiva sobre la compañía; un índice ESG no equivale automáticamente a alineamiento con Taxonomía o con París; y un claim comercial puede convertirse en greenwashing si exagera lo que realmente soportan la metodología y el dato. En un mercado más regulado, la precisión semántica y metodológica deja de ser cosmética y pasa a ser una cuestión de credibilidad. [1][5][16][19]
+· **Tres planos que RI debe separar:** **información corporativa** (reporting y datos propios), **opinión de terceros** (**ratings ESG**) y **herramientas de mercado** (**índices**, **benchmarks**). En roadshows y Q&A, conviene dejar claro **qué capa** se está discutiendo y **con qué límites**. [1][5][16][19]
+· **Ratings e índices:** un **rating** no es una “nota objetiva” universal; un **índice** **no** demuestra por sí solo **alineación** con **Taxonomía** o con **París**. El mensaje al mercado debe **contextualizar** metodología, universo y **qué inferencias** son razonables. [1][5][16][19]
+· **Claims y Q&A:** un **claim** o una respuesta improvisada puede acercarse a **greenwashing** si **exagera** lo que soportan datos y metodología. En un mercado más regulado, la **precisión** del lenguaje (qué se afirma y **con qué respaldo**) es **credibilidad**, no cosmética. [1][5][19]
+· **Rol de RI:** anticipar **preguntas** sobre ratings/índices, **alinear** el relato con **documentación** pública y **evitar** presentar herramientas de mercado como **veredicto único** de liderazgo sostenible. [1][5][15][19]
 Mensaje de cierre
- El mercado de sostenibilidad se está regulando por capas: Europa está ordenando los ratings ESG, los índices y benchmarks ESG/climáticos y la prevención del greenwashing. Para las compañías, esto implica una exigencia mayor de precisión metodológica, de prudencia en los claims y de capacidad para explicar qué significan realmente sus posiciones en ratings e índices. [1][2][3][5]
+· **Marco europeo por capas:** **ratings ESG** bajo supervisión (**ESMA**), **benchmarks** con disclosure y categorías climáticas (**BMR**, **EU CTB** / **EU PAB**), y **agenda** contra el **greenwashing** en **nombres** y **claims**. [1][2][3][5]
+· **Exigencia para la compañía:** **precisión metodológica**, **prudencia** en mensajes comerciales y capacidad para **explicar** qué significan —y qué **no**— las posiciones en **ratings** e **índices** frente a la **estrategia** y los **datos** propios. [1][2][3][5]
+· **Idea final:** la **credibilidad** con inversores y supervisores depende de **alinear** narrativa, **herramientas de mercado** citadas y **marco regulatorio** aplicable, sin **sobreinterpretar** ratings ni índices. [1][2][5]
 
 ### B. Contenido de apoyo
 Desarrollo completo del bloque
@@ -1246,7 +1316,7 @@ El cuarto eje del bloque es el greenwashing. La definición de trabajo más úti
 Aplicado a ratings e índices, esto tiene consecuencias muy concretas. Un rating ESG puede contribuir a greenwashing si se presenta como una evaluación total de sostenibilidad cuando en realidad mide solo riesgo o una combinación metodológica estrecha. Un índice ESG puede contribuir a greenwashing si su nombre o documentación sugieren una sostenibilidad “absoluta” cuando lo que hace es una selección relativa dentro de un universo ya dado. Y un emisor puede contribuir a greenwashing si usa pertenencia a un índice o mejora en un rating como prueba concluyente de liderazgo sostenible sin explicar qué mide realmente esa herramienta y qué limitaciones tiene. [1][5][15]
 La prevención del greenwashing en Europa se está construyendo, por tanto, en varias capas. Una capa de regulación de proveedores de ratings ESG. Una capa de transparencia metodológica y etiquetas reguladas en benchmarks climáticos. Una capa de control del naming y de los claims en productos financieros, como muestran las guías de ESMA sobre nombres de fondos. Y una capa de supervisión transversal, en la que ESMA insiste en que la información de sostenibilidad debe ser fair, clear and not misleading. [1][2][3][24]
 Desde una perspectiva de compañía cotizada y de Relaciones con Inversores, este bloque tiene una implicación directa: ya no es suficiente “salir bien” en un rating o “estar dentro” de un índice. Lo importante es saber explicar qué significa exactamente ese resultado, qué mide, qué no mide, cómo se ha construido y qué inferencias son legítimas. En un mercado más regulado, el problema no suele ser el uso de ratings e índices, sino su sobreinterpretación. Y ahí es donde el greenwashing aparece con más facilidad. [1][5][15][19]
-Ideas de fondo que sostienen el bloque
+Ideas clave que sostienen el bloque
 Europa está regulando no solo el reporting y los productos, sino también la infraestructura de mercado que interpreta la sostenibilidad: ratings, benchmarks y claims. [1][2][3]
 El Reglamento de Ratings ESG no impone una metodología única, pero sí exige transparencia, gobernanza e integración supervisora bajo ESMA. [1][6][8]
 La normativa europea de índices ESG/climáticos combina disclosure sobre ESG en benchmarks y categorías climáticas reguladas como CTB y PAB. [2][3][9][11]

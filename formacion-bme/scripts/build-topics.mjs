@@ -30,7 +30,7 @@ const LABELS = [
   "Implicación para Relaciones con Inversores",
   "Mensaje de cierre",
   "Desarrollo completo del bloque",
-  "Ideas de fondo que sostienen el bloque",
+  "Ideas clave que sostienen el bloque",
   "Contexto conceptual adicional",
 ];
 

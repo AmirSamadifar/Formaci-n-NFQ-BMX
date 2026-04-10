@@ -24,32 +24,34 @@ function ObjectiveCard({ text, k }: { text: string; k: string }) {
   return (
     <div className="vl-objective">
       <span className="vl-objective__tag">Objetivo del bloque</span>
-      {parts.map((p, j) => (
-        <p key={`${k}-${j}`} className="vl-objective__text">
-          {p === targetParagraph ? (
-            <>
-              El objetivo de este bloque es presentar el nuevo contexto de la sostenibilidad en{" "}
-              <strong>2026</strong> y su vínculo con mercado, regulación, estrategia, financiación
-              y credibilidad corporativa.
-            </>
-          ) : isBlock2ObjectiveParagraph(p) ? (
-            <>
-              El objetivo de este bloque es analizar cómo la{" "}
-              <strong>divergencia entre Europa y Estados Unidos</strong> en sostenibilidad y
-              Sustainable Finance afecta al posicionamiento estratégico de las compañías, a su
-              narrativa ante el mercado y a su relación con los inversores.
-            </>
-          ) : isBlock3ObjectiveParagraph(p) ? (
-            <>
-              El objetivo de este bloque es explicar cómo los factores de sostenibilidad influyen en
-              la <strong>valoración</strong> de una compañía y cómo deben integrarse en un{" "}
-              <strong>equity story</strong> creíble, material y útil para el mercado.
-            </>
-          ) : (
-            p
-          )}
-        </p>
-      ))}
+      <div className="vl-objective__card">
+        {parts.map((p, j) => (
+          <p key={`${k}-${j}`} className="vl-objective__text">
+            {p === targetParagraph ? (
+              <>
+                El objetivo de este bloque es presentar el nuevo contexto de la sostenibilidad en{" "}
+                <strong>2026</strong> y su vínculo con mercado, regulación, estrategia, financiación
+                y credibilidad corporativa.
+              </>
+            ) : isBlock2ObjectiveParagraph(p) ? (
+              <>
+                El objetivo de este bloque es analizar cómo la{" "}
+                <strong>divergencia entre Europa y Estados Unidos</strong> en sostenibilidad y
+                Sustainable Finance afecta al posicionamiento estratégico de las compañías, a su
+                narrativa ante el mercado y a su relación con los inversores.
+              </>
+            ) : isBlock3ObjectiveParagraph(p) ? (
+              <>
+                El objetivo de este bloque es explicar cómo los factores de sostenibilidad influyen en
+                la <strong>valoración</strong> de una compañía y cómo deben integrarse en un{" "}
+                <strong>equity story</strong> creíble, material y útil para el mercado.
+              </>
+            ) : (
+              p
+            )}
+          </p>
+        ))}
+      </div>
     </div>
   );
 }
@@ -277,13 +279,72 @@ function NarrativeStack({ paragraphs, k }: { paragraphs: string[]; k: string }) 
   );
 }
 
-function CardGrid({ items, k }: { items: { title: string; body: string }[]; k: string }) {
+function CardGrid({
+  items,
+  k,
+  stacked = false,
+  balanced = false,
+  showIndex = false,
+  topicNumber,
+}: {
+  items: { title: string; body: string }[];
+  k: string;
+  stacked?: boolean;
+  balanced?: boolean;
+  showIndex?: boolean;
+  topicNumber?: number;
+}) {
+  const renderInlineBold = (text: string) => {
+    const parts = text.split(/(\*\*.+?\*\*)/g);
+    return parts.map((part, idx) => {
+      const isBold = part.startsWith("**") && part.endsWith("**");
+      if (!isBold) {
+        return <span key={idx}>{part}</span>;
+      }
+      return <strong key={idx}>{part.slice(2, -2)}</strong>;
+    });
+  };
+
+  const renderBody = (body: string) =>
+    body.split("\n").map((line, idx, arr) => {
+      const isIndentedSubBullet = /^\*\*(sustainable|transition|ESG basics)\*\*/i.test(
+        line.trim(),
+      );
+      const normalizedLine = isIndentedSubBullet ? line.replace(/^\s*·\s*/, "") : line;
+      return (
+      <span
+        key={idx}
+        className={`vl-cardgrid__line${isIndentedSubBullet ? " vl-cardgrid__line--subbullet" : ""}`}
+      >
+        {isIndentedSubBullet ? <span className="vl-cardgrid__subbullet-marker">◦ </span> : null}
+        {renderInlineBold(normalizedLine)}
+        {idx < arr.length - 1 ? <br /> : null}
+      </span>
+      );
+    });
+
   return (
-    <div className="vl-cardgrid">
+    <div
+      className={`vl-cardgrid${stacked ? " vl-cardgrid--stacked" : ""}${balanced ? " vl-cardgrid--balanced" : ""}`}
+    >
       {items.map((it, j) => (
         <article key={`${k}-${j}`} className="vl-cardgrid__item">
-          <h4 className="vl-cardgrid__title">{it.title}</h4>
-          <div className="vl-cardgrid__body">{it.body}</div>
+          <h4 className="vl-cardgrid__title">
+            {showIndex ? (
+              <span className="vl-cardgrid__index">{String(j + 1).padStart(2, "0")}</span>
+            ) : null}
+            {it.title}
+          </h4>
+          {topicNumber === 7 &&
+          /doble materialidad/i.test(it.title) ? (
+            <img
+              className="vl-cardgrid__image vl-cardgrid__image--doble-materialidad"
+              src="/images/doble-materialidad.png"
+              alt="Doble materialidad: materialidad de impacto y materialidad financiera, con evaluación de efectos financieros y de impactos."
+              loading="lazy"
+            />
+          ) : null}
+          <div className="vl-cardgrid__body">{renderBody(it.body)}</div>
         </article>
       ))}
     </div>
@@ -312,6 +373,40 @@ function Callout({
   title: string;
   text: string;
 }) {
+  const renderInlineBold = (value: string) => {
+    const parts = value.split(/(\*\*.+?\*\*)/g);
+    return parts.map((part, idx) => {
+      const isBold = part.startsWith("**") && part.endsWith("**");
+      if (!isBold) {
+        return <span key={idx}>{part}</span>;
+      }
+      return <strong key={idx}>{part.slice(2, -2)}</strong>;
+    });
+  };
+
+  const renderCalloutText = (value: string) => {
+    const normalized = value.trim();
+    if (normalized.includes("·")) {
+      const items = normalized
+        .split(/\s*·\s+/)
+        .map((item) => item.trim())
+        .filter(Boolean);
+      if (items.length > 1) {
+        return (
+          <div className="vl-callout__text">
+            <ul>
+              {items.map((item, idx) => (
+                <li key={idx}>{renderInlineBold(item)}</li>
+              ))}
+            </ul>
+          </div>
+        );
+      }
+    }
+
+    return <p className="vl-callout__text">{renderInlineBold(value)}</p>;
+  };
+
   const isRegulatoryCallout =
     variant === "regulatory" &&
     text.includes("La regulación es uno de los principales factores que explican esta transición");
@@ -373,40 +468,88 @@ function Callout({
       ) : isBlock3RegulatoryCallout ? (
         <div className="vl-callout__text">
           <p>
-            📘 📊 Aunque la valoración no depende de un único marco regulatorio, el entorno
-            normativo y de reporting eleva la exigencia de precisión, trazabilidad y consistencia
-            del equity story.
+            <strong>Valoración y regulación:</strong> ningún marco determina por sí solo la tesis de
+            inversión, pero el conjunto <strong>CSRD</strong>, <strong>ESRS</strong>,{" "}
+            <strong>Taxonomía</strong>, <strong>SFDR</strong> y las expectativas de analistas fijan
+            el estándar de <strong>prueba</strong>, <strong>comparabilidad</strong> y{" "}
+            <strong>trazabilidad</strong> del relato.
           </p>
-          <p>
-            ✅ 🔎 La prioridad para las compañías es sostener mensajes verificables y comparables,
-            alineando narrativa, datos y decisiones de capital ante inversores y reguladores.
-          </p>
+          <ul>
+            <li>
+              <strong>Equity story:</strong> las afirmaciones sobre sostenibilidad deben ser
+              coherentes entre <strong>narrativa</strong>, <strong>datos</strong> auditables,{" "}
+              <strong>planes de transición</strong>, <strong>riesgos climáticos</strong> y lo
+              reportado frente a pares del sector.
+            </li>
+            <li>
+              <strong>Doble materialidad y reporting:</strong> mayor escrutinio sobre{" "}
+              <strong>emisiones</strong>, <strong>gobernanza</strong> del dato y consistencia entre
+              documentos de registro, informe anual y comunicación con el mercado.
+            </li>
+            <li>
+              <strong>Prioridad operativa:</strong> mensajes <strong>verificables</strong> y{" "}
+              <strong>comparables</strong>; alinear <strong>roadshows</strong> y decisiones de{" "}
+              <strong>capital</strong> con lo que la estrategia y las métricas soportan realmente.
+            </li>
+          </ul>
         </div>
       ) : isBlock4RegulatoryCallout ? (
         <div className="vl-callout__text">
           <p>
-            La descarbonización se articula desde el <strong>Acuerdo de París</strong> y exige
-            alinear <strong>actividad económica</strong> y <strong>flujos de capital</strong> con
-            trayectorias de <strong>1,5°C</strong> (o por debajo de <strong>2°C</strong>).
+            La descarbonización se enmarca en el <strong>Acuerdo de París</strong> (mantener el
+            calentamiento muy por debajo de <strong>2 °C</strong> y esfuerzos hacia{" "}
+            <strong>1,5 °C</strong>) y en la orientación de <strong>flujos financieros</strong> hacia
+            trayectorias bajas en carbono.
           </p>
-          <p>
-            En este marco, la credibilidad depende de combinar <strong>medición rigurosa</strong>,
-            <strong> objetivos Net Zero</strong> y un <strong>plan de transición</strong>
-            financieramente viable y verificable.
-          </p>
+          <ul>
+            <li>
+              <strong>Actividad y capital:</strong> alinear <strong>estrategia</strong>,{" "}
+              <strong>inversión</strong> y <strong>financiación</strong> con trayectorias
+              compatibles con la transición; el clima deja de ser solo “reporting” y pasa a
+              condicionar <strong>asignación de capital</strong> y <strong>competitividad</strong>.
+            </li>
+            <li>
+              <strong>Marcos de disclosure:</strong> conexión práctica entre{" "}
+              <strong>TCFD</strong>, <strong>CDP</strong>, <strong>EU Taxonomía</strong>,{" "}
+              <strong>CSRD</strong>, <strong>SFDR</strong> y, en la UE, <strong>ESRS E1</strong>{" "}
+              (objetivos, plan de transición, emisiones alcances 1–2–3, acciones e inversiones).
+            </li>
+            <li>
+              <strong>Credibilidad:</strong> combinar <strong>inventarios</strong> de emisiones,
+              objetivos basados en ciencia donde aplique (<strong>SBTi</strong>),{" "}
+              <strong>plan de transición</strong> financieramente viable y <strong>gobernanza</strong>{" "}
+              del dato climático.
+            </li>
+          </ul>
         </div>
       ) : isBlock2RegulatoryCallout ? (
         <div className="vl-callout__text">
           <p>
-            La <strong>diferencia de contexto</strong> entre ambas geografías se ha acentuado en
-            2025 y 2026. En <strong>Estados Unidos</strong>, la SEC votó en marzo de 2025 dejar de
-            defender la regla de disclosure climático adoptada en 2024.
+            La <strong>diferencia de contexto</strong> entre <strong>UE</strong> y{" "}
+            <strong>EEUU</strong> se ha acentuado en{" "}
+            <strong>2025 y 2026</strong>: no es solo “más o menos regulación”, sino{" "}
+            <strong>lógicas distintas</strong> de materialidad, enforcement y presión del mercado.
           </p>
-          <p>
-            En la <strong>Unión Europea</strong>, el marco regulatorio continúa, pero en clave de
-            simplificación y ajuste de calendario mediante mecanismos como{" "}
-            <strong>stop the clock</strong>.
-          </p>
+          <ul>
+            <li>
+              <strong>Estados Unidos:</strong> en marzo de 2025 la <strong>SEC</strong> votó dejar de
+              defender la regla federal de <strong>disclosure climático</strong> de 2024; refleja
+              menor impulso normativo federal en clima y mayor peso del debate político y judicial.
+            </li>
+            <li>
+              <strong>Unión Europea:</strong> el marco de sostenibilidad <strong>se mantiene</strong>,
+              pero con <strong>simplificación</strong> y calendario ajustado:{" "}
+              <strong>paquete Ómnibus</strong>, <strong>stop-the-clock</strong> (p. ej. CSRD/CSDDD) y
+              revisión propuesta del <strong>SFDR</strong> (noviembre 2025) orientan a
+              comparabilidad y reducción de carga de cumplimiento.
+            </li>
+            <li>
+              <strong>Lectura para emisores:</strong> la divergencia exige <strong>precisión</strong>{" "}
+              (qué norma aplica a dónde), <strong>un solo relato estratégico</strong> con
+              formulaciones adaptadas por jurisdicción y sin contradicciones entre capital markets
+              day, reporting y filiales.
+            </li>
+          </ul>
         </div>
       ) : isInvestorRelationsCallout ? (
         <div className="vl-callout__text">
@@ -436,62 +579,186 @@ function Callout({
       ) : isBlock2InvestorRelationsCallout ? (
         <div className="vl-callout__text">
           <p>
-            En este contexto, es necesario gestionar esta divergencia{" "}
-            <strong>sin generar incoherencias</strong>. Esto implica{" "}
-            <strong>adaptar el lenguaje</strong> y priorizar mejor los mensajes.
+            En este contexto, RI debe gestionar la <strong>divergencia UE–EEUU</strong>{" "}
+            <strong>sin generar incoherencias</strong>: una sola <strong>estrategia</strong>,{" "}
+            <strong>mensajes</strong> coherentes y matices adecuados por audiencia.
           </p>
-          <p>
-            También exige <strong>conectar sostenibilidad</strong> con variables de negocio y{" "}
-            <strong>traducir una misma estrategia a expectativas de mercado diferentes</strong>.
-          </p>
+          <ul>
+            <li>
+              <strong>Arquitectura del relato:</strong> evitar “dos estrategias”; lo que cambia es
+              el <strong>énfasis</strong> (materialidad financiera, reporting, riesgo regulatorio)
+              según foro y jurisdicción.
+            </li>
+            <li>
+              <strong>Lenguaje y priorización:</strong> <strong>adaptar el lenguaje</strong> sin
+              contradecir el informe reglado; priorizar <strong>qué métricas</strong> y{" "}
+              <strong>qué riesgos</strong> lideran el mensaje en cada mercado.
+            </li>
+            <li>
+              <strong>Conexión con el negocio:</strong> vincular sostenibilidad a{" "}
+              <strong>creación de valor</strong>,               <strong>riesgo</strong>, <strong>CapEx</strong> y{" "}
+              <strong>posicionamiento competitivo</strong>; preparar Q&amp;A sobre brechas entre
+              narrativa y datos.
+            </li>
+            <li>
+              <strong>Engagement:</strong> coordinar con <strong>finanzas</strong> y{" "}
+              <strong>sostenibilidad</strong> para que roadshows, filings y comunicación
+              corporativa digan lo mismo en el fondo.
+            </li>
+          </ul>
         </div>
       ) : isBlock3InvestorRelationsCallout ? (
         <div className="vl-callout__text">
           <p>
-            La función de Relaciones con Inversores debe convertir la sostenibilidad en argumentos
-            comprensibles y útiles para el mercado.
+            La función de Relaciones con Inversores debe convertir la sostenibilidad en{" "}
+            <strong>argumentos</strong> comprensibles y <strong>útiles</strong> para la valoración y
+            la tesis de inversión; no en un anexo de marketing.
           </p>
           <ul>
             <li>
-              <strong>Traducción financiera:</strong> expresar temas ESG en impacto sobre ingresos,
-              márgenes, CapEx, riesgo y coste de capital.
+              <strong>Traducción financiera:</strong> expresar temas ESG como impacto en{" "}
+              <strong>ingresos</strong>, <strong>márgenes</strong>, <strong>CapEx</strong>,{" "}
+              <strong>riesgo</strong>, <strong>apalancamiento</strong> y <strong>coste de capital</strong>.
             </li>
             <li>
-              <strong>Priorización material:</strong> distinguir entre cuestiones
-              <strong> reputacionales</strong> y factores realmente <strong>materiales</strong> para
-              la tesis de inversión.
+              <strong>Materialidad para inversores:</strong> separar ruido{" "}
+              <strong>reputacional</strong> de factores que pueden mover{" "}
+              <strong>modelos</strong>, <strong>márgenes</strong> o <strong>riesgo</strong> de forma
+              demostrable.
             </li>
             <li>
-              <strong>Consistencia narrativa:</strong> alinear sostenibilidad con estrategia,
-              métricas y asignación de recursos.
+              <strong>Equity story integrado:</strong> la sostenibilidad entra donde{" "}
+              <strong>refuerza</strong> la historia de negocio (crecimiento, márgenes, riesgo,
+              resiliencia); evitar <strong>boilerplate</strong> o listados de iniciativas sin
+              vínculo con la tesis.
             </li>
             <li>
-              <strong>Credibilidad ante inversores:</strong> sostener un relato verificable, claro
-              y defendible en el tiempo.
+              <strong>Consistencia:</strong> alinear mensajes con <strong>reporting</strong>,{" "}
+              <strong>orientación</strong> de la dirección y <strong>asignación de capital</strong>{" "}
+              comunicada al mercado.
+            </li>
+            <li>
+              <strong>Credibilidad:</strong> mensajes <strong>verificables</strong>, claros sobre{" "}
+              <strong>limitaciones</strong> y <strong>supuestos</strong> (escenarios, métricas,
+              alcance de datos).
             </li>
           </ul>
         </div>
       ) : isBlock4InvestorRelationsCallout ? (
         <div className="vl-callout__text">
           <p>
-            Relaciones con Inversores debe diferenciar <strong>ambición climática</strong> de{" "}
-            <strong>credibilidad climática</strong>, con mensajes claros para el mercado.
+            Relaciones con Inversores debe distinguir de forma explícita{" "}
+            <strong>ambición climática</strong> (objetivos, compromisos públicos) de{" "}
+            <strong>credibilidad climática</strong> (trayectoria, datos, plan y ejecución).
           </p>
-          <p>
-            Para ello, necesita explicar con rigor los <strong>alcances 1, 2 y 3</strong>, justificar
-            la relevancia del <strong>alcance 3</strong> y conectar los compromisos con{" "}
-            <strong>métricas verificables</strong> y un <strong>plan de transición</strong>
-            financiable.
-          </p>
+          <ul>
+            <li>
+              <strong>Alcances 1, 2 y 3:</strong> explicar <strong>qué</strong> se incluye en cada
+              uno, <strong>incertidumbre</strong> y <strong>criticidad</strong> del{" "}
+              <strong>alcance 3</strong> en la industria o modelo de negocio.
+            </li>
+            <li>
+              <strong>Objetivos y trayectoria:</strong> cómo se vinculan <strong>SBTi</strong> u
+              otros objetivos con <strong>hitos</strong>, <strong>palancas</strong> y{" "}
+              <strong>inversión</strong>; evitar “Net Zero” como etiqueta sin secuencia de
+              reducción creíble.
+            </li>
+            <li>
+              <strong>Plan de transición:</strong> conectar compromisos con{" "}
+              <strong>CapEx</strong>, <strong>OpEx</strong>, <strong>cadena de valor</strong>,{" "}
+              <strong>riesgos</strong> y <strong>gobernanza</strong>; lo que el mercado valora es
+              ejecutabilidad, no solo el objetivo final.
+            </li>
+            <li>
+              <strong>Mercado y supervisión:</strong> preparar Q&amp;A sobre{" "}
+              <strong>brechas</strong> entre narrativa y datos, y sobre cómo se miden y auditan las
+              emisiones y el progreso.
+            </li>
+          </ul>
         </div>
       ) : (
-        <p className="vl-callout__text">{text}</p>
+        renderCalloutText(text)
       )}
     </aside>
   );
 }
 
 function ClosingBanner({ text }: { text: string }) {
+  const renderInlineBold = (value: string) => {
+    const parts = value.split(/(\*\*.+?\*\*)/g);
+    return parts.map((part, idx) => {
+      const isBold = part.startsWith("**") && part.endsWith("**");
+      if (!isBold) {
+        return <span key={idx}>{part}</span>;
+      }
+      return <strong key={idx}>{part.slice(2, -2)}</strong>;
+    });
+  };
+
+  const extractGroupedBullets = (value: string) => {
+    const normalized = value.trim();
+    if (!normalized.includes("·")) {
+      return null;
+    }
+    const items = normalized
+      .split(/\s*·\s+/)
+      .map((item) => item.trim())
+      .filter(Boolean);
+    if (items.length <= 1) {
+      return null;
+    }
+    const groups: { title: string; points: string[] }[] = [];
+    const titlePattern = /^\*\*(CSRD|Taxonomía|SFDR)\*\*$/i;
+    for (const item of items) {
+      if (titlePattern.test(item)) {
+        groups.push({ title: item, points: [] });
+        continue;
+      }
+      if (groups.length > 0) {
+        groups[groups.length - 1].points.push(item);
+      }
+    }
+    if (groups.length > 0) {
+      return { groups, items };
+    }
+    return { groups: [], items };
+  };
+
+  const groupedData = extractGroupedBullets(text);
+
+  const renderGrouped = (groups: { title: string; points: string[] }[]) => (
+    <div className="vl-closing__text vl-closing__text--grouped">
+      {groups.map((group, gIdx) => (
+        <div key={gIdx} className="vl-closing__group">
+          <p className="vl-closing__group-title">{renderInlineBold(group.title)}</p>
+          <ul className="vl-closing__group-list">
+            {group.points.map((point, pIdx) => (
+              <li key={`${gIdx}-${pIdx}`}>{renderInlineBold(point)}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  );
+
+  const renderClosingText = (value: string) => {
+    if (groupedData?.groups.length) {
+      return renderGrouped(groupedData.groups);
+    }
+    if (groupedData?.items.length) {
+      return (
+        <div className="vl-closing__text">
+          <ul>
+            {groupedData.items.map((item, idx) => (
+              <li key={idx}>{renderInlineBold(item)}</li>
+            ))}
+          </ul>
+        </div>
+      );
+    }
+    return <p className="vl-closing__text">{renderInlineBold(value)}</p>;
+  };
+
   const isTargetClosingText = text.includes(
     "La sostenibilidad sigue siendo relevante, pero en 2026",
   );
@@ -505,35 +772,61 @@ function ClosingBanner({ text }: { text: string }) {
   return (
     <div className="vl-closing">
       <span className="vl-closing__tag">Takeaway</span>
-      <p className="vl-closing__text">
-        {isTargetClosingText ? (
+      {isTargetClosingText ? (
+        <p className="vl-closing__text">
           <>
             La sostenibilidad sigue siendo <strong>relevante</strong>, pero en 2026 solo{" "}
             <strong>genera valor narrativo y estratégico</strong> si está conectada con
             regulación, estrategia, financiación, riesgo y credibilidad de mercado.
           </>
-        ) : isBlock2ClosingText ? (
-          <>
+        </p>
+      ) : isBlock2ClosingText ? (
+        <div className="vl-closing__text">
+          <p>
             La divergencia UE-EEUU no obliga a elegir entre dos relatos, sino a{" "}
-            <strong>construir una narrativa estratégica única, coherente y adaptable</strong>,
-            capaz de responder a marcos de lectura distintos sin perder credibilidad.
-          </>
-        ) : isBlock4ClosingText ? (
+            <strong>una narrativa estratégica única</strong>, coherente y adaptable, capaz de
+            responder a <strong>marcos de lectura distintos</strong> sin perder credibilidad.
+          </p>
+          <ul>
+            <li>
+              <strong>Una estrategia, varios registros:</strong> el núcleo del plan de negocio y de
+              sostenibilidad es el mismo; cambian el énfasis y el nivel de detalle normativo según
+              audiencia (UE vs EEUU).
+            </li>
+            <li>
+              <strong>Coherencia documental:</strong> alinear comunicación al mercado, reporting y
+              mensajes de dirección para evitar grietas entre lo dicho en roadshows y lo soportado
+              por datos.
+            </li>
+            <li>
+              <strong>Materialidad y prudencia:</strong> priorizar variables que mueven valoración
+              (riesgo, márgenes, CapEx, coste de capital) y evitar sobrepromesas en foros con
+              distinta sensibilidad regulatoria.
+            </li>
+            <li>
+              <strong>Credibilidad:</strong> credibilidad no es “adecuar el discurso a cada
+              jurisdicción a cualquier precio”, sino <strong>explicar con rigor</strong> la
+              estrategia bajo distintas lentes de mercado.
+            </li>
+          </ul>
+        </div>
+      ) : isBlock4ClosingText ? (
+        <p className="vl-closing__text">
           <>
             En descarbonización, la diferencia entre una <strong>promesa climática</strong> y una{" "}
             <strong>estrategia creíble</strong> no la marca el objetivo final, sino la calidad del
             camino: qué <strong>emisiones</strong> cubre, qué reduce primero, con qué{" "}
             <strong>métricas</strong>, en qué plazos y con qué <strong>gobernanza</strong>.
           </>
-        ) : (
-          text
-        )}
-      </p>
+        </p>
+      ) : (
+        renderClosingText(text)
+      )}
     </div>
   );
 }
 
-function renderMainBlock(block: MainBlock, i: number) {
+function renderMainBlock(block: MainBlock, i: number, topicNumber: number) {
   const k = `b${i}`;
   switch (block.type) {
     case "objective":
@@ -541,7 +834,28 @@ function renderMainBlock(block: MainBlock, i: number) {
     case "narrative":
       return <NarrativeStack key={i} k={k} paragraphs={block.paragraphs} />;
     case "cards":
-      return <CardGrid key={i} k={k} items={block.items} />;
+      return (
+        <CardGrid
+          key={i}
+          k={k}
+          items={block.items}
+          balanced={
+            topicNumber === 5 ||
+            topicNumber === 6 ||
+            topicNumber === 7 ||
+            topicNumber === 8 ||
+            topicNumber === 9
+          }
+          showIndex={
+            topicNumber === 5 ||
+            topicNumber === 6 ||
+            topicNumber === 7 ||
+            topicNumber === 8 ||
+            topicNumber === 9
+          }
+          topicNumber={topicNumber}
+        />
+      );
     case "pillars":
       return <Pillars key={i} k={k} lines={block.lines} />;
     case "callout":
@@ -565,39 +879,7 @@ type Props = {
 };
 
 export function TopicLanding({ topic }: Props) {
-  const { enrich, speaker } = topic;
-  const isTargetExtraNote = enrich.extraNote?.includes(
-    "Este bloque debe ayudar a desmontar dos errores frecuentes.",
-  );
-  const isBlock2ExtraNote = enrich.extraNote?.includes(
-    "Este bloque debe ayudar a evitar dos errores frecuentes.",
-  );
-  const isBlock3ExtraNote = enrich.extraNote?.includes(
-    "Este bloque debe ayudar a desmontar varios errores frecuentes.",
-  );
-  const selectedBulbIdeas = new Set([
-    "La sostenibilidad no desaparece; cambia de fase.",
-    "La sostenibilidad deja de ser un ejercicio de posicionamiento reputacional, para convertirse en una variable económica y un test de credibilidad corporativa.",
-    "El mercado exige menos relato vacío y más evidencia.",
-    "La regulación no sólo obliga; también reordena la conversación con el mercado.",
-    "La credibilidad se construye en la intersección entre narrativa, datos, estrategia y capital.",
-    "La función de RI se convierte en un punto de convergencia entre sostenibilidad, finanzas, regulación y mercado.",
-    "La divergencia entre Europa y Estados Unidos es real, pero no debe interpretarse de manera simplista.",
-    "La respuesta correcta no es construir dos relatos incompatibles, sino una única arquitectura estratégica capaz de hablar en varios registros.",
-    "En Europa pesa más el marco de reporting, comparabilidad y trazabilidad; en Estados Unidos pesa más la materialidad económica y la cautela frente a la sobrepolitización.",
-    "La sostenibilidad debe integrarse en el equity story como una variable de negocio, riesgo y capital, no como una capa reputacional.",
-    "La adaptación narrativa es una cuestión de sofisticación estratégica, no de oportunismo discursivo.",
-    "La sostenibilidad solo entra de verdad en valoración cuando puede traducirse a variables económicas o estratégicas.",
-    "No todo tema ESG es material para la tesis de inversión; hay que priorizar.",
-    "La sostenibilidad puede afectar a ingresos, márgenes, CapEx, riesgo, coste de capital y resiliencia.",
-    "Un equity story fuerte integra la sostenibilidad dentro de la historia de negocio; no la presenta como un capítulo separado.",
-    "La credibilidad del relato depende de su capacidad para conectar sostenibilidad con decisiones, métricas y asignación de capital.",
-    "El Acuerdo de París es el anclaje estratégico de toda la conversación sobre descarbonización.",
-    "No puede hablarse con rigor de Net Zero sin explicar primero los alcances 1, 2 y 3 y, especialmente, el papel del alcance 3.",
-    "Net Zero no es compensar; es reducir primero y neutralizar solo el residual.",
-    "SBTi ayuda a ordenar objetivos, pero la credibilidad real depende del plan de transición.",
-    "TCFD, TPT y ESRS E1 son marcos complementarios para estructurar una transición climática sólida.",
-  ]);
+  const { enrich } = topic;
 
   return (
     <section
@@ -608,9 +890,6 @@ export function TopicLanding({ topic }: Props) {
       <header className="landing-topic__hero">
         <div className="landing-topic__meta">
           <span className="landing-topic__num">Bloque {topic.number}</span>
-          {speaker.duration ? (
-            <span className="landing-topic__dur">~ {speaker.duration}</span>
-          ) : null}
         </div>
         <h2 id={`topic-title-${topic.number}`} className="landing-topic__title">
           {topic.title}
@@ -623,7 +902,7 @@ export function TopicLanding({ topic }: Props) {
       <div className="landing-topic__main">
         <h3 className="landing-topic__section-label">Contenido para la aplicación</h3>
         <div className="landing-topic__blocks">
-          {topic.main.map((b, i) => renderMainBlock(b, i))}
+          {topic.main.map((b, i) => renderMainBlock(b, i, topic.number))}
         </div>
       </div>
 
@@ -643,99 +922,18 @@ export function TopicLanding({ topic }: Props) {
         </div>
       ) : null}
 
-      {(enrich.keyIdeas.length > 0 || enrich.extraNote) && (
+      {enrich.keyIdeas.length > 0 ? (
         <div className="landing-topic__enrich">
-          <h3 className="landing-topic__section-label">Refuerzo desde el material de apoyo</h3>
-          {enrich.keyIdeas.length > 0 ? (
-            <div className="vl-ideas">
-              <span className="vl-ideas__tag">Ideas de fondo</span>
-              <ul className="vl-ideas__list">
-                {enrich.keyIdeas.map((idea, j) => (
-                  <li key={j} className={selectedBulbIdeas.has(idea) ? "vl-idea--bulb" : undefined}>
-                    {idea}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
-          {enrich.extraNote ? (
-            <div className="vl-extra">
-              <span className="vl-extra__tag">Contexto conceptual</span>
-              {isTargetExtraNote ? (
-                <>
-                  <p>
-                    Desmontando Errores sobre la Sostenibilidad
-                  </p>
-                  <ul className="vl-ideas__list">
-                    <li>
-                      <strong>Falso declive:</strong> La sostenibilidad no ha perdido relevancia por
-                      ser más política o crítica; simplemente se está volviendo más exigente.
-                    </li>
-                    <li>
-                      <strong>Falso retroceso:</strong> La regulación europea no retrocede, está en
-                      un proceso de ajuste y simplificación para ser más útil.
-                    </li>
-                    <li>
-                      <strong>Ajuste del sistema:</strong> El foco actual es la comparabilidad, la
-                      diferenciación por geografías y el escrutinio de los datos.
-                    </li>
-                    <li>
-                      <strong>Clave de éxito 2026:</strong> Ya no se premia el discurso vacío, sino
-                      una narrativa de mercado que sea coherente, material y defendible.
-                    </li>
-                  </ul>
-                </>
-              ) : isBlock2ExtraNote ? (
-                <>
-                  <p>Claves para interpretar la divergencia UE-EEUU sin simplificaciones.</p>
-                  <ul className="vl-ideas__list">
-                    <li>
-                      <strong>Error 1:</strong> no hay que elegir entre estrategia "pro" o "anti"
-                      sostenibilidad.
-                    </li>
-                    <li>
-                      <strong>Error 2:</strong> la divergencia regulatoria no exige relatos
-                      contradictorios.
-                    </li>
-                    <li>
-                      <strong>Lectura correcta:</strong> construir una arquitectura estratégica
-                      única con adaptación por geografía.
-                    </li>
-                    <li>
-                      <strong>Clave de ejecución:</strong> integrar sostenibilidad en negocio,
-                      riesgo, capital y narrativa de mercado.
-                    </li>
-                  </ul>
-                </>
-              ) : isBlock3ExtraNote ? (
-                <>
-                  <p>Errores frecuentes al integrar sostenibilidad en valoración.</p>
-                  <ul className="vl-ideas__list">
-                    <li>
-                      <strong>Error 1:</strong> pensar que la sostenibilidad entra en valoración
-                      solo por reputación.
-                    </li>
-                    <li>
-                      <strong>Error 2:</strong> asumir que cualquier tema ESG es automáticamente
-                      material para inversión.
-                    </li>
-                    <li>
-                      <strong>Error 3:</strong> tratar ESG como un capítulo separado del negocio y
-                      no como parte del equity story.
-                    </li>
-                    <li>
-                      <strong>Enfoque correcto:</strong> conectar sostenibilidad con métricas
-                      financieras, decisiones de capital y capacidad de ejecución.
-                    </li>
-                  </ul>
-                </>
-              ) : (
-                <p>{enrich.extraNote}</p>
-              )}
-            </div>
-          ) : null}
+          <div className="vl-ideas">
+            <span className="vl-ideas__tag">Ideas clave</span>
+            <ul className="vl-ideas__list">
+              {enrich.keyIdeas.map((idea, j) => (
+                <li key={j}>{idea}</li>
+              ))}
+            </ul>
+          </div>
         </div>
-      )}
+      ) : null}
 
     </section>
   );

@@ -190,7 +190,7 @@ function parseB(rawB) {
   const t = normalizeText(rawB.replace(/^###\s*B\.[^\n]*\n/im, "").trim());
   let keyIdeas = [];
   const im = t.match(
-    /Ideas de fondo que sostienen el bloque\s*\n([\s\S]*?)(?=Contexto conceptual adicional\s*\n|$)/i,
+    /Ideas clave que sostienen el bloque\s*\n([\s\S]*?)(?=Contexto conceptual adicional\s*\n|Desarrollo completo del bloque\s*\n|$)/i,
   );
   if (im) keyIdeas = splitKeyIdeaLines(im[1]);
   const cm = t.match(/Contexto conceptual adicional\s*\n([\s\S]*)/i);
