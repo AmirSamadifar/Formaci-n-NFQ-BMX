@@ -1402,3 +1402,182 @@ Referencias
 [22] Morningstar Indexes: uso de datos y ratings de Sustainalytics para construir índices de sostenibilidad y clima.
 [23] Marco supervisor europeo sobre greenwashing y comunicaciones que no reflejan clara y justamente la realidad subyacente.
 [24] Finalidad de las guías de ESMA sobre nombres de fondos con términos ESG o sostenibilidad
+
+
+## 10. Caso de uso: BBVA como entidad gestora de riesgos
+
+### Estructura de la aplicación
+La aplicación debe organizarse como una secuencia de pantallas breves, con:
+- un texto de apoyo corto;
+- un quiz de una pregunta con 4 opciones;
+- la respuesta correcta (oculta);
+- una explicación breve;
+- y una idea clave que sirva de puente al siguiente bloque.
+
+La secuencia recomendada es la siguiente:
+
+#### Pantalla 0. Portada del caso
+Título
+ BBVA como entidad gestora de riesgos
+Subtítulo
+ Cómo integrar sostenibilidad en materialidad, estrategia, descarbonización, riesgos, reporting y validación de mercado
+Texto de apertura
+ “Estamos en el cierre del ejercicio 2025. BBVA presenta la sostenibilidad como una de sus prioridades estratégicas y como un motor de crecimiento. Ha fijado un objetivo de 700.000 millones de euros de canalización de negocio sostenible para 2025-2029, ha diseñado un plan de transición con objetivos para 11 sectores, ha actualizado su análisis de doble materialidad y mantiene presencia en múltiples ratings e índices ESG. La pregunta es sencilla: ¿está la sostenibilidad integrada de verdad o sigue siendo, al menos en parte, un relato sofisticado?” [1][2][3][4][5][6]
+
+#### Pantalla 1. Doble materialidad como palanca estratégica
+Texto de apoyo
+ “BBVA explica que durante 2024 actualizó su análisis de doble materialidad para incorporar los criterios de la CSRD, las NEIS y la guía de implementación de EFRAG. Como resultado, identifica cuatro grandes temas materiales: cambio climático, personal propio, consumidores y usuarios finales y conducta empresarial. La clave del caso no es solo qué temas aparecen, sino qué significa que esos temas pasen a ser estructurales para una entidad financiera.” [4]
+Quiz 1
+ Pregunta: ¿Qué lectura es más correcta sobre la doble materialidad en este caso?
+A. Es un requisito de reporting con poca utilidad estratégica
+ B. Sirve sobre todo para ordenar el índice del informe
+ C. Funciona como mecanismo de priorización que luego debe reflejarse en estrategia, riesgos y reporting
+ D. Solo sirve para demostrar que el banco tiene temas ambientales
+Respuesta correcta: C
+Explicación breve
+ La doble materialidad es útil cuando deja de ser una matriz decorativa y se convierte en una lógica de priorización. En BBVA, el hecho de que los temas materiales incluyan clima, clientes, personal propio y conducta empresarial es coherente con una entidad que quiere conectar sostenibilidad con negocio, riesgo, cliente y control. [4]
+Idea clave
+ La doble materialidad buena no es una fotografía; es un mecanismo de priorización.
+Nexo
+ “Si la materialidad define qué importa, la siguiente pregunta es si eso que BBVA considera material se traduce de verdad en estrategia.”
+
+#### Pantalla 2. Estrategia
+Texto de apoyo
+ “BBVA define la sostenibilidad como una de sus prioridades estratégicas y como un motor de crecimiento. Además, ha fijado un objetivo de canalización de negocio sostenible de 700.000 millones de euros entre 2025 y 2029. La guía de canalización aclara que, a partir del 1 de enero de 2026, este objetivo integra también negocio de transición bajo criterios internos específicos de elegibilidad y gobernanza.” [1][2][3]
+Quiz 2
+ Pregunta: ¿Qué elemento da más credibilidad a que la sostenibilidad sea una palanca estratégica real?
+A. Que aparezca en los mensajes corporativos
+ B. Que exista un objetivo cuantificado y un marco de canalización con criterios y gobernanza
+ C. Que el banco tenga una página web específica de sostenibilidad
+ D. Que el tema se mencione en prensa financiera
+Respuesta correcta: B
+Explicación breve
+ La sostenibilidad empieza a ser estratégica cuando no se queda en lenguaje aspiracional y pasa a tener objetivo cuantificado, criterios de elegibilidad y seguimiento. BBVA ha unido relato, objetivo y arquitectura de canalización. [1][2][3]
+Idea clave
+ La sostenibilidad empieza a ser estratégica cuando se conecta con crecimiento, cliente y asignación real de negocio.
+Nexo
+ “Si la sostenibilidad es estratégica, la siguiente prueba no está en el titular, sino en la transición: ¿qué significa realmente ese compromiso en términos de net zero y descarbonización?”
+
+#### Pantalla 3. Net zero y descarbonización
+Texto de apoyo
+ “BBVA sitúa la sostenibilidad en el centro de su estrategia y la declina, entre otros objetivos, en alcanzar cero emisiones netas en 2050. Pero la credibilidad no está solo en la meta lejana: la entidad ha diseñado un plan de transición con objetivos intermedios de reducción de emisiones para 11 sectores y presenta la transición energética como una oportunidad de crecimiento.” [1][5]
+Quiz 3
+ Pregunta: ¿Qué hace más creíble una ambición net zero en un banco?
+A. Tener un objetivo 2050 ambicioso
+ B. Emitir mensajes generales sobre cambio climático
+ C. Aterrizar la ambición en objetivos intermedios por sectores y seguimiento de cartera
+ D. Compensar emisiones operativas propias
+Respuesta correcta: C
+Explicación breve
+ Un objetivo a 2050 importa, pero por sí solo es demasiado lejano. Lo que da credibilidad es el aterrizaje en sectores, trayectorias y seguimiento. Ahí es donde la transición deja de ser retórica. [5]
+Quiz 4
+ Pregunta: ¿Qué enfoque es más sofisticado para una entidad financiera?
+A. Excluir automáticamente todos los sectores intensivos en emisiones
+ B. Ignorar la transición y seguir analizando solo riesgo financiero clásico
+ C. Distinguir entre clientes con transición creíble, débil o incompatible y actuar en consecuencia
+ D. Limitarse a financiar únicamente energías renovables
+Respuesta correcta: C
+Explicación breve
+ La lógica bancaria madura no es solo exclusión ni solo nicho verde. Es gestionar la transición real de la cartera. BBVA utiliza el TRi precisamente para evaluar estrategias de transición de clientes y vincular esa lectura a su negocio y a su gestión del riesgo. [6]
+Idea clave
+ Net zero solo es creíble cuando se traduce en descarbonización sectorial, objetivos intermedios y decisiones reales de transición.
+Nexo
+ “En cuanto hablamos de transición sectorial, ya estamos hablando de riesgo. Por eso el siguiente paso del caso no es regulatorio: es puramente bancario.”
+
+#### Pantalla 4. Gestión de riesgos e integración de riesgos de sostenibilidad en riesgos tradicionales
+Texto de apoyo
+ “BBVA explica que la gestión de los factores de riesgo climático y medioambiental es clave para implementar su estrategia, ayudar a la transición hacia una economía baja en carbono y cumplir su ambición net zero. La entidad no presenta estos factores como una capa ornamental, sino como elementos que atraviesan crédito, estrategia, conducta, resiliencia operativa y control.” [5][6]
+Quiz 5
+ Pregunta: ¿Dónde entra mejor la sostenibilidad dentro del mapa de riesgos de un banco?
+A. Solo en riesgo reputacional
+ B. Solo en riesgo de crédito
+ C. Solo en compliance
+ D. En varios riesgos a la vez: crédito, estratégico, operacional, reputacional y compliance
+Respuesta correcta: D
+Explicación breve
+ La sostenibilidad no sustituye a los riesgos tradicionales; modifica cómo se leen. En banca, eso se ve sobre todo en crédito, pero también en estrategia, conducta, resiliencia operativa y cumplimiento. [5][6]
+Quiz 6
+ Pregunta: ¿Qué demuestra realmente el dato de que el 89% de la cartera en sectores intensivos en emisiones corresponde a clientes que gestionan activamente su transición?
+A. Que la cartera ya está completamente alineada con la Taxonomía
+ B. Que BBVA ha construido una metodología interna para leer la transición y vincularla a riesgo y negocio
+ C. Que no existen riesgos de transición materiales
+ D. Que todos los clientes tienen objetivos SBTi
+Respuesta correcta: B
+Explicación breve
+ Ese dato no equivale a alineamiento regulatorio pleno. Lo que muestra es que BBVA ha construido una arquitectura interna para leer la transición de clientes y usarla en su gestión. Eso tiene valor, pero debe explicarse con precisión. [6]
+Idea clave
+ La sostenibilidad no sustituye el análisis de riesgo; lo hace más fino, más sectorial y más prospectivo.
+Nexo
+ “Si la sostenibilidad cambia cómo se prioriza y cómo se asume riesgo, la siguiente pregunta es inevitable: ¿está esa historia suficientemente soportada cuando llega al informe y a la verificación externa?”
+
+#### Pantalla 5. Reporting y verificación, incluyendo Taxonomía y SFDR
+Texto de apoyo
+ “BBVA no se limita a comunicar una historia anual: la conecta con análisis de doble materialidad, documentación pública de sostenibilidad, informe anual, EINF y data packs para inversores. Su Informe Anual 2025 recoge que el Estado de Información No Financiera fue objeto de revisión limitada por Ernst & Young como prestador independiente de servicios de verificación. En el caso, Taxonomía y SFDR deben aparecer no como un subbloque técnico autónomo, sino como la pregunta de para qué sirve que el dato esté bien estructurado: sirve para reporting, para lectura prudencial y para que el ecosistema financiero lo pueda reutilizar.” [4][7][8][9]
+Quiz 7
+ Pregunta: ¿Qué aporta al caso que el EINF de BBVA esté sujeto a verificación independiente?
+A. Solo aporta una formalidad legal
+ B. Reduce la necesidad de explicar la estrategia
+ C. Aporta credibilidad externa, disciplina metodológica y menos margen para relato no trazable
+ D. Sustituye a la doble materialidad
+Respuesta correcta: C
+Explicación breve
+ La verificación no convierte automáticamente todo en impecable, pero sí eleva el listón. Una historia verificada externamente es menos libre para apoyarse en mensajes no sustentados. [7]
+Quiz 8
+ Pregunta: ¿Cómo conviene introducir Taxonomía y SFDR dentro del caso?
+A. Como una clase paralela de regulación financiera
+ B. Como un detalle irrelevante
+ C. Como parte de la pregunta sobre cómo el dato reportado se vuelve usable para supervisores, mercado e inversores
+ D. Solo como requisito del área legal
+Respuesta correcta: C
+Explicación breve
+ La clave pedagógica aquí no es reabrir todo el bloque regulatorio, sino mostrar que el dato de sostenibilidad no se agota en el informe: tiene que servir para clasificación, lectura de mercado y uso por parte del ecosistema financiero. [8][9]
+Idea clave
+ El reporting y la verificación son el puente entre la historia interna y la credibilidad externa.
+Nexo
+ “Una vez que la historia está soportada por materialidad, estrategia, transición, riesgos y reporting, llega la última prueba: cómo la simplifica o la valida el mercado.”
+
+#### Pantalla 6. Índices ESG, ratings y greenwashing
+Texto de apoyo
+ “BBVA publica presencia o resultados en varias referencias externas de sostenibilidad: S&P Global CSA 89, CDP B, Sustainalytics 9,6 Negligible Risk, MSCI AA, ISS ESG C+ Prime / Performance Score 61,06 y FTSE4Good. Esta foto es útil, pero no puede leerse como si todas las metodologías fueran equivalentes o probaran lo mismo. Precisamente por eso este bloque debe cerrarse con greenwashing: no para acusar, sino para enseñar a interpretar bien qué validan realmente esas señales externas.” [10]
+Quiz 9
+ Pregunta: ¿Qué lectura es más correcta sobre esta foto externa?
+A. BBVA es líder absoluto en sostenibilidad
+ B. BBVA está bien posicionada en varias metodologías externas que no son equivalentes entre sí
+ C. Los ratings e índices sustituyen al análisis de estrategia y riesgo
+ D. Los ratings e índices no aportan nada
+Respuesta correcta: B
+Explicación breve
+ La presencia en ratings e índices aporta validación externa, pero metodológicamente es heterogénea. Cada herramienta mide cosas distintas y con lógicas distintas. El error aparece cuando se usan como verdad única o como atajo narrativo. [10]
+Quiz 10
+ Pregunta: ¿Qué mensaje sería más prudente y defendible ante analistas e inversores?
+A. “BBVA es uno de los bancos más sostenibles del mundo”
+ B. “Nuestra presencia en ratings e índices prueba que nuestra estrategia ya está plenamente alineada”
+ C. “BBVA cuenta con reconocimiento externo recurrente, pero esos indicadores deben leerse junto con estrategia, riesgo, transición y reporting”
+ D. “Los ratings externos demuestran que el riesgo de greenwashing no existe”
+Respuesta correcta: C
+Explicación breve
+ La opción C es la más sólida porque usa los ratings e índices como apoyo narrativo, no como sustituto de la tesis. El riesgo de greenwashing aparece cuando se sobrerreivindica lo que realmente prueban esas señales externas. [10]
+Idea clave
+ Los ratings y los índices ayudan, pero no sustituyen la tesis. El greenwashing aparece cuando se sobrerreivindica lo que realmente validan.
+Nexo al cierre
+ “Ya hemos visto materialidad, estrategia, transición, riesgo, reporting y mercado. Solo queda una pregunta: ¿qué hace, en conjunto, que la historia sea creíble?”
+
+#### Pantalla 7. Cierre y síntesis
+Texto final de apoyo
+ “Este caso no pretende demostrar que BBVA sea un modelo perfecto. Pretende mostrar qué señales permiten considerar que una entidad financiera está intentando integrar de verdad la sostenibilidad: materialidad coherente, prioridad estratégica explícita, descarbonización aterrizada, integración en riesgos tradicionales, reporting con soporte metodológico y verificación independiente, y validación externa de mercado utilizada con prudencia.” [1][4][5][6][7][10]
+Quiz final
+ Pregunta: Después de todo el caso, ¿qué pesa más para juzgar la credibilidad de la sostenibilidad en una entidad financiera?
+A. Solo la estrategia declarada
+ B. Solo el reconocimiento externo
+ C. Solo la verificación del informe
+ D. La coherencia entre materialidad, estrategia, transición, riesgos, reporting y validación externa
+Respuesta correcta: D
+Explicación breve
+ Ésa es la tesis completa del caso. Si una pieza falla, la historia se debilita:
+estrategia sin materialidad es abstracta;
+materialidad sin riesgo es estética;
+riesgo sin reporting es invisible;
+reporting sin verificación es más débil;
+y validación externa sin base real es superficial. [1][4][5][6][7][10]
+Idea-fuerza final
+ La sostenibilidad en una entidad financiera deja de ser un relato cuando modifica de verdad qué se considera material, cómo se prioriza estratégicamente, cómo se aterriza la transición, cómo se asume riesgo, cómo se reporta y cómo se explica todo eso al mercado.

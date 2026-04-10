@@ -1,3 +1,28 @@
+export type CaseStudyQuiz = {
+  question: string;
+  options: { letter: string; text: string }[];
+  correctLetter: string;
+  explanation: string;
+};
+
+export type CaseStudySlide = {
+  screenIndex: number;
+  screenLabel: string;
+  coverTitle: string;
+  coverSubtitle: string;
+  openingText: string;
+  supportText: string;
+  quizzes: CaseStudyQuiz[];
+  keyIdea: string;
+  bridge: string;
+};
+
+export type CaseStudyDeckBlock = {
+  type: "caseStudyDeck";
+  intro: string;
+  slides: CaseStudySlide[];
+};
+
 export type MainBlock =
   | { type: "objective"; text: string }
   | { type: "narrative"; paragraphs: string[] }
@@ -9,7 +34,8 @@ export type MainBlock =
       title: string;
       text: string;
     }
-  | { type: "closing"; text: string };
+  | { type: "closing"; text: string }
+  | CaseStudyDeckBlock;
 
 export type SpeakerSection = {
   order: number;

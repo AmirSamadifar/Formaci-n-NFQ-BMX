@@ -228,6 +228,153 @@ function slugify(title) {
     .slice(0, 48);
 }
 
+/**
+ * Bloque 10: ### Estructura de la aplicación → intro + pantallas (#### Pantalla N.)
+ */
+function parseQuizChunk(raw, correctLetter) {
+  const lines = raw.split("\n").map((l) => l.trim()).filter((l) => l.length > 0);
+  let question = "";
+  const options = [];
+  for (const ln of lines) {
+    const optM = ln.match(/^([A-D])\.\s+(.+)$/);
+    if (optM) {
+      options.push({ letter: optM[1], text: stripCitations(optM[2].trim()) });
+      continue;
+    }
+    const pm = ln.match(/^Pregunta:\s*(.+)$/i);
+    if (pm) {
+      question = stripCitations(pm[1].trim());
+      continue;
+    }
+    if (!question && options.length === 0) {
+      question = stripCitations(ln);
+    } else if (question && options.length === 0) {
+      question = `${question} ${stripCitations(ln)}`.trim();
+    }
+  }
+  return {
+    question,
+    options,
+    correctLetter: (correctLetter || "A").toUpperCase(),
+    explanation: "",
+  };
+}
+
+function parseBbvaSlide(screenIndex, screenLabel, body) {
+  const slide = {
+    screenIndex,
+    screenLabel: stripCitations(screenLabel.trim()),
+    coverTitle: "",
+    coverSubtitle: "",
+    openingText: "",
+    supportText: "",
+    quizzes: [],
+    keyIdea: "",
+    bridge: "",
+  };
+  const lines = body.split("\n");
+  let mode = "idle";
+  let buf = [];
+
+  const flushTextField = () => {
+    const t = buf.join("\n").trim();
+    buf = [];
+    if (!t) return;
+    const c = stripCitations(t);
+    if (mode === "coverTitle") slide.coverTitle = c;
+    else if (mode === "coverSubtitle") slide.coverSubtitle = c;
+    else if (mode === "openingText") slide.openingText = c;
+    else if (mode === "supportText") slide.supportText = c;
+    else if (mode === "keyIdea") slide.keyIdea = c;
+    else if (mode === "bridge") slide.bridge = c;
+    else if (mode === "quizExpl") {
+      const last = slide.quizzes[slide.quizzes.length - 1];
+      if (last) last.explanation = c;
+    }
+  };
+
+  const startLabel = (tr) => {
+    if (tr === "Título") return "coverTitle";
+    if (tr === "Subtítulo") return "coverSubtitle";
+    if (tr === "Texto de apertura") return "openingText";
+    if (tr === "Texto de apoyo" || tr === "Texto final de apoyo") return "supportText";
+    if (tr === "Idea clave" || tr === "Idea-fuerza final") return "keyIdea";
+    if (tr === "Nexo" || tr === "Nexo al cierre") return "bridge";
+    if (tr === "Explicación breve") return "quizExpl";
+    const qm = tr.match(/^Quiz (\d+|final)$/i);
+    if (qm) return `quiz:${qm[1]}`;
+    return null;
+  };
+
+  for (const line of lines) {
+    const tr = line.trim();
+    const next = startLabel(tr);
+
+    if (next?.startsWith("quiz:")) {
+      flushTextField();
+      mode = "quizQ";
+      buf = [];
+      continue;
+    }
+
+    if (mode === "quizQ" && /^Respuesta correcta:\s*([A-D])\s*$/i.test(tr)) {
+      const letter = tr.match(/^Respuesta correcta:\s*([A-D])\s*$/i)[1];
+      const q = parseQuizChunk(buf.join("\n"), letter);
+      slide.quizzes.push(q);
+      buf = [];
+      mode = "idle";
+      continue;
+    }
+
+    if (next && mode !== "quizQ") {
+      flushTextField();
+      mode = next;
+      buf = [];
+      continue;
+    }
+
+    buf.push(line);
+  }
+  flushTextField();
+
+  return slide;
+}
+
+function parseBbvaCase(raw) {
+  const normalized = normalizeText(raw);
+  const pantallaRe = /^#### Pantalla (\d+)\.\s*(.+)$/gm;
+  const matches = [...normalized.matchAll(pantallaRe)];
+  if (matches.length === 0) {
+    return { intro: stripCitations(normalized.trim()), slides: [] };
+  }
+  const intro = stripCitations(normalized.slice(0, matches[0].index).trim());
+  const slides = [];
+  for (let i = 0; i < matches.length; i++) {
+    const m = matches[i];
+    const idx = parseInt(m[1], 10);
+    const label = m[2].trim();
+    const start = m.index + m[0].length;
+    const end = matches[i + 1] ? matches[i + 1].index : normalized.length;
+    const chunk = normalized.slice(start, end);
+    slides.push(parseBbvaSlide(idx, label, chunk));
+  }
+  return { intro, slides };
+}
+
+/** Títulos breves para índice / cabecera; el `id` sigue derivándose del título largo del .md */
+const TITLE_SHORT = {
+  1: "ESG, mercado y regulación en 2026",
+  2: "Estrategia, sostenibilidad y finanzas tras Trump",
+  3: "ESG, valoración y equity story",
+  4: "Descarbonización, Net Zero, SBTi y transición climática",
+  5: "Taxonomía, SFDR y CSRD (trilogía regulatoria)",
+  6: "CSDDD, debida diligencia y cadena de valor",
+  7: "ESRS, doble materialidad e interoperabilidad",
+  8: "Financiación: GAR/BTAR, ISF y CapEx alineado",
+  9: "Ratings ESG, índices y greenwashing",
+  10: "Caso BBVA: gestión de riesgos",
+};
+
 const raw = fs.readFileSync(contenidoPath, "utf8");
 const marker = "# CONTENIDOS DE LA FORMACIÓN:";
 const idx = raw.indexOf(marker);
@@ -246,23 +393,38 @@ for (const part of chapterParts) {
   const hm = part.match(/^## (\d+)\.\s+(.+?)$/m);
   if (!hm) continue;
   const num = parseInt(hm[1], 10);
-  if (num < 1 || num > 9) continue;
-  const title = hm[2].trim();
+  if (num < 1 || num > 10) continue;
+  const longTitle = hm[2].trim();
+  const title = TITLE_SHORT[num] ?? longTitle;
 
   const aMatch = part.match(/### A\.[^\n]*\n([\s\S]*?)(?=### B\.)/);
+  const estructuraMatch = part.match(
+    /### Estructura de la aplicación\s*\n([\s\S]*)/,
+  );
   const bMatch = part.match(/### B\.[^\n]*\n([\s\S]*?)(?=### C\.)/);
   // `part` termina antes del siguiente ## de capítulo. Cortar C antes de "Referencias" si existe en el part.
   const cMatch = part.match(
     /### C\.[^\n]*\n([\s\S]*?)(?=\nReferencias\s*\n|$)/,
   );
 
-  const a = parseSectionA(aMatch?.[1] ?? "");
+  let a;
+  if (num === 10) {
+    const rawCase = estructuraMatch?.[1] ?? "";
+    const { intro, slides } = parseBbvaCase(rawCase);
+    a = {
+      subtitle: "Caso práctico — secuencia guiada por pantallas",
+      blocks: [{ type: "caseStudyDeck", intro, slides }],
+    };
+  } else {
+    a = parseSectionA(aMatch?.[1] ?? "");
+  }
+
   const b = parseB(bMatch?.[1] ?? "");
   const c = parseC(cMatch?.[1] ?? "");
   const diagram = diagramsByTopic[num] ?? null;
 
   presentation.push({
-    id: slugify(title) || `bloque-${num}`,
+    id: slugify(longTitle) || `bloque-${num}`,
     number: num,
     title,
     subtitle: a.subtitle,

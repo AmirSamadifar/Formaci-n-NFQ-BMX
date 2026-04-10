@@ -11,8 +11,23 @@ export function Header() {
   return (
     <header className="header">
       <div className="header__inner">
-        <a className="header__brand" href="#top">
-          <span className="header__title">Material de formación</span>
+        <a
+          className="header__brand"
+          href="#top"
+          aria-label="Ir al inicio (BME y NFQ — material de formación)"
+        >
+          <span className="header__logos">
+            <img
+              className="header__logo header__logo--bme"
+              src="/bme-logo.png"
+              alt=""
+            />
+            <img
+              className="header__logo header__logo--nfq"
+              src="/nfq-logo.png"
+              alt=""
+            />
+          </span>
         </a>
         <nav className="header__nav-desktop" aria-label="Principal">
           {NAV.map((item) => (

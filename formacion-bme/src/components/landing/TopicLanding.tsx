@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 import type { ComponentType } from "react";
 import type { MainBlock, TopicPresentation } from "../../types/presentation";
+import { CaseStudyDeck } from "./CaseStudyDeck";
 
 const DiagramBlock = lazy(async (): Promise<{
   default: ComponentType<{ code: string; topicNumber?: number; caption?: string }>;
@@ -307,17 +308,39 @@ function CardGrid({
 
   const renderBody = (body: string) =>
     body.split("\n").map((line, idx, arr) => {
-      const isIndentedSubBullet = /^\*\*(sustainable|transition|ESG basics)\*\*/i.test(
-        line.trim(),
-      );
-      const normalizedLine = isIndentedSubBullet ? line.replace(/^\s*·\s*/, "") : line;
+      const trimmed = line.trim();
+      const isIndentedSubBullet = /^\*\*(sustainable|transition|ESG basics)\*\*/i.test(trimmed);
+      const isMiddotBullet = trimmed.startsWith("·");
+
+      let normalizedLine = line;
+      if (isIndentedSubBullet) {
+        normalizedLine = line.replace(/^\s*·\s*/, "");
+      } else if (isMiddotBullet) {
+        normalizedLine = line.replace(/^\s*·\s*/, "");
+      }
+
+      const lineClass = [
+        "vl-cardgrid__line",
+        isIndentedSubBullet ? "vl-cardgrid__line--subbullet" : "",
+        isMiddotBullet ? "vl-cardgrid__line--bullet" : "",
+      ]
+        .filter(Boolean)
+        .join(" ");
+
       return (
       <span
         key={idx}
-        className={`vl-cardgrid__line${isIndentedSubBullet ? " vl-cardgrid__line--subbullet" : ""}`}
+        className={lineClass}
       >
-        {isIndentedSubBullet ? <span className="vl-cardgrid__subbullet-marker">◦ </span> : null}
-        {renderInlineBold(normalizedLine)}
+        {isIndentedSubBullet ? (
+          <span className="vl-cardgrid__subbullet-marker" aria-hidden="true" />
+        ) : null}
+        {isMiddotBullet ? (
+          <span className="vl-cardgrid__bullet-dot" aria-hidden="true" />
+        ) : null}
+        <span className="vl-cardgrid__line-text">
+          {renderInlineBold(normalizedLine.trim())}
+        </span>
         {idx < arr.length - 1 ? <br /> : null}
       </span>
       );
@@ -869,6 +892,8 @@ function renderMainBlock(block: MainBlock, i: number, topicNumber: number) {
       );
     case "closing":
       return <ClosingBanner key={i} text={block.text} />;
+    case "caseStudyDeck":
+      return <CaseStudyDeck key={i} block={block} />;
     default:
       return null;
   }
@@ -876,14 +901,16 @@ function renderMainBlock(block: MainBlock, i: number, topicNumber: number) {
 
 type Props = {
   topic: TopicPresentation;
+  /** Cuando solo se muestra un bloque en el panel principal (vista paginada). */
+  singleView?: boolean;
 };
 
-export function TopicLanding({ topic }: Props) {
+export function TopicLanding({ topic, singleView = false }: Props) {
   const { enrich } = topic;
 
   return (
     <section
-      className="landing-topic"
+      className={`landing-topic${singleView ? " landing-topic--single" : ""}`}
       id={`bloque-${topic.number}`}
       aria-labelledby={`topic-title-${topic.number}`}
     >

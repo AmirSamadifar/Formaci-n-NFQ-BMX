@@ -4,12 +4,12 @@ export function Hero() {
       <div className="hero__inner">
         <p className="hero__eyebrow">Formación · ESG y mercado en 2026</p>
         <h1 id="hero-title" className="hero__h1">
-          Guion visual para sala y estudio
+          Módulo 25. Finanzas sostenibles & ESG
         </h1>
         <p className="hero__lead">
-          Cada bloque prioriza el contenido de la sección A (aplicación), con refuerzos del material B y
-          guion del ponente en C. Los textos se generan desde <code>contenido.md</code> mediante un paso de
-          procesado: estructura tipográfica, tarjetas, mapas y citas.
+          A continuación, se detalla el contenido del módulo 25. 
+          Finanzas sostenibles & ESG del curso de Relaciones con 
+          Inversores del Instituto BME.
         </p>
       </div>
     </section>
