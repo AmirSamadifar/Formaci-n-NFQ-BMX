@@ -443,12 +443,53 @@ body {
   line-height: 1.35;
 }
 
+.vl-cardgrid__index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.55rem;
+  height: 1.55rem;
+  margin-right: 0.35rem;
+  border-radius: 999px;
+  background: #e4eef8;
+  color: #1f4f79;
+  font-size: 0.72rem;
+  font-weight: 800;
+  vertical-align: middle;
+}
+
 .vl-cardgrid__body {
   font-size: 0.88rem;
   line-height: 1.58;
   color: var(--bme-text);
   white-space: pre-line;
   flex: 1;
+}
+
+.vl-cardgrid__image {
+  display: block;
+  width: 100%;
+  max-height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--bme-line);
+  margin-bottom: 0.25rem;
+}
+
+.vl-cardgrid--balanced {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 720px) {
+  .vl-cardgrid--balanced {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .vl-cardgrid--balanced {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .vl-pillars {
@@ -616,13 +657,35 @@ body {
 }
 
 .vl-ideas__list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
   font-size: 0.88rem;
   line-height: 1.45;
   padding: 0.65rem 0.85rem;
-  background: #fffaf5;
-  border: 1px solid #f0e0d0;
+  background: #f4f6f8;
+  border: 1px solid #dbe2e8;
   border-radius: var(--r-sm);
   color: var(--bme-text);
+}
+
+.vl-ideas__list li::before {
+  content: "✔";
+  color: #1f9d55;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 0.08rem;
+  flex-shrink: 0;
+}
+
+.vl-ideas__list li.vl-idea--bulb::before {
+  content: "💡";
+  color: #f5b301;
+}
+
+.vl-ideas__list li.vl-idea--bulb {
+  background: #fff9db;
+  border-color: #f1e3a2;
 }
 
 .vl-extra {
