@@ -446,6 +446,75 @@ body {
   gap: 1.35rem;
 }
 
+/* Bloque 5 — definición breve CSRD / Taxonomía / SFDR (tras objetivo, antes de tarjetas) */
+.vl-triad-brief {
+  margin: 0;
+  padding: 1rem 1.2rem 1.15rem;
+  background: var(--bme-paper);
+  border: 1px solid var(--bme-line);
+  border-radius: var(--r-md);
+  border-left: 4px solid var(--bme-blue);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.vl-triad-brief__title {
+  margin: 0 0 0.75rem;
+  font-size: var(--fs-card-title);
+  font-weight: 700;
+  color: var(--bme-navy);
+  line-height: var(--lh-card-title);
+}
+
+.vl-triad-brief__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 900px) {
+  .vl-triad-brief__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.65rem;
+  }
+}
+
+.vl-triad-brief__card {
+  margin: 0;
+  padding: 0.75rem 0.85rem;
+  background: #fafcfe;
+  border: 1px solid #e2eef8;
+  border-radius: var(--r-sm);
+}
+
+.vl-triad-brief__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin-bottom: 0.45rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #d0e4f5;
+}
+
+.vl-triad-brief__code {
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: var(--bme-navy);
+}
+
+.vl-triad-brief__sub {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #4a6f8f;
+  line-height: 1.3;
+}
+
+.vl-triad-brief__text {
+  margin: 0;
+  font-size: calc(var(--fs-prose) * 0.94);
+  line-height: 1.48;
+  color: var(--bme-text);
+}
+
 .landing-topic__diagram-wrap {
   margin-bottom: 2.25rem;
 }
@@ -516,6 +585,12 @@ body {
   gap: 0.85rem;
 }
 
+.vl-narrative__group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
 .vl-narrative__card {
   background: var(--bme-paper);
   border: 1px solid var(--bme-line);
@@ -525,10 +600,16 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
+/* Narrativa sin barra azul (p. ej. grid bloque 3, Acuerdo de París bloque 4) */
+.vl-narrative__card--no-left-accent {
+  border-left: 1px solid var(--bme-line);
+}
+
 .vl-narrative__card p {
   margin: 0;
   font-size: var(--fs-prose);
   line-height: var(--lh-prose);
+  white-space: pre-line;
 }
 
 .vl-cardgrid {
@@ -663,6 +744,16 @@ body {
   grid-template-columns: 1fr;
 }
 
+.vl-cardgrid--balanced .vl-cardgrid__item {
+  border-left: 4px solid var(--bme-blue);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.vl-cardgrid--balanced .vl-cardgrid__item:hover {
+  border-color: #c5d9ec;
+  border-left-color: var(--bme-blue);
+}
+
 .vl-cardgrid--stacked {
   grid-template-columns: 1fr;
 }
@@ -748,6 +839,66 @@ body {
   color: var(--bme-blue);
 }
 
+.vl-rigor-panel {
+  background: #fff;
+  border: 1px solid var(--bme-line);
+  border-left: 4px solid var(--bme-blue);
+  border-radius: var(--r-md);
+  padding: 1.1rem 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.vl-rigor-panel__title {
+  margin: 0 0 0.65rem;
+  font-size: var(--fs-overline);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--ls-overline);
+  color: var(--bme-navy-soft);
+}
+
+.vl-rigor-panel__list {
+  margin: 0;
+  padding-left: var(--list-indent);
+}
+
+.vl-rigor-panel__list li {
+  margin-bottom: 0;
+  font-size: var(--fs-prose);
+  line-height: var(--lh-prose);
+  color: var(--bme-text);
+}
+
+.vl-rigor-panel__list li + li {
+  margin-top: var(--list-gap);
+}
+
+.vl-rigor-panel__list li::marker {
+  color: var(--bme-blue);
+}
+
+.vl-rigor-panel--framework-primer .vl-rigor-panel__intro {
+  margin: 0 0 0.85rem;
+  font-size: var(--fs-prose);
+  line-height: var(--lh-prose);
+  color: var(--bme-muted);
+}
+
+.vl-rigor-panel__subhead {
+  margin: 1rem 0 0.4rem;
+  font-size: var(--fs-prose);
+  font-weight: 700;
+  color: var(--bme-navy);
+}
+
+.vl-rigor-panel--framework-primer .vl-rigor-panel__intro + .vl-rigor-panel__subhead {
+  margin-top: 0.35rem;
+}
+
+.vl-rigor-panel--framework-primer .vl-rigor-panel__list + .vl-rigor-panel__subhead {
+  margin-top: 1.25rem;
+}
+
 .vl-callout {
   border-radius: var(--r-md);
   padding: 1.15rem 1.3rem;
@@ -784,11 +935,20 @@ div.vl-callout__text p {
   margin: 0 0 0.55rem;
 }
 
+div.vl-callout__text ul + p {
+  margin-top: 0.9rem;
+}
+
 div.vl-callout__text p:last-child {
   margin-bottom: 0;
 }
 
 div.vl-callout__text ul {
+  margin: 0;
+  padding-left: var(--list-indent);
+}
+
+div.vl-callout__text ol {
   margin: 0;
   padding-left: var(--list-indent);
 }
@@ -808,6 +968,118 @@ div.vl-callout__text li + li {
 
 div.vl-callout__text li::marker {
   color: var(--bme-blue);
+}
+
+/* Bloques 4–9 — callout regulatorio ampliado: secciones y listas más escaneables */
+.vl-callout__text--block6-visual .vl-callout__section-head {
+  margin: 1.05rem 0 0.45rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #d0e4f5;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--bme-navy-soft);
+}
+
+.vl-callout__text--block6-visual .vl-callout__section-head:first-child {
+  margin-top: 0;
+}
+
+.vl-callout__text--block6-visual .vl-callout__visual-intro {
+  margin: 0 0 0.65rem;
+  padding: 0.65rem 0.75rem;
+  background: linear-gradient(135deg, #f5f9fd 0%, #fff 100%);
+  border-radius: var(--r-sm);
+  border: 1px solid #e2eef8;
+  font-size: var(--fs-prose);
+  line-height: var(--lh-prose);
+}
+
+.vl-callout__text--block6-visual ul {
+  margin: 0.35rem 0 0;
+}
+
+.vl-callout__text--block6-visual ol {
+  margin: 0.35rem 0 0;
+}
+
+.vl-callout__text--block6-visual ul ul {
+  margin-top: 0.35rem;
+  margin-bottom: 0.15rem;
+}
+
+.vl-callout__text--block6-visual .vl-callout__sublist-label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+  font-size: var(--fs-caption);
+  font-weight: 700;
+  color: var(--bme-navy);
+}
+
+.vl-inline-image {
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--bme-line);
+  border-left: 4px solid var(--bme-blue);
+  border-radius: var(--r-md);
+  padding: 0.9rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.vl-inline-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--r-md) - 4px);
+}
+
+.vl-inline-image--csddd-infographic {
+  margin-top: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.vl-callout-image {
+  margin-top: 0.55rem;
+  margin-bottom: 0.85rem;
+  border-left: 1px solid var(--bme-line);
+}
+
+.vl-inline-image--sbti {
+  margin-top: 0.5rem;
+  border-left: 1px solid var(--bme-line);
+}
+
+.vl-sbti-note {
+  margin-top: 0.65rem;
+  margin-bottom: 0.95rem;
+}
+
+.vl-sbti-note__intro {
+  margin: 0 0 0.55rem;
+  font-size: var(--fs-prose);
+  line-height: var(--lh-prose);
+  color: var(--bme-text);
+}
+
+.vl-sbti-note__list {
+  margin: 0;
+  padding-left: var(--list-indent);
+}
+
+.vl-sbti-note__list li {
+  font-size: var(--fs-prose);
+  line-height: var(--lh-prose);
+  color: var(--bme-text);
+}
+
+.vl-sbti-note__list li + li {
+  margin-top: var(--list-gap);
+}
+
+.vl-sbti-note__list li::marker {
+  color: var(--bme-blue);
+  font-weight: 700;
 }
 
 .vl-closing {

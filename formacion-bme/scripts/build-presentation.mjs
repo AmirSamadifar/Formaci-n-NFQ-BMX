@@ -20,6 +20,7 @@ function stripCitations(s) {
 function normalizeText(s) {
   return stripCitations(
     s
+      .replace(/\r\n?/g, "\n")
       .replace(/[\u201C\u201D\u00AB\u00BB]/g, '"')
       .replace(/[\u2018\u2019]/g, "'"),
   );
@@ -73,10 +74,10 @@ function parseDesarrollo(content) {
       const idx = trimmed.indexOf(label);
       if (idx === -1) continue;
       const after = trimmed.slice(idx + label.length).trim();
-      const stop = after.search(/\n\n[^\n;]+[.!?]\s*\n\n/);
+      const stop = after.search(/\r?\n\r?\n[^\n;]+[.!?]\s*\r?\n\r?\n/);
       const chunk =
         stop === -1
-          ? after.split(/\n\n+/)[0]
+          ? after.split(/\r?\n\r?\n+/)[0]
           : after.slice(0, stop);
       const lines = chunk
         .split(/\n/)
@@ -98,7 +99,7 @@ function parseDesarrollo(content) {
     const tail = trimmed.slice(simpleIdx).trim();
     const out = [];
     if (head) {
-      const paras = head.split(/\n\n+/).filter(Boolean);
+      const paras = head.split(/\r?\n\r?\n+/).filter(Boolean);
       out.push({ type: "narrative", paragraphs: paras });
     }
     const lines = tail
@@ -110,7 +111,7 @@ function parseDesarrollo(content) {
     return out.length ? out : [{ type: "narrative", paragraphs: [trimmed] }];
   }
 
-  const paras = trimmed.split(/\n\n+/).filter(Boolean);
+  const paras = trimmed.split(/\r?\n\r?\n+/).filter(Boolean);
   return [{ type: "narrative", paragraphs: paras.length ? paras : [trimmed] }];
 }
 

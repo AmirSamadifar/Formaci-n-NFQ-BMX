@@ -134,88 +134,86 @@ export function DiagramBlock({ code: _code, topicNumber, caption }: Props) {
           </svg>
         ) : isBlock2 ? (
           <svg
-            viewBox="0 0 920 270"
+            viewBox="0 0 980 286"
             xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
-            style={{ maxWidth: "920px", width: "100%", height: "auto" }}
+            style={{ maxWidth: "980px", width: "100%", height: "auto" }}
           >
             <defs>
+              <linearGradient id="b2-ue" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor="#f4f8fd" />
+                <stop offset="100%" stopColor="#e7f0fb" />
+              </linearGradient>
+              <linearGradient id="b2-us" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor="#faf7f2" />
+                <stop offset="100%" stopColor="#f0e8dc" />
+              </linearGradient>
               <marker id="arrow-b2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
                 <path d="M 0 0 L 10 5 L 0 10 z" fill="#355e85" />
               </marker>
             </defs>
 
-            <text x="460" y="20" textAnchor="middle" fontSize="14" fontWeight="700" fill="#23486d">
-              Mapa visual - Divergencia transatlántica (2025-2026)
+            <text x="490" y="22" textAnchor="middle" fontSize="14" fontWeight="700" fill="#1a3d5c">
+              UE frente a EE.UU.: dos lógicas de reporting ESG
+            </text>
+            <text x="490" y="40" textAnchor="middle" fontSize="10.5" fill="#5c7285">
+              Misma etiqueta «ESG», reglas y mercados distintos
             </text>
 
-            <rect x="26" y="30" width="276" height="112" rx="14" fill="#e7f0fb" stroke="#6d9ecb" />
-            <g transform="translate(42,44)">
-              <rect x="0" y="0" width="42" height="24" rx="2" fill="#003399" stroke="#1f3d5a" strokeWidth="0.6" />
-              <circle cx="21" cy="4.2" r="0.9" fill="#ffcc00" />
-              <circle cx="25" cy="5.3" r="0.9" fill="#ffcc00" />
-              <circle cx="27.9" cy="8.2" r="0.9" fill="#ffcc00" />
-              <circle cx="29" cy="12" r="0.9" fill="#ffcc00" />
-              <circle cx="27.9" cy="15.8" r="0.9" fill="#ffcc00" />
-              <circle cx="25" cy="18.7" r="0.9" fill="#ffcc00" />
-              <circle cx="21" cy="19.8" r="0.9" fill="#ffcc00" />
-              <circle cx="17" cy="18.7" r="0.9" fill="#ffcc00" />
-              <circle cx="14.1" cy="15.8" r="0.9" fill="#ffcc00" />
-              <circle cx="13" cy="12" r="0.9" fill="#ffcc00" />
-              <circle cx="14.1" cy="8.2" r="0.9" fill="#ffcc00" />
-              <circle cx="17" cy="5.3" r="0.9" fill="#ffcc00" />
-            </g>
-            <text x="164" y="59" textAnchor="middle" fontSize="16" fontWeight="700" fill="#113b62">Unión Europea</text>
-            <text x="164" y="82" textAnchor="middle" fontSize="13" fill="#28547d">Marco ESG estable</text>
-            <text x="164" y="101" textAnchor="middle" fontSize="13" fill="#28547d">simplificación normativa</text>
-            <text x="164" y="120" textAnchor="middle" fontSize="12" fill="#40688e">CSRD / CSDDD / comparabilidad</text>
-
-            <rect x="618" y="30" width="276" height="112" rx="14" fill="#e7f0fb" stroke="#6d9ecb" />
-            <g transform="translate(634,44)">
-              <rect x="0" y="0" width="42" height="24" rx="2" fill="#ffffff" stroke="#1f3d5a" strokeWidth="0.6" />
-              <rect x="0" y="0" width="42" height="1.84" fill="#b22234" />
-              <rect x="0" y="3.68" width="42" height="1.84" fill="#b22234" />
-              <rect x="0" y="7.36" width="42" height="1.84" fill="#b22234" />
-              <rect x="0" y="11.04" width="42" height="1.84" fill="#b22234" />
-              <rect x="0" y="14.72" width="42" height="1.84" fill="#b22234" />
-              <rect x="0" y="18.4" width="42" height="1.84" fill="#b22234" />
-              <rect x="0" y="22.08" width="42" height="1.84" fill="#b22234" />
-              <rect x="0" y="0" width="18" height="12.8" fill="#3c3b6e" />
-              <circle cx="3.3" cy="2.8" r="0.55" fill="#ffffff" />
-              <circle cx="6.6" cy="2.8" r="0.55" fill="#ffffff" />
-              <circle cx="9.9" cy="2.8" r="0.55" fill="#ffffff" />
-              <circle cx="13.2" cy="2.8" r="0.55" fill="#ffffff" />
-              <circle cx="16.5" cy="2.8" r="0.55" fill="#ffffff" />
-              <circle cx="4.95" cy="5.7" r="0.55" fill="#ffffff" />
-              <circle cx="8.25" cy="5.7" r="0.55" fill="#ffffff" />
-              <circle cx="11.55" cy="5.7" r="0.55" fill="#ffffff" />
-              <circle cx="14.85" cy="5.7" r="0.55" fill="#ffffff" />
-              <circle cx="3.3" cy="8.6" r="0.55" fill="#ffffff" />
-              <circle cx="6.6" cy="8.6" r="0.55" fill="#ffffff" />
-              <circle cx="9.9" cy="8.6" r="0.55" fill="#ffffff" />
-              <circle cx="13.2" cy="8.6" r="0.55" fill="#ffffff" />
-              <circle cx="16.5" cy="8.6" r="0.55" fill="#ffffff" />
-              <circle cx="4.95" cy="11.5" r="0.55" fill="#ffffff" />
-              <circle cx="8.25" cy="11.5" r="0.55" fill="#ffffff" />
-              <circle cx="11.55" cy="11.5" r="0.55" fill="#ffffff" />
-              <circle cx="14.85" cy="11.5" r="0.55" fill="#ffffff" />
-            </g>
-            <text x="756" y="59" textAnchor="middle" fontSize="16" fontWeight="700" fill="#113b62">Estados Unidos</text>
-            <text x="756" y="82" textAnchor="middle" fontSize="13" fill="#28547d">Mayor politización y</text>
-            <text x="756" y="101" textAnchor="middle" fontSize="13" fill="#28547d">enfoque de materialidad</text>
-            <text x="756" y="120" textAnchor="middle" fontSize="12" fill="#40688e">SEC / disclosure selectivo</text>
-
-            <rect x="326" y="164" width="268" height="76" rx="14" fill="#fff4dc" stroke="#d9b367" />
-            <text x="460" y="192" textAnchor="middle" fontSize="15" fontWeight="700" fill="#6b4a17">Divergencia transatlántica</text>
-            <text x="460" y="212" textAnchor="middle" fontSize="12.5" fill="#7a5721">riesgo de narrativa única</text>
-            <text x="460" y="229" textAnchor="middle" fontSize="12" fill="#8a6630">y de mensajes inconsistentes</text>
-
-            <text x="460" y="262" textAnchor="middle" fontSize="16" fontWeight="700" fill="#1f6848">
-              ♻ Respuesta: adaptar mensaje y métricas por geografía
+            <rect x="22" y="50" width="452" height="124" rx="14" fill="url(#b2-ue)" stroke="#6a9ecf" strokeWidth="1.1" />
+            <circle cx="42" cy="70" r="7" fill="#003399" stroke="#1f3d5a" strokeWidth="0.6" />
+            <text x="58" y="74" fontSize="13" fontWeight="800" fill="#0f3b63">
+              Unión Europea
+            </text>
+            <text fontSize="10.5" fill="#2a5578">
+              <tspan x="36" y="96">
+                Marco: CSRD · ESRS · Taxonomía
+              </tspan>
+              <tspan x="36" dy="17">
+                Mercado: comparabilidad · cadena de valor
+              </tspan>
+              <tspan x="36" dy="17">
+                2025-26: simplificación (Omnibus)
+              </tspan>
             </text>
 
-            <line x1="252" y1="142" x2="394" y2="164" stroke="#355e85" strokeWidth="2.5" markerEnd="url(#arrow-b2)" />
-            <line x1="668" y1="142" x2="526" y2="164" stroke="#355e85" strokeWidth="2.5" markerEnd="url(#arrow-b2)" />
+            <rect x="506" y="50" width="452" height="124" rx="14" fill="url(#b2-us)" stroke="#c4a574" strokeWidth="1.1" />
+            <circle cx="526" cy="70" r="7" fill="#b22234" stroke="#8b1c1c" strokeWidth="0.6" />
+            <text x="542" y="74" fontSize="13" fontWeight="800" fill="#6b4a17">
+              Estados Unidos
+            </text>
+            <text fontSize="10.5" fill="#7a5721">
+              <tspan x="520" y="96">
+                Marco: SEC · clima · materialidad financiera
+              </tspan>
+              <tspan x="520" dy="17">
+                Mercado: fiduciario · litigios
+              </tspan>
+              <tspan x="520" dy="17">
+                2025-26: menos armonía que la UE
+              </tspan>
+            </text>
+
+            <line x1="248" y1="174" x2="400" y2="200" stroke="#355e85" strokeWidth="2.2" markerEnd="url(#arrow-b2)" />
+            <line x1="732" y1="174" x2="580" y2="200" stroke="#355e85" strokeWidth="2.2" markerEnd="url(#arrow-b2)" />
+
+            <rect x="240" y="192" width="500" height="56" rx="12" fill="#fff4dc" stroke="#d9b367" strokeWidth="1.1" />
+            <text x="490" y="212" textAnchor="middle" fontSize="12" fontWeight="800" fill="#6b4a17">
+              Grieta
+            </text>
+            <text textAnchor="middle" fontSize="10.5" fill="#7a5721">
+              <tspan x="490" y="230">
+                Dual listing: dos supervisores
+              </tspan>
+              <tspan x="490" dy="15">
+                Un mismo KPI puede leerse de forma distinta
+              </tspan>
+            </text>
+
+            <rect x="120" y="260" width="740" height="22" rx="6" fill="#e4f3e9" stroke="#69a583" strokeWidth="1" />
+            <text x="490" y="275" textAnchor="middle" fontSize="10" fontWeight="700" fill="#1f6848">
+              RI: relato y métricas calibrados por mercado
+            </text>
           </svg>
         ) : isBlock5 ? (
           <svg
