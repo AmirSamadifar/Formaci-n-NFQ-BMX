@@ -434,17 +434,91 @@ El alcance 3 incluye todas las demás emisiones indirectas de la cadena de valor
 El alcance 3 es especialmente relevante porque obliga a salir del perímetro operativo inmediato y mirar la cadena de valor completa. Entre sus categorías upstream se encuentran, entre otras, bienes y servicios adquiridos, bienes de capital, actividades relacionadas con combustible y energía, transporte y distribución, residuos generados en operaciones, viajes de negocio, desplazamiento de empleados y activos arrendados. Entre las categorías downstream se incluyen transporte y distribución, procesamiento de productos vendidos, uso de productos vendidos, tratamiento al final de la vida útil, activos arrendados, franquicias e inversiones. Para el sector financiero, esto se traduce en las llamadas emisiones financiadas, que representan las emisiones de gases de efecto invernadero asociadas a los préstamos, inversiones y seguros otorgados a terceros.
 
 
-En muchas compañías —y especialmente en determinadas industrias y en entidades financieras— este alcance concentra la mayor parte de la huella climática, por lo que su exclusión o tratamiento superficial debilita seriamente la credibilidad del compromiso de descarbonización.
-En el caso de las entidades financieras, la credibilidad climática no depende solo de su huella operativa, sino también de la huella y la trayectoria climática de sus carteras. Aquí conviene distinguir entre dos planos complementarios. Por un lado, la medición de emisiones financiadas, para la que PCAF proporciona metodologías por clase de activo y criterios de calidad del dato. 
-Por otro, el alineamiento de cartera, que permite evaluar si las exposiciones financieras evolucionan de forma compatible con escenarios de descarbonización alineados con el Acuerdo de París. En este terreno, metodologías como PACTA permiten analizar, con enfoque sectorial y prospectivo, si una cartera converge o no hacia trayectorias climáticas de referencia, utilizando métricas como intensidad de emisiones, mix tecnológico o volumen de producción por tecnología. 
-Sobre esta base, Net Zero no debe entenderse como una estrategia de compensación generalizada. Significa reducir las emisiones al nivel más bajo posible y neutralizar solo las emisiones residuales que no puedan eliminarse. Por tanto, la credibilidad de una estrategia Net Zero no depende del claim, sino de la calidad de la secuencia de reducción, del tratamiento del alcance 3 y de la claridad con la que se distinguen reducción real, remoción residual y actuaciones más allá de la cadena de valor.
-Los objetivos de reducción de emisiones convierten la ambición climática en una trayectoria medible. Para ser sólidos, deben definir el año base, el horizonte temporal, los alcances cubiertos, la métrica empleada —absoluta o de intensidad—, los hitos intermedios y las principales palancas de reducción. La Science Based Targets initiative (SBTi) aporta aquí una referencia clave, al ordenar los objetivos corporativos en línea con la ciencia climática: recortes rápidos y profundos a corto plazo, normalmente consistentes con una reducción cercana al 50% antes de 2030; reducción estructural de más del 90% en el largo plazo; y neutralización solo de las emisiones residuales una vez alcanzado ese recorte.
-Ahora bien, un objetivo, por sí solo, no sustituye a un plan de transición climática. Este se define como un aspecto de la estrategia general de una organización que detalla los objetivos, las acciones y los recursos de la entidad para realizar la transición hacia una economía baja en carbono, garantizando la viabilidad del modelo de negocio a largo plazo. En esencia, el plan es la pieza que conecta la ambición climática con la estrategia, las operaciones, la cadena de valor, la asignación de capital y la gobernanza.
-Para estructurarlo, resulta útil apoyarse en marcos complementarios:
-El TCFD (Task Force on Climate-related Financial Disclosures o Grupo de Trabajo sobre Divulgaciones Financieras Relacionadas con el Clima) organiza la respuesta en torno a gobernanza, estrategia, gestión del riesgo y métricas y objetivos, distinguiendo entre riesgos físicos y riesgos de transición.
-La TPT (Transition Plan Taskforce) refuerza esta lógica con una estructura de pilares que incluyen fundamentos (foundations), estrategia de implementación, estrategia de compromiso (engagement), métricas y objetivos, y gobernanza.
-Finalmente, el estándar ESRS E1 (European Sustainability Reporting Standard E1 sobre Cambio Climático) exige explicar objetivos, palancas de descarbonización, acciones, inversiones y financiación necesarias, así como posibles dependencias o el riesgo de bloqueo (lock-in) de emisiones, integrando todo ello en el progreso de implementación.
-En consecuencia, un plan de transición climática robusto debería apoyarse en una medición sólida de emisiones, un análisis de riesgos y oportunidades climáticas, escenarios de referencia, objetivos claros, palancas de descarbonización identificadas, planificación financiera y CapEx, gobernanza definida y métricas de seguimiento. Esta lógica es aplicable tanto a corporates como a entidades financieras: cambia el peso relativo de determinadas emisiones y métricas, pero no cambia la exigencia de credibilidad.
+En muchas compañías, el alcance 3 concentra la mayor parte de la huella climática
+Esto ocurre especialmente en determinadas industrias y, de forma muy clara, en entidades financieras.
+Por ello, excluir el alcance 3 o tratarlo de forma superficial debilita seriamente la credibilidad de cualquier compromiso de descarbonización.
+En entidades financieras, la credibilidad climática no depende solo de la huella operativa
+Depende también de la huella climática de las carteras y de su trayectoria de alineamiento.
+Aquí conviene distinguir dos planos complementarios:
+Medición de emisiones financiadas
+Permite cuantificar la huella asociada a préstamos, inversiones y otras exposiciones.
+PCAF aporta metodologías por clase de activo y criterios de calidad del dato.
+Alineamiento de cartera
+Permite analizar si las exposiciones financieras evolucionan de forma compatible con trayectorias de descarbonización alineadas con el Acuerdo de París.
+Metodologías como PACTA permiten evaluar, con enfoque sectorial y prospectivo, si una cartera converge o no hacia trayectorias climáticas de referencia.
+Para ello, pueden utilizarse métricas como:
+intensidad de emisiones;
+mix tecnológico;
+volumen de producción por tecnología.
+Net Zero no debe entenderse como una estrategia de compensación generalizada
+Significa reducir las emisiones al nivel más bajo posible.
+Y neutralizar solo las emisiones residuales que no puedan eliminarse.
+Por tanto, la credibilidad de una estrategia Net Zero no depende del claim, sino de tres cuestiones esenciales:
+la calidad de la secuencia de reducción;
+el tratamiento riguroso del alcance 3;
+la claridad con la que se distinguen:
+reducción real;
+remoción residual;
+actuaciones más allá de la cadena de valor.
+Los objetivos de reducción convierten la ambición climática en una trayectoria medible
+Para ser sólidos, deben definir de forma expresa:
+el año base;
+el horizonte temporal;
+los alcances cubiertos;
+la métrica empleada, absoluta o de intensidad;
+los hitos intermedios;
+las principales palancas de reducción.
+SBTi aporta una referencia útil para ordenar esa ambición
+Sitúa los objetivos corporativos en línea con la ciencia climática.
+Esto implica, de forma simplificada:
+recortes rápidos y profundos a corto plazo;
+normalmente, una reducción cercana al 50% antes de 2030;
+una reducción estructural superior al 90% en el largo plazo;
+y la neutralización solo de las emisiones residuales una vez alcanzado ese recorte.
+Ahora bien, un objetivo no sustituye por sí solo a un plan de transición climática
+El plan de transición es la pieza que conecta la ambición climática con:
+la estrategia;
+las operaciones;
+la cadena de valor;
+la asignación de capital;
+la gobernanza.
+En otras palabras, es el instrumento que convierte el compromiso climático en una hoja de ruta empresarial viable.
+Para estructurar un plan de transición robusto, conviene apoyarse en marcos complementarios
+TCFD
+Ordena la respuesta en torno a:
+gobernanza;
+estrategia;
+gestión del riesgo;
+métricas y objetivos.
+Además, distingue entre:
+riesgos físicos;
+riesgos de transición.
+TPT
+Refuerza esta lógica con una estructura basada en:
+fundamentos;
+estrategia de implementación;
+estrategia de engagement;
+métricas y objetivos;
+gobernanza.
+ESRS E1
+Exige explicar:
+objetivos;
+palancas de descarbonización;
+acciones;
+inversiones;
+financiación necesaria;
+dependencias;
+y posibles riesgos de lock-in de emisiones.
+En consecuencia, un plan de transición climática robusto debería apoyarse en varios elementos mínimos
+una medición sólida de emisiones;
+un análisis de riesgos y oportunidades climáticas;
+escenarios de referencia;
+objetivos claros;
+palancas de descarbonización identificadas;
+planificación financiera y CapEx;
+gobernanza definida;
+métricas de seguimiento.
+Esta lógica aplica tanto a corporates como a entidades financieras
 Contexto regulatorio
  La descarbonización se enmarca en el Acuerdo de París y en la necesidad de alinear actividades económicas y flujos de capital con trayectorias compatibles con 1,5°C o, al menos, por debajo de 2°C. En disclosure y reporting, este marco se conecta con TCFD, CDP, EU Taxonomy, CSRD, SFDR y, en el entorno europeo, con ESRS E1, que exige disclosure específico sobre plan de transición, objetivos climáticos, emisiones de alcance 1, 2 y 3, acciones e inversiones asociadas.
 Implicación para Relaciones con Inversores
@@ -639,29 +713,20 @@ Desarrollo del contenido
 · Conectan con estándares de conducta responsable y derechos humanos (OCDE, Principios Rectores ONU y lógica social del DNSH en SFDR).
 3. SFDR: transparencia de sostenibilidad en productos financieros
 **¿Qué regula la SFDR y cuál es su finalidad?**
-· La **SFDR** regula cómo los participantes del mercado financiero informan sobre:
-· Integración de riesgos de sostenibilidad.
-· Características u objetivos de sostenibilidad de productos financieros.
-· Su lógica es de transparencia al inversor (no reporting corporativo general).
+· Información sobre **integración de riesgos de sostenibilidad** y sobre **características u objetivos de sostenibilidad** de productos financieros.
+· Lógica de **transparencia al inversor** (no de reporting corporativo general).
 
-**¿Cuál es la diferencia entre régimen vigente y revisión?**
-· El régimen vigente sigue operando con artículos **6, 8 y 9**.
-· **Artículo 6**: productos que integran riesgos de sostenibilidad en la decisión de inversión, sin objetivo/estrategia sostenible específica.
-· **Artículo 8**: productos que promueven características ambientales y/o sociales, siempre que las participadas sigan buenas prácticas de gobernanza.
-· **Artículo 9**: productos con objetivo de inversión sostenible explícito (incluye, por ejemplo, productos con reducción de emisiones como objetivo cuando aplica).
-· La Comisión propone en noviembre de 2025 una revisión profunda (uso de mercado: “SFDR 2.0”).
-· A fecha actual, esa revisión sigue en tramitación y no sustituye todavía al marco vigente.
+**¿Régimen vigente y revisión?**
+· Marco aplicable: artículos **6**, **8** y **9** — **6**: integra riesgos de sostenibilidad sin objetivo sostenible específico; **8**: promueve características ambientales y/o sociales con buenas prácticas de gobernanza en las participadas; **9**: objetivo de inversión sostenible explícito (p. ej. reducción de emisiones cuando proceda).
+· Propuesta **nov. 2025** (“SFDR 2.0”): revisión profunda **en tramitación**; el régimen **6/8/9** sigue vigente.
 
-**¿Qué cambios clave plantea la propuesta?**
-· **Simplificación de disclosures**: plantillas más manejables y menor carga informativa en ciertos frentes (incluido retail).
-· **Nuevo marco de categorías voluntarias** (en lugar del uso informal de 8/9):
-· **sustainable**: productos con objetivo de sostenibilidad claro y exigente.
-· **transition**: productos orientados a activos/empresas en transición verificable.
-· **ESG basics**: productos que integran ESG, pero sin alcanzar el umbral de las dos categorías anteriores.
-· **Regla de coherencia comercial**: uso de claims ESG reservado a productos categorizados y exigencia de que una parte elevada de la cartera (**70%**) respalde la estrategia declarada, con exclusión de actividades dañinas.
+**¿Qué plantea la propuesta?**
+· **Simplificación** de disclosures y menor carga (incl. retail).
+· **Categorías voluntarias** (sustituyen el uso informal de 8/9): **sustainable**, **transition**, **ESG basics**.
+· **Coherencia comercial**: claims ESG acotados a productos categorizados; **~70%** de cartera alineado con la estrategia declarada y exclusión de actividades dañinas.
 
-**¿Qué mensaje operativo deja para Relaciones con Inversores?**
-· La SFDR no dice qué reporta una empresa sobre sí misma; define cómo se presenta sostenibilidad al mercado desde el producto financiero.
+**¿Mensaje operativo para Relaciones con Inversores?**
+· La SFDR fija cómo se comunica la sostenibilidad **desde el producto financiero** al inversor; no define el reporting corporativo de la emisora.
 4. Sinergias entre las tres
 **¿Por qué CSRD, Taxonomía y SFDR deben leerse como sistema y no como normas aisladas?**
 · Aunque se regulan por separado, forman una cadena funcional.
@@ -825,8 +890,8 @@ Objetivo del bloque
 Desarrollo del contenido
 1. Qué es la CSDDD y qué exige realmente
 · La **CSDDD** no es una norma de reporting; es una norma de **conducta y gestión**.
-· Exige integrar la debida diligencia en políticas y sistemas.
-· Obliga a identificar, prevenir, mitigar, supervisar, comunicar y, cuando proceda, remediar impactos adversos.
+· La **CSDDD** (**Directiva (UE) 2024/1760**) obliga a las empresas dentro del alcance a aplicar **debida diligencia** sobre impactos adversos en **derechos humanos** y **medioambiente** en su cadena de valor.
+· Exige integrar en **políticas y sistemas** la **debida diligencia**: **identificar**, **prevenir**, **mitigar**, **supervisar**, **comunicar** y, cuando proceda, **remediar** impactos adversos.
 · La lógica central no es “reportar más”, sino demostrar un proceso razonable y gobernado.
 2. Cambios de calendario y perímetro tras la simplificación
 · **Cambio regulatorio clave**: el **stop-the-clock** de 2025 aplazó un año la transposición y primera aplicación.
@@ -848,16 +913,7 @@ Desarrollo del contenido
 · **Cambio regulatorio en enforcement**: la responsabilidad por incumplimientos queda en **legislación nacional** (no en un régimen único de responsabilidad civil a nivel UE).
 · Se fija un tope máximo de penalización administrativa del **3% de la facturación neta mundial**.
 Contexto regulatorio
- · **Naturaleza de la norma**: la CSDDD es una directiva de **conducta y gestión**, no una norma de reporting.
- · **Directiva base**: la referencia original es la **Directiva (UE) 2024/1760**.
- · **Punto crítico de calendario**: el **stop-the-clock (abril 2025)** aplazó un año la transposición y la primera aplicación.
- · **Cambio posterior (Omnibus)**: la simplificación estrecha alcance y ajusta obligaciones sustantivas.
- · **Perímetro simplificado**: compañías con más de **5.000 empleados** y más de **1.500 millones de euros** de facturación neta anual.
- · **Fechas clave**: transposición en **julio de 2028** y aplicación de nuevas medidas en **julio de 2029**.
- · **Enfoque de diligencia**: priorización de impactos en socios comerciales directos y lógica basada en expectativa razonable de impacto adverso.
- · **Ajustes sustantivos**: eliminación del requisito específico de plan de transición climática dentro de esta directiva.
- · **Régimen sancionador**: tope máximo del **3% de la facturación neta mundial** para sanciones administrativas.
- · **Lectura operativa**: obliga a pasar de control documental a gestión efectiva de cadena (compras, terceros, controles, escalado, quejas/notificación y remediación).
+ · **1) Punto de partida: qué decía la CSDDD original** — La versión enriquecida (secciones 1–11, umbrales, stop-the-clock, Ómnibus, diligencia focalizada, relación comercial, revisión periódica, art. 22, responsabilidad civil, sanciones y fechas) se muestra estructurada en la presentación.
 Implicación para Relaciones con Inversores
  · **Lectura clave para RI**: la CSDDD no es una obligación de disclosure en sentido estricto; es una señal de **calidad del sistema de gestión**.
  · El mercado valora positivamente que la compañía conozca su cadena de actividades, priorice riesgos y demuestre capacidad de respuesta.
@@ -944,36 +1000,28 @@ Objetivo del bloque
  Explicar cómo evoluciona el reporting corporativo de sostenibilidad desde el EINF de la Ley 11/2018 hasta el marco CSRD/ESRS, qué implica en 2026 la implantación práctica de los ESRS, por qué la doble materialidad se convierte en el eje del sistema y cómo se articula la verificación y la interoperabilidad del nuevo reporting. [1][2][3]
 Desarrollo del contenido
 1. Del EINF y la transición española al modelo CSRD/ESRS
-· En España el punto de partida es la **Ley 11/2018**: creó el **EINF** (estado de información no financiera), integrable en el **informe de gestión** o en un informe separado equivalente, siempre con **revisión por un verificador independiente**.
-· **Quién quedaba alcanzado** (ejemplo habitual): grandes **entidades de interés público** con **más de 250 trabajadores**, o bien —si en **dos ejercicios seguidos** superan los umbrales— **más de 20 M€ de activo** o **más de 40 M€ de volumen de negocio**.
-· **Qué cambia la CSRD**: de un relato no financiero relativamente flexible a una **declaración de sostenibilidad** integrada en el informe de gestión y elaborada con los **estándares europeos ESRS** (base legal: **Reglamento Delegado (UE) 2023/2772**). Los **ESRS** se diseñaron mirando también a **ISSB** y **GRI** para que el dato sea **comparable** y se evite **reportar dos veces** lo mismo sin necesidad.
-· **España aún en transición**: existe un **proyecto de ley** (expediente **121/000038**, 2024) que acompaña el salto nacional; mientras tanto el **EINF** sigue siendo la referencia cotidiana para muchas compañías. No hay que presentarlo como un cambio ya cerrado.
+· **Ley 11/2018:** **EINF** en informe de gestión (o equivalente) con **verificación independiente**; umbrales habituales **>250** empleados o, en dos ejercicios, **>20 M€ activo** / **>40 M€** volumen.
+· **CSRD/ESRS** (RD 2023/2772) y alineación con **ISSB/GRI** para comparabilidad.
+· **España:** proyecto **121/000038**; el **EINF** sigue siendo la referencia diaria hasta el cierre normativo.
 2. Márgenes de aplicación de la CSRD: quién reportaba, quién reporta y cómo ha cambiado el perímetro
-· El régimen de **aplicación** de la **CSRD** se explica mejor si se desglosa en **tres decisiones acumuladas en el tiempo**: el **calendario** original, los **aplazamientos** (p. ej. **stop-the-clock**) y el **nuevo perímetro** fijado con el paquete **Omnibus**. Lo que sigue en esta caja detalla cada capa; juntas permiten ver quién debía reportar, quién reporta ahora y cómo queda el universo obligado de cara al futuro.
-· **Calendario inicial** (resumen): entró por fases —primero grandes cotizadas muy relevantes (**más de 500 empleados** en la primera ola), luego otras **grandes empresas y grupos**, después **pymes cotizadas** (no micro) y otras entidades concretas, y más adelante **filiales de grupos no europeos** con negocio relevante en la **UE**.
-· **Empresas no europeas** (regla pensada al inicio): debían superar **150 M€ de negocio en la UE** y tener **presencia vinculante** (por ejemplo filial sujeta a normas contables europeas o sucursal grande, con el umbral de **40 M€** que recoge la norma). Las **pymes cotizadas** tenían además un **aplazamiento opcional** hasta **2028**.
-· **Qué ocurrió después**: el **“stop-the-clock”** dio **dos años más** a quienes debían entrar en la segunda y tercera ola. El **Omnibus** redujo el **futuro universo obligado** a empresas con **más de 1.000 empleados** y **más de 450 M€ de facturación neta**, y prevé **excepciones puntuales** para algunas empresas de la primera ola en **2025 y 2026**.
-3. Qué son los ESRS y cómo se estructuran
-· Los **ESRS** son los **estándares europeos** que dicen **cómo** debe construirse la **declaración de sostenibilidad**. El primer paquete tiene **12 normas**: **2 horizontales** y **10 temáticas**.
-· **ESRS 1** fija **reglas generales** y la lógica de **qué es material**. **ESRS 2** pide información transversal: **gobernanza**, **estrategia**, **impactos**, **riesgos y oportunidades** y **métricas**.
-· Las **E1 a E5** cubren **medioambiente** (clima, contaminación, agua, biodiversidad, economía circular). Las **S1 a S4** cubren **personas y sociedad** (plantilla, cadena de valor, comunidades, consumidores). **G1** cubre **ética y gobierno del comportamiento**.
-· **Cómo se usa en la práctica**: la empresa **no cumple un checklist fijo**; **qué temas son materiales** y **qué debe contar** en cada uno **sale del análisis de doble materialidad** (identificación de **IROs**, pruebas y juicio documentado), no de una selección arbitraria de “temas de moda”.
-4. El papel de EFRAG
-· **EFRAG** (European Financial Reporting Advisory Group) es el organismo independiente que asesora a la **Comisión Europea** en materia de información corporativa. En sostenibilidad, prepara **borradores técnicos**, expone el **razonamiento** detrás de cada propuesta y gestiona **consultas públicas**; la Comisión adopta los **ESRS** como **acto legal** (reglamento delegado), pero el “motor” técnico del contenido ESRS es, en la práctica, este proceso.
-· El trabajo sustantivo lo coordina el **Sustainability Reporting Board (SRB)**: no legisla, pero concentra el **desarrollo normativo-técnico** y el diálogo con **preparadores**, **auditores**, **inversores** y **academia**. Sirve para entender **por qué un disclosure existe** y cómo se espera que se interprete.
-· Lo que más usan las empresas no es solo el PDF del reglamento, sino el **paquete de implantación**: **guías de implementación** (Implementation Guidance), **aclaraciones**, **material sectorial** y tablas que relacionan requisitos con datos. Eso reduce ambigüedad entre “**cumplir la letra**” y “**hacerlo de forma defendible ante verificadores**”.
-· **IG 1** orienta el proceso de **evaluación de materialidad** y la **documentación del juicio** (qué pruebas, qué umbrales, qué trazabilidad). **IG 2** desglosa **cadena de valor**: dónde empieza y termina el **perímetro**, cómo obtener **datos razonables** y cómo priorizar sin inventar cifras imposibles. **IG 3** mapea, estándar por estándar, qué **datapoints** e **indicadores** entran y cómo leerlos frente al texto **ESRS**.
+· Tres capas: **calendario por olas**, **stop-the-clock** y **Omnibus** — no mezclar umbrales ni fechas.
+· Tras **Omnibus**, referencia de universo futuro habitual: **>1.000 empleados** y **>450 M€** facturación neta; **excepciones** puntuales en **2025–2026** para parte de la primera ola.
+· **Terceros países** y **SMEs cotizadas:** regímenes específicos; citar siempre la **foto normativa** (original, post–stop-the-clock u Omnibus).
+3. El papel de EFRAG
+· **EFRAG** elabora los **borradores técnicos de los ESRS** (y de sus revisiones), sometidos a **consulta pública** y debate con preparadores, auditores e inversores; expone el **fundamento** de cada requisito. La **Comisión Europea** es quien **adopta** los ESRS como **acto jurídico** (reglamento delegado): el texto obligatorio es el adoptado por la Comisión, no el borrador.
+4. Qué son los ESRS y cómo se estructuran
+· **12 ESRS:** **1–2** transversales; **E1–E5** medio ambiente; **S1–S4** personas y sociedad; **G1** conducta y gobierno.
+· **ESRS 2** ordena gobernanza, estrategia, impactos, riesgos y oportunidades y métricas con lo declarado **material**.
+· No hay checklist único: el contenido sale de la **doble materialidad** (**IROs** documentados).
 5. Proceso de doble materialidad: definición, dimensiones y criterios (ESRS 1)
-· Bajo **ESRS 1**, la **doble materialidad** es el proceso que decide qué información entra en la **declaración**; no basta una **matriz** o una priorización cosmética. Hay que reportar **impactos materiales** sobre personas y medioambiente y, por otro lado, **riesgos y oportunidades materiales** en sostenibilidad: juntos configuran la **doble materialidad**.
-· Dos miradas: **inside-out** (impacto de la empresa hacia fuera) y **outside-in** (cómo la sostenibilidad afecta a la empresa). Es **unión**, no **intersección**: un asunto entra si es **material por impacto**, **por finanzas** o por **ambas**; basta **una de las lógicas**.
-· **Materialidad de impacto**: efectos en **personas** y **medio ambiente** (operaciones y **cadena**). La evaluación sigue **criterios ESRS 1** según el tipo de impacto (p. ej. **gravedad**, **escala**, **alcance**, **probabilidad**; en **DD.HH.** potenciales negativos la gravedad prima sobre la probabilidad). El diálogo con **afectados** es evidencia central. **Materialidad financiera**: influencia en **valoración**, **resultados**, **liquidez**, **financiación** o **coste de capital**; se pondera **probabilidad** y **magnitud**. No todo impacto es financiero ni al revés, pero **ambas dimensiones** interactúan.
-· **Tema vs información**: el **tema** es material si se vincula a **IROs** materiales; la **información** lo es si omitirla o distorsionarla podría influir en **decisiones**. Secuencia típica: delimitar **universo** → identificar **IROs** y **evidencia** → evaluar **ambas materialidades** → **umbrales** y **disclosures** (**entity-specific** si hace falta) → documentar en **ESRS 2 IRO-1** e **IRO-2**. **Revisar** el análisis cuando cambien hechos relevantes.
+· **Perspectiva de impacto (inside-out):** efectos **materiales** de la empresa sobre **personas** y **medio ambiente** (operaciones y **cadena de valor**).
+· **Perspectiva financiera (outside-in):** **riesgos y oportunidades** en sostenibilidad **materialmente relevantes** para el valor económico (p. ej. valoración, resultados, liquidez, financiación, coste de capital).
+· Las dos miradas se combinan en **unión**, no en intersección: basta que el asunto sea material por **impacto**, por **finanzas** o por **ambas**. Evidencia y criterios ESRS 1; documentar en **IRO-1** e **IRO-2** y **revisar** si cambian hechos relevantes.
 6. Verificación e interoperabilidad: assurance y encaje del dato
-· **Por qué van juntos:** la **CSRD** no solo pide “más páginas”, sino información **revisable** por terceros y **coherente** con otros pilares del sistema (**Taxonomía**, **mercado financiero**, **formato electrónico**). De ahí que el **assurance** (qué comprueba el verificador) y la **interoperabilidad** (cómo conectan **ESRS** con **ISSB**, **GRI** y el resto del marco UE) formen un mismo relato.
-· **Antecedente y refuerzo:** la **Ley 11/2018** ya exigía **revisión independiente** del **EINF**; la **CSRD** sitúa el **assurance** en un **marco europeo** donde cuenta **qué** se examina, no solo que el documento exista. **Progresión** habitual: **limited assurance** con **estándares europeos** **antes del 1 oct 2026**; posible **reasonable assurance** **antes del 1 oct 2028**.
-· **Qué debe revisar el verificador:** **conformidad** con **ESRS**, solidez del **proceso de doble materialidad**, **etiquetado digital** y, si aplica, lo exigido en el **art. 8 de Taxonomía**. Para ello la materialidad debe ser **audit-ready**: pruebas que permitan **reconstruir** **alcance**, **fuentes**, **consultas** y **criterios** de qué entra y qué queda fuera.
-· **Interoperabilidad global:** los **ESRS** miran a **ISSB** y **GRI** para **reducir duplicidades**, pero eso **no** es **equivalencia automática**; hace falta **mapeo** entre marcos y juicio sobre qué consolidar.
-· **Encaje en la UE:** la **declaración** enlaza con la **Taxonomía**, con la **información a mercados financieros** y con el **informe anual** en **formato electrónico**. Con **ESEF (XHTML)** se **etiqueta** cuando exista **taxonomía digital** aplicable; sin ella, no hay obligación efectiva de **marcado** masivo ni de **convertir** todo el **informe de gestión**. Los datos del **art. 8 Taxonomía** deben **incorporarse a la declaración** cuando toque, no presentarse como **anexo separado** del bloque **ESRS**.
+· **Assurance** (progresión habitual): **limited** con estándares europeos hasta **1 oct 2026**; posible **reasonable** hasta **1 oct 2028**.
+· El verificador mira **ESRS**, **proceso de materialidad**, **etiquetado digital** y **art. 8** Taxonomía — enfoque **audit-ready**.
+· **Interoperabilidad con marcos globales:** los **ESRS** buscan **convergencia** con referencias como **IFRS/ISSB** o **GRI**, pero no implican **equivalencia automática**: cada marco tiene requisitos y métricas distintos; en la práctica hace falta **mapear** qué dato cubre qué exigencia y evitar **duplicar** o **contradecir** informaciones entre informes.
+· **Encaje en el sistema UE:** la declaración debe ser **coherente** con la **Taxonomía** (p. ej. datos del **art. 8** integrados donde proceda), con las obligaciones de **información a mercados** regulados y con el **formato electrónico** del informe anual (**ESEF**): el **marcado estructurado** de sostenibilidad depende de la **taxonomía digital** aplicable cuando esté disponible.
 Contexto regulatorio
  · **Ámbito español:** la **Ley 11/2018** crea el **EINF** (estado de información no financiera), integrable en el **informe de gestión** o en informe separado equivalente, con **revisión por un verificador independiente**. Sigue siendo, para muchas entidades, el **marco cotidiano** hasta que la transposición y el proyecto normativo nacional (p. ej. **Ley de Información Empresarial sobre Sostenibilidad**, en tramitación) cierren el salto pleno al **CSRD/ESRS**.
  · **CSRD y contenido ESRS:** la **CSRD** impone una **declaración de sostenibilidad** integrada en el **informe de gestión** y elaborada conforme a los **ESRS**. El primer set fue adoptado por la Comisión mediante el **Reglamento Delegado (UE) 2023/2772** (julio de 2023): **ESRS 1** (requisitos generales), **ESRS 2** (información general transversal) y **diez estándares temáticos** (**E1–E5**, **S1–S4**, **G1**).
@@ -1040,14 +1088,14 @@ Eso es importante porque no partimos de cero. España ya venía con una cierta c
 3. Qué cambia con la CSRD
 “La CSRD cambia el sistema porque convierte el reporting de sostenibilidad en una declaración de sostenibilidad integrada en el informe de gestión y sujeta a los ESRS.
 Eso significa más estructura, más comparabilidad, más disciplina metodológica y mucha más exposición al aseguramiento. Ya no basta con ‘cubrir temas’; hay que demostrar por qué esos temas entran en el informe y con qué criterio.” [2][4]
-4. Qué son los ESRS y por qué hay que explicarlos
-“Aquí conviene detenerse, porque si no se explican los ESRS, el bloque queda cojo.
-El primer set contiene 12 estándares. Dos son transversales: ESRS 1 y ESRS 2. Y diez son temáticos: cinco ambientales, cuatro sociales y uno de gobernanza.
-No es solo una clasificación. Es la arquitectura del sistema. ESRS 1 fija la lógica general; ESRS 2 establece los disclosures generales transversales; y los E, S y G desarrollan los contenidos materiales por materia.” [3][8][9]
-5. El papel de EFRAG
+4. El papel de EFRAG
 “También hay que explicar EFRAG, porque da rigor técnico al bloque.
 EFRAG es el asesor técnico de la Comisión para los ESRS. Desarrolla borradores, apoya revisiones y además acompaña la implementación práctica con guías sobre materialidad, cadena de valor y datapoints.
 Por tanto, el sistema no descansa solo en un reglamento delegado. Descansa también en una infraestructura técnica de implementación.” [10][11]
+5. Qué son los ESRS y por qué hay que explicarlos
+“Aquí conviene detenerse, porque si no se explican los ESRS, el bloque queda cojo.
+El primer set contiene 12 estándares. Dos son transversales: ESRS 1 y ESRS 2. Y diez son temáticos: cinco ambientales, cuatro sociales y uno de gobernanza.
+No es solo una clasificación. Es la arquitectura del sistema. ESRS 1 fija la lógica general; ESRS 2 establece los disclosures generales transversales; y los E, S y G desarrollan los contenidos materiales por materia.” [3][8][9]
 6. Márgenes de aplicación de la CSRD: explicarlos bien
 “Este es un punto donde suele haber mucho error.
 Si explicamos la CSRD con la foto original, el calendario era escalonado: 2024 para grandes entidades de interés público con más de 500 empleados; 2025 para el resto de grandes empresas y grandes grupos; 2026 para SMEs cotizadas y ciertas entidades específicas; y más adelante, determinadas empresas de terceros países con presencia relevante en la UE. Además, las SMEs cotizadas tenían opt-out hasta antes de 2028.
