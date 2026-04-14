@@ -632,25 +632,28 @@ export function DiagramBlock({ code: _code, topicNumber, caption }: Props) {
             {/* Marco normativo UE — franja visual */}
             <rect x="24" y="54" width="932" height="68" rx="12" fill="url(#b9-ue)" stroke="#6a9ecf" strokeWidth="1.2" />
             <rect x="36" y="64" width="4" height="48" rx="2" fill="#0077cc" />
-            <text x="52" y="80" fontSize="10" fontWeight="700" fill="#0f3a63">
+            <text x="184" y="80" textAnchor="middle" fontSize="10" fontWeight="700" fill="#0f3a63">
               Ratings ESG
             </text>
-            <text x="52" y="96" fontSize="9.2" fill="#315f8a">
-              Reglamento (UE) 2024/3005 · autorización / supervisión ESMA · aplicación jul 2026
+            <text x="184" y="95" textAnchor="middle" fontSize="8.6" fill="#315f8a">
+              <tspan x="184" dy="0">Reglamento (UE) 2024/3005</tspan>
+              <tspan x="184" dy="11">autorización y supervisión ESMA (jul 2026)</tspan>
             </text>
             <line x1="330" y1="64" x2="330" y2="112" stroke="#c5d4e0" strokeWidth="1" />
-            <text x="342" y="80" fontSize="10" fontWeight="700" fill="#0f3a63">
+            <text x="486" y="80" textAnchor="middle" fontSize="10" fontWeight="700" fill="#0f3a63">
               Benchmarks e índices
             </text>
-            <text x="342" y="96" fontSize="9.2" fill="#315f8a">
-              BMR · disclosure ESG en metodología · CTB / PAB (delegados 1816-1818)
+            <text x="486" y="95" textAnchor="middle" fontSize="8.6" fill="#315f8a">
+              <tspan x="486" dy="0">BMR y disclosure ESG en metodología</tspan>
+              <tspan x="486" dy="11">CTB / PAB (Reglamentos Delegados 1816-1818)</tspan>
             </text>
             <line x1="642" y1="64" x2="642" y2="112" stroke="#c5d4e0" strokeWidth="1" />
-            <text x="654" y="80" fontSize="10" fontWeight="700" fill="#0f3a63">
+            <text x="798" y="80" textAnchor="middle" fontSize="10" fontWeight="700" fill="#0f3a63">
               Uso ante el mercado
             </text>
-            <text x="654" y="96" fontSize="9.2" fill="#315f8a">
-              ESAs: fair, clear and not misleading · naming fondos (ESMA)
+            <text x="798" y="95" textAnchor="middle" fontSize="8.6" fill="#315f8a">
+              <tspan x="798" dy="0">ESAs: fair, clear and not misleading</tspan>
+              <tspan x="798" dy="11">naming de fondos y expectativas ESMA</tspan>
             </text>
 
             {/* Fila de logos */}
