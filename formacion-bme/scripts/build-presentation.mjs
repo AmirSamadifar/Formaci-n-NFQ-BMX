@@ -441,6 +441,61 @@ for (const part of chapterParts) {
 
 presentation.sort((a, b) => a.number - b.number);
 
+function relabelBlockRefs(value, fromNum, toNum) {
+  if (typeof value === "string") {
+    return value.replace(
+      new RegExp(`\\b[Bb]loque\\s+${fromNum}(?=[\\.:])`, "g"),
+      `Bloque ${toNum}`,
+    );
+  }
+  if (Array.isArray(value)) {
+    return value.map((item) => relabelBlockRefs(item, fromNum, toNum));
+  }
+  if (value && typeof value === "object") {
+    const out = {};
+    for (const [k, v] of Object.entries(value)) {
+      out[k] = relabelBlockRefs(v, fromNum, toNum);
+    }
+    return out;
+  }
+  return value;
+}
+
+const block6 = presentation.find((item) => item.number === 6);
+const block7 = presentation.find((item) => item.number === 7);
+if (block6 && block7) {
+  // Mantener el índice histórico (6=ESRS, 7=CSDDD) y reasignar su contenido.
+  const block6Content = structuredClone({
+    subtitle: block6.subtitle,
+    diagram: block6.diagram,
+    main: block6.main,
+    enrich: block6.enrich,
+    speaker: block6.speaker,
+  });
+  const block7Content = structuredClone({
+    subtitle: block7.subtitle,
+    diagram: block7.diagram,
+    main: block7.main,
+    enrich: block7.enrich,
+    speaker: block7.speaker,
+  });
+
+  const reassignedTo6 = relabelBlockRefs(block7Content, 7, 6);
+  const reassignedTo7 = relabelBlockRefs(block6Content, 6, 7);
+
+  block6.subtitle = reassignedTo6.subtitle;
+  block6.diagram = reassignedTo6.diagram;
+  block6.main = reassignedTo6.main;
+  block6.enrich = reassignedTo6.enrich;
+  block6.speaker = reassignedTo6.speaker;
+
+  block7.subtitle = reassignedTo7.subtitle;
+  block7.diagram = reassignedTo7.diagram;
+  block7.main = reassignedTo7.main;
+  block7.enrich = reassignedTo7.enrich;
+  block7.speaker = reassignedTo7.speaker;
+}
+
 fs.mkdirSync(path.dirname(outPath), { recursive: true });
 fs.writeFileSync(outPath, JSON.stringify(presentation, null, 0), "utf8");
 console.log("OK:", presentation.length, "bloques →", outPath);
