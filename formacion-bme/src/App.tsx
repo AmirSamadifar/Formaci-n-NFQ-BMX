@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { AccessGate } from "./components/AccessGate";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Sidebar } from "./components/Sidebar";
@@ -52,25 +53,27 @@ export default function App() {
   );
 
   return (
-    <div className="app" id="top">
-      <Header />
-      <Hero />
-      <div className="main-layout">
-        <Sidebar
-          topics={topicsPresentation}
-          activeNumber={activeBlock}
-          onSelectBlock={selectBlock}
-        />
-        <main
-          id="bloques"
-          className="main-landing main-pane"
-          aria-live="polite"
-          aria-label={`Contenido del bloque ${activeTopic.number}`}
-        >
-          <TopicLanding key={activeTopic.id} topic={activeTopic} singleView />
-        </main>
+    <AccessGate>
+      <div className="app" id="top">
+        <Header />
+        <Hero />
+        <div className="main-layout">
+          <Sidebar
+            topics={topicsPresentation}
+            activeNumber={activeBlock}
+            onSelectBlock={selectBlock}
+          />
+          <main
+            id="bloques"
+            className="main-landing main-pane"
+            aria-live="polite"
+            aria-label={`Contenido del bloque ${activeTopic.number}`}
+          >
+            <TopicLanding key={activeTopic.id} topic={activeTopic} singleView />
+          </main>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </AccessGate>
   );
 }
