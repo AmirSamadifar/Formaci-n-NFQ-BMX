@@ -2133,12 +2133,12 @@ export function TopicLanding({ topic, singleView = false }: Props) {
               next?.type === "callout" &&
               next.variant === "regulatory";
             const shouldInsertCSDDDDetail =
-              topic.number === 6 &&
+              topic.number === 7 &&
               b.type === "cards" &&
               next?.type === "callout" &&
               next.variant === "regulatory";
             const shouldInsertBlock7FrameworkPrimer =
-              topic.number === 7 && b.type === "cards";
+              topic.number === 6 && b.type === "cards";
             const shouldInsertBlock5BriefDefinitions =
               topic.number === 5 && b.type === "objective" && next?.type === "cards";
 
@@ -2267,23 +2267,6 @@ export function TopicLanding({ topic, singleView = false }: Props) {
                       : el contenido material se determina mediante el análisis de <strong>doble
                       materialidad</strong> y la identificación y valoración documentadas de{" "}
                       <strong>impactos, riesgos y oportunidades</strong> (<strong>IRO</strong>).
-                    </li>
-                  </ul>
-
-                  <p className="vl-rigor-panel__subhead">EFRAG y material de implantación (IG 1–3)</p>
-                  <ul className="vl-rigor-panel__list">
-                    <li>
-                      El <strong>EFRAG</strong> asiste a la Comisión en el desarrollo técnico de los
-                      estándares; el <strong>Sustainability Reporting Board (SRB)</strong> concentra el
-                      trabajo sustantivo y la interacción con preparadores, profesionales de la auditoría
-                      y usuarios de la información.
-                    </li>
-                    <li>
-                      Complementan el texto legal las <strong>guías de implementación</strong> y el apoyo
-                      sectorial: <strong>IG 1</strong> (evaluación de materialidad y documentación del
-                      juicio), <strong>IG 2</strong> (cadena de valor y delimitación del perímetro),{" "}
-                      <strong>IG 3</strong> (relación entre requisitos, datapoints e indicadores por
-                      estándar).
                     </li>
                   </ul>
 

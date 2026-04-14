@@ -44,20 +44,20 @@ export const diagramsByTopic = {
     T2 -->|"Sinergia 2:<br/>clasificación utilizable por mercado"| S2
     C2 -.->|"Sinergia 3:<br/>consistencia narrativa en RI"| S2`,
 
-  6: `flowchart LR
+  6: `flowchart TB
+    DM["Doble materialidad"] --> OUT["Qué entra en la declaración"]
+    DM --> I["Impacto"]
+    DM --> F["Financiera"]
+    ESRS["ESRS 1 + 2 + temáticos"] --> DM
+    ASS["Limited assurance"] --> DM`,
+
+  7: `flowchart LR
     A1["Integrar"] --> A2["Identificar"]
     A2 --> A3["Prevenir / mitigar"]
     A3 --> A4["Supervisar"]
     A4 --> A5["Comunicar"]
     A5 --> A6["Remediar"]
     A6 -.->|"ciclo"| A1`,
-
-  7: `flowchart TB
-    DM["Doble materialidad"] --> OUT["Qué entra en la declaración"]
-    DM --> I["Impacto"]
-    DM --> F["Financiera"]
-    ESRS["ESRS 1 + 2 + temáticos"] --> DM
-    ASS["Limited assurance"] --> DM`,
 
   8: `flowchart LR
     subgraph Bank["Entidad de crédito · art. 8 Taxonomía / Pilar 3"]
